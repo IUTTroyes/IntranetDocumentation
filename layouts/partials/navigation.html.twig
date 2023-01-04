@@ -1,0 +1,9 @@
+      {%- if menu|length > 1 ~%}
+      <nav>
+        <ul>
+          {%- for item in attribute(site.menus, menu)|sort_by_weight|slice(0,5) ~%}
+          <li><a href="{{ url(item.url) }}">{{ item.name }}</a></li>
+          {%- endfor ~%}
+        </ul>
+      </nav>
+      {%- endif ~%}

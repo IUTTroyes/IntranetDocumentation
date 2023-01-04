@@ -1,0 +1,9 @@
+title: "Documentation de l'Intranet des IUT"
+baseline: ''
+baseurl: 'http://localhost:8000/'
+description: 'Site description'
+author:
+    name: 'Arnaud Ligny'
+    url: 'https://arnaudligny.fr'
+image: 'logo.svg'
+debug: true

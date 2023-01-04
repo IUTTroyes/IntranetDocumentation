@@ -1,0 +1,208 @@
+{% extends '_default/page.html.twig' %}
+
+    {%- block content ~%}
+        <div class="main_content">
+            <main>
+                {%- block content_header ~%}
+                    <section class="news">
+                        <article>
+                            <h2>Nouveautés</h2>
+{#                            todo: liste de nouveautés = 4 derniers ajouts de la page fonctionnalités #}
+                            <ul>
+                                <li>Nouv. 1</li>
+                                <li>Nouv. 2</li>
+                                <li>Nouv. 3</li>
+                                <li>Nouv. 4</li>
+                            </ul>
+                        </article>
+                    </section>
+                {%- endblock content_header ~%}
+
+                <hr>
+
+                <div class="summary">
+                    <div>
+                        <i class="fa-solid fa-graduation-cap fa-xl"></i>
+                        <h5>Etudiants</h5>
+                        <ul>{%- for themes in site.pages|filter_by('section', 'etudiants')|sort_by_weight ~%}
+                                <li><a href="">{{ themes.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-chalkboard-user fa-xl"></i>
+                        <h5>Enseignants</h5>
+                        <ul>{%- for themes in site.pages|filter_by('section', 'enseignants')|sort_by_weight ~%}
+                                <li><a href="">{{ themes.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-users fa-xl"></i>
+                        <h5>Administration</h5>
+                        <ul>{%- for themes in site.pages|filter_by('section', 'administration')|sort_by_weight ~%}
+                                <li><a href="">{{ themes.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-gears fa-xl"></i>
+                        <h5>Direction de Dept.</h5>
+                        <ul>{%- for themes in site.pages|filter_by('section', 'direction')|sort_by_weight ~%}
+                                <li><a href="">{{ themes.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+
+                <hr>
+
+                {{ page.content }}
+
+                <h2>Fonctionnalités</h2>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <div class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">Pour les étudiants
+                            </button>
+                        </div>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                {%- for profil in site.pages|filter_by('section', 'etudiants_fonct')|sort_by_weight ~%}
+                                    {{ profil.content }}
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">Pour les enseignants et les intervenants
+                            </button>
+                        </div>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">Pour les responsables de stages
+                            </button>
+                        </div>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header" id="flush-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                    aria-controls="flush-collapseFour">Pour les responsables des projets tutorés
+                            </button>
+                        </div>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse"
+                             aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
+                                body. Nothing more exciting happening here in terms of content, but just filling up the
+                                space to make it look, at least at first glance, a bit more representative of how this
+                                would look in a real-world application.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header" id="flush-headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                    aria-controls="flush-collapseFive">Pour la direction du département
+                            </button>
+                        </div>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse"
+                             aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
+                                body. Nothing more exciting happening here in terms of content, but just filling up the
+                                space to make it look, at least at first glance, a bit more representative of how this
+                                would look in a real-world application.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header" id="flush-headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseSix" aria-expanded="false"
+                                    aria-controls="flush-collapseSix">Pour les responsables des absences
+                            </button>
+                        </div>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse"
+                             aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
+                                body. Nothing more exciting happening here in terms of content, but just filling up the
+                                space to make it look, at least at first glance, a bit more representative of how this
+                                would look in a real-world application.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header" id="flush-headingSeven">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseSeven" aria-expanded="false"
+                                    aria-controls="flush-collapseSeven">Pour les responsables des notes
+                            </button>
+                        </div>
+                        <div id="flush-collapseSeven" class="accordion-collapse collapse"
+                             aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
+                                body. Nothing more exciting happening here in terms of content, but just filling up the
+                                space to make it look, at least at first glance, a bit more representative of how this
+                                would look in a real-world application.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header" id="flush-headingEight">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseEight" aria-expanded="false"
+                                    aria-controls="flush-collapseEight">Pour les responsables des Relations Internationales
+                            </button>
+                        </div>
+                        <div id="flush-collapseEight" class="accordion-collapse collapse"
+                             aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
+                                body. Nothing more exciting happening here in terms of content, but just filling up the
+                                space to make it look, at least at first glance, a bit more representative of how this
+                                would look in a real-world application.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header" id="flush-headingNine">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseNine" aria-expanded="false"
+                                    aria-controls="flush-collapseNine">Pour les responsables de la partie Qualité / ISO 9001
+                            </button>
+                        </div>
+                        <div id="flush-collapseNine" class="accordion-collapse collapse"
+                             aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
+                                body. Nothing more exciting happening here in terms of content, but just filling up the
+                                space to make it look, at least at first glance, a bit more representative of how this
+                                would look in a real-world application.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <footer>
+                    {%- set powered_by -%}
+                        <a href="{{ cecil.url }}">Cecil</a> &amp; <a href="https://newcss.net">new.css</a>
+                    {%- endset ~%}
+                    <small>{% trans %}Powered by %powered_by%{% endtrans %}</small>
+                </footer>
+            </main>
+
+        </div>
+    {%- endblock content ~%}

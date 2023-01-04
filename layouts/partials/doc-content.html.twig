@@ -1,0 +1,41 @@
+{% extends '_default/page.html.twig' %}
+{%- block content ~%}
+    <div class="main_content">
+        <main>
+            <div class="toast align-items-center show" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="d-flex">
+                    <div class="toast-body">
+                        <i class="fa-solid fa-circle-info"></i> Vous êtes sur la documentation de l'intranet
+                        pour
+                        {% include 'partials/categories-list.html.twig' with {'page': page, 'vocabulary': 'categories'} only %}
+                    </div>
+                    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast"
+                            aria-label="Close"></button>
+                </div>
+            </div>
+            <h1>{{ page.title|e }}</h1>
+
+            {{ page.content }}
+            {%- block content_footer ~%}
+                {%- if page.prev is defined or page.next is defined ~%}
+                    <nav>
+                        <ul>
+                            {%- if page.prev is defined ~%}
+                                <li><a href="{{ url(page.prev) }}">{{ page.prev.title }}</a></li>
+                            {%- endif ~%}
+                            {%- if page.next is defined ~%}
+                                <li><a href="{{ url(page.next) }}">{{ page.next.title }}</a></li>
+                            {%- endif ~%}
+                        </ul>
+                    </nav>
+                {%- endif ~%}
+            {%- endblock content_footer ~%}
+        </main>
+        <footer>
+            {%- set powered_by -%}
+                <a href="{{ cecil.url }}">Cecil</a> &amp; <a href="https://newcss.net">new.css</a>
+            {%- endset ~%}
+            <small>{% trans %}Powered by %powered_by%{% endtrans %}</small>
+        </footer>
+    </div>
+{%- endblock content ~%}

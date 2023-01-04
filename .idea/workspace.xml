@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bf5abaee-50fd-4f7f-998b-ba2449236ac1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/assets/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/layouts/blog/list.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/layouts/blog/page.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/layouts/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/pages/about.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/pages/blog/2022-09-01_Post 1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/pages/blog/2022-09-02_Post 2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/pages/blog/2022-09-03_Post 3.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/pages/blog/2022-09-04_Post 4.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/pages/blog/2022-09-05_Post 5.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/pages/blog/2022-09-06_Post 6.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/pages/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/pages/markdown.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio/static/cecil-card.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HAdUqC2guvRb7fguAmR6lGqozF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu/var/www/html/backupIntraDoc/IntranetDocumentation&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu\var\www\html\IntranetDocumentation\assets\styles" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf5abaee-50fd-4f7f-998b-ba2449236ac1" name="Changes" comment="" />
+      <created>1667731840305</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667731840305</updated>
+      <workItem from="1667731841442" duration="113000" />
+      <workItem from="1667732060510" duration="807000" />
+      <workItem from="1667732883382" duration="199000" />
+      <workItem from="1667733449387" duration="2321000" />
+      <workItem from="1667891089074" duration="280000" />
+      <workItem from="1668109644792" duration="223000" />
+      <workItem from="1668851965271" duration="24000" />
+      <workItem from="1670000804098" duration="671000" />
+      <workItem from="1670064820425" duration="611000" />
+      <workItem from="1670150185881" duration="220000" />
+      <workItem from="1671707927084" duration="177000" />
+      <workItem from="1671708114801" duration="3740000" />
+      <workItem from="1672491618719" duration="3340000" />
+      <workItem from="1672502674032" duration="928000" />
+      <workItem from="1672503642137" duration="537000" />
+      <workItem from="1672504196382" duration="6095000" />
+      <workItem from="1672581472136" duration="9391000" />
+      <workItem from="1672656906908" duration="10453000" />
+      <workItem from="1672728955923" duration="7623000" />
+      <workItem from="1672736835030" duration="3211000" />
+      <workItem from="1672742501499" duration="2014000" />
+      <workItem from="1672747693027" duration="10585000" />
+      <workItem from="1672763188372" duration="5980000" />
+      <workItem from="1672815939469" duration="12690000" />
+      <workItem from="1672837122305" duration="8156000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+</project>

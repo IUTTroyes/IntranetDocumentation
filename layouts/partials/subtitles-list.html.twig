@@ -1,0 +1,5 @@
+{%- if attribute(page, vocabulary) is defined ~%}
+  {%- for term in attribute(page, vocabulary) ~%}
+      <li><a href="#">{{ term }}{% if not loop.last %} {% endif %}</a></li>
+  {%- endfor ~%}
+{%- endif ~%}

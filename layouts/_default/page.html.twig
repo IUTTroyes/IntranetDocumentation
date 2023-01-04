@@ -1,0 +1,114 @@
+{# all "showable pages by default #}
+{% set pages = site.pages.showable %}
+{# in case of a list page, take its sub pages #}
+{% if page.pages is defined %}
+    {%- set pages = page.pages -%}
+{% endif %}
+{# in case of a paginated list page, take the paginator list pages #}
+{# {% if page.paginator.pages is defined %} #}
+{#    {%- set pages = page.paginator.pages -%} #}
+{# {% endif %} #}
+
+<!DOCTYPE html>
+<html lang="{{ site.language }}">
+<head>
+    {%- block head ~%}
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="theme-color" media="(prefers-color-scheme: light)" content="white"/>
+        <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black"/>
+        {%~ include 'partials/metatags.html.twig' with {page, site} only ~%}
+
+    {% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('bootstrap.min.css') }}" type="text/css"/>
+    <link rel="stylesheet" href="{{ asset('styles/css/style.css') }}" type="text/css"/>
+    {% endblock %}
+
+        <style>{% apply minify_css %}
+            {%- include 'partials/new.css.twig' ~%}
+            /* nav */
+            nav ul {
+                padding: 0;
+                margin: 0;
+            }
+
+            nav li {
+                display: inline-block;
+                margin: 0 .5rem 0 0;
+            }
+
+            nav a {
+                text-decoration: none;
+            }
+
+            nav a:hover {
+                text-decoration: underline;
+            }
+
+            /* footer */
+            footer {
+                border-top: 1px solid var(--nc-bg-3);
+                padding-top: 1rem;
+                margin-top: 2rem;
+            }
+
+            /* image */
+            img {
+                height: auto;
+            }
+            {% endapply %}</style>
+
+    {% block javascripts %}
+        <script src="{{ asset('bootstrap.min.js') }}"></script>
+        <script src="https://kit.fontawesome.com/c610cfb1f1.js" crossorigin="anonymous"></script>
+    {% endblock %}
+
+    {%- endblock head ~%}
+</head>
+<body>
+<header>
+    <div class="title">
+        <img src="{{ asset("logo.svg") }}" alt="">
+        <h1>{{ site.title }}</h1>
+    </div>
+    <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Recherche dans la documentation" aria-label="Search">
+        <button class="btn btn-outline-primary" type="submit">Rechercher</button>
+    </form>
+    {%- include 'partials/navigation.html.twig' with {'menu': site.menus.main} only ~%}
+</header>
+<div class="body_content">
+    <aside>
+        <h4>Enseignants</h4>
+        <ul>{%- for themes in site.pages|filter_by('section', 'enseignants')|sort_by_weight ~%}
+                <li><a href="">{{ themes.title }}</a></li>
+            {% endfor %}
+        </ul>
+        <hr>
+        <h4>Etudiants</h4>
+        <ul>{%- for themes in site.pages|filter_by('section', 'etudiants')|sort_by_weight ~%}
+                <li><a href="">{{ themes.title }}</a></li>
+            {% endfor %}
+        </ul>
+        <hr>
+        <h4>Administration</h4>
+        <ul>{%- for themes in site.pages|filter_by('section', 'administration')|sort_by_weight ~%}
+                <li><a href="">{{ themes.title }}</a></li>
+            {% endfor %}
+        </ul>
+        <hr>
+        <h4>Direction de Dépt.</h4>
+        <ul>{%- for themes in site.pages|filter_by('section', 'direction')|sort_by_weight ~%}
+                <li><a href="">{{ themes.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </aside>
+        {%- block content ~%}
+            {%- block content_header %}{% endblock content_header ~%}
+            {{ page.content }}
+            {%- block content_footer %}{% endblock content_footer ~%}
+        {%- endblock content ~%}
+</div>
+{%- include 'partials/googleanalytics.js.twig' with {site} only ~%}
+</body>
+</html>

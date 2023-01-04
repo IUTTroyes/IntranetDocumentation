@@ -1,0 +1,17 @@
+        {%- if page.paginator ~%}
+        {%- set links = page.paginator.links ~%}
+        <nav>
+          <ul>
+            {%- if links.prev is defined ~%}
+            <li><a href="{{ url(links.prev) }}">{% trans %}Previous{% endtrans %}</a></li>
+            {%- else ~%}
+            <li>{% trans %}Previous{% endtrans %}</li>
+            {%- endif ~%}
+            {%- if links.next is defined ~%}
+            <li><a href="{{ url(links.next) }}">{% trans %}Next{% endtrans %}</a></li>
+            {%- else ~%}
+            <li>{% trans %}Next{% endtrans %}</li>
+            {%- endif ~%}
+          </ul>
+        </nav>
+        {%- endif ~%}

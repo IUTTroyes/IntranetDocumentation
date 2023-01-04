@@ -1,0 +1,5 @@
+{%- if attribute(page, vocabulary) is defined ~%}
+    {%- for term in attribute(page, vocabulary) ~%}
+        {{ term }}{% if not loop.last %} {% endif %}
+    {%- endfor ~%}
+{%- endif ~%}

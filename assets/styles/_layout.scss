@@ -1,0 +1,32 @@
+header {
+  height: 25vh;
+
+  .title {
+    display: flex;
+
+    img {
+      //width: 100px;
+      height: 57px;
+      margin: 0;
+    }
+  }
+
+  .d-flex {
+
+    .form-control {
+      background-color: #f8f9fa1f !important;
+      color: var(--nc-ac-tx);
+    }
+
+    .btn {
+      color: var(--nc-ac-1) !important;
+      border-color: var(--nc-ac-1) !important;
+      height: fit-content;
+
+      &:hover {
+        background-color: var(--nc-ac-1) !important;
+        color: var(--nc-bg-1) !important;
+      }
+    }
+  }
+}
