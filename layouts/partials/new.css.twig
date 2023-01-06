@@ -19,6 +19,8 @@
     --nc-ac-tx: #4f387d;
     --nc-toast: rgb(215 215 215 / 38%);
     --nc-miniLink: rgba(12, 12, 12, 0.67);
+    --nc-hr-transp: rgba(84, 84, 84, 0.27);
+    --nc-transp-bg: rgba(100, 89, 124, 0.4);
 
     /* Dark theme */
     --nc-d-tx-1: #f3f3f3;
@@ -36,11 +38,12 @@
     --nc-d-ac-tx: #FFFFFF;
     --nc-d-toast: rgb(215 215 215 / 38%);
     --nc-d-miniLink: #FFFFFFAA;
+    --nc-d-hr-transp: rgba(248,249,250,.1215686275);
+    --nc-d-transp-bg: rgba(248,249,250,.1215686275);
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-
         --nc-tx-1: var(--nc-d-tx-1);
         --nc-tx-2: var(--nc-d-tx-2);
         --nc-bg-1: var(--nc-d-bg-1);
@@ -56,6 +59,8 @@
         --nc-ac-tx: var(--nc-d-ac-tx);
         --nc-toast: var(--nc-d-toast);
         --nc-miniLink: var(--nc-d-miniLink);
+        --nc-transp-bg: var(--nc-d-transp-bg);
+        --nc-hr-transp: var(--nc-d-hr-transp);
     }
 }
 
@@ -197,11 +202,12 @@ blockquote *:last-child {
 }
 
 header {
+    height: 25vh;
+    position: relative;
     background: var(--nc-bg-1);
     border-bottom: .5px solid var(--nc-hr);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     padding: 0 50px;
 }
 

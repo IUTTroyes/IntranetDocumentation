@@ -15,23 +15,23 @@
           <section>
               <h2>Espace {{ page.title }}</h2>
               <div class="container">
-              {{- page.content ~}}
-              {%- for p in pages|sort_by_weight ~%}
-                  <article>
-                                      <h3>{{ p.title }}</h3>
-                                      <ul>
-                                          {% include 'partials/subtitles-list.html.twig' with {'page': p, 'vocabulary': 'subtitles'} only %}
-                                          </ul>
-                  </article>
-              {%- endfor ~%}
+                  {{- page.content ~}}
+                  {%- for p in pages|sort_by_weight ~%}
+                      <article>
+                          <h3>{{ p.title }}</h3>
+                          <ul>
+                              {% include 'partials/subtitles-list.html.twig' with {'page': p, 'vocabulary': 'subtitles'} only %}
+                          </ul>
+                      </article>
+                  {%- endfor ~%}
               </div>
 
-{#              {%- include 'partials/paginator.html.twig' with {'page': page} only ~%}#}
-          <footer>
-              {%- set powered_by -%}
-                  <a href="{{ cecil.url }}">Cecil</a> &amp; <a href="https://newcss.net">new.css</a>
-              {%- endset ~%}
-              <small>{% trans %}Powered by %powered_by%{% endtrans %}</small>
-          </footer>
+              {#              {%- include 'partials/paginator.html.twig' with {'page': page} only ~%} #}
+              <footer>
+                  {%- set powered_by -%}
+                      <a href="{{ cecil.url }}">Cecil</a> &amp; <a href="https://newcss.net">new.css</a>
+                  {%- endset ~%}
+                  <small>{% trans %}Powered by %powered_by%{% endtrans %}</small>
+              </footer>
           </section>
       {%- endblock content ~%}

@@ -6,26 +6,26 @@ body {
   height: 100vh;
   font-weight: 500;
 
-/* width */
-::-webkit-scrollbar {
-  width: 8px;
-}
+  /* width */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
 
-/* Track */
-::-webkit-scrollbar-track {
-  background: transparent;
-}
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: var(--nc-ac-1);
-  border-radius: 5px;
-}
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--nc-ac-1);
+    border-radius: 5px;
+  }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: var(--nc-ac-2);
-}
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--nc-ac-2);
+  }
 
   .body_content {
     display: flex;
@@ -39,9 +39,22 @@ body {
       overflow-y: scroll;
       padding: 25px 75px;
 
+      img {
+        box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+        margin: 50px 0;
+      }
+
+      p {
+        font-weight: 300;
+      }
+
+      hr {
+        margin: 50px 0;
+      }
+
       .news {
         padding: 15px 25px;
-        background-color: #f8f9fa1f;
+        background-color: var(--nc-transp-bg);
         border-radius: 10px;
         height: fit-content;
         overflow: hidden;
@@ -86,13 +99,13 @@ body {
           background-color: transparent;
 
           .accordion-button {
-            color: white;
+            color: var(--nc-tx-1);
             background-color: transparent;
-            border-bottom: solid 0.5px rgba(248,249,250,.1215686275);
+            border-bottom: solid 0.5px var(--nc-hr-transp);
             font-size: 1.25rem;
 
             &::after {
-              background-color: rgba(248,249,250,.1215686275);
+              background-color: var(--nc-transp-bg);
               padding: 15px;
               border-radius: 50%;
               background-position: center;
@@ -157,7 +170,7 @@ body {
 }
 
 aside {
-  background-color: var(--nc-bg-3);
+  background-color: var(--nc-bg-2);
   height: 100%;
   width: 250px;
   overflow-y: scroll;

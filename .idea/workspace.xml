@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf5abaee-50fd-4f7f-998b-ba2449236ac1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/assets/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/layouts/blog/list.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/layouts/blog/page.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/layouts/index.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/pages/about.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/pages/blog/2022-09-01_Post 1.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/pages/blog/2022-09-02_Post 2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/pages/blog/2022-09-03_Post 3.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/pages/blog/2022-09-04_Post 4.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/pages/blog/2022-09-05_Post 5.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/pages/blog/2022-09-06_Post 6.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/pages/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/pages/markdown.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/static/cecil-card.png" beforeDir="false" />
-    </list>
+    <list default="true" id="bf5abaee-50fd-4f7f-998b-ba2449236ac1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +37,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu/var/www/html/backupIntraDoc/IntranetDocumentation&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu/var/www/html/IntranetDocumentation&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -67,6 +50,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu\var\www\html\IntranetDocumentation\pages\Direction" />
       <recent name="\\wsl$\Ubuntu\var\www\html\IntranetDocumentation\assets\styles" />
     </key>
   </component>
@@ -103,6 +87,17 @@
       <workItem from="1672763188372" duration="5980000" />
       <workItem from="1672815939469" duration="12690000" />
       <workItem from="1672837122305" duration="8156000" />
+      <workItem from="1672901978531" duration="14875000" />
+      <workItem from="1672919256670" duration="5585000" />
+      <workItem from="1672925742806" duration="6333000" />
+      <workItem from="1672936509790" duration="387000" />
+      <workItem from="1672937200981" duration="497000" />
+      <workItem from="1672938208660" duration="65000" />
+      <workItem from="1672938955742" duration="40000" />
+      <workItem from="1672939175494" duration="165000" />
+      <workItem from="1672939538198" duration="46000" />
+      <workItem from="1672990137704" duration="145000" />
+      <workItem from="1673012153342" duration="597000" />
     </task>
     <servers />
   </component>

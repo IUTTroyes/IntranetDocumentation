@@ -7,6 +7,8 @@ subtitles: [Etudiants, Enseignants et intervenants, Administration]
 
 ## Présentation de l'Intranet
 
+L'Intranet est un réseau informatique interne privé appartenant à une entité organisationnelle. Le concept de cet Intranet est de pouvoir accéder à une multitude d'informations et de contenus propres à chaque étudiant comme la visualisation de ces notes, de ces absences ou de son emploi du temps par exemple. D'autre part, cet Intranet permet aux professeurs d'intégrer ses différentes ressources aisément.
+
 Cet intranet est spécialisé dans la gestion de formation universitaire de type DUT, B.U.T ou Licences professionnelles, et très prochainement (rentrée 2021) de type B.U.T. (Bachelor Universitaire de Technologie).
 
-Il propose de nombreuses gestions comme le suivi des notes, des absences, des rattrapages, des services prévisionnels des enseignants, des trombinoscopes et des groupes d'étudiants et beaucoup d'autres fonctionnalités.
+Les améliorations sont régulières, tout comme les ajustements et les correctifs. Toutes les informations sont dans le [changelog](https://github.com/Dannebicque/intranetV3/blob/main/CHANGELOG.md).

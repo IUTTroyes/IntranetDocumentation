@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /page/1/
+Disallow: /enseignants/page/1/
+Disallow: /fonctionnalites/page/1/
+Disallow: /404.html
+Sitemap: http://localhost:8000/sitemap.xml

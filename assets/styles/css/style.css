@@ -32,9 +32,19 @@ body .body_content .main_content {
   overflow-y: scroll;
   padding: 25px 75px;
 }
+body .body_content .main_content img {
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  margin: 50px 0;
+}
+body .body_content .main_content p {
+  font-weight: 300;
+}
+body .body_content .main_content hr {
+  margin: 50px 0;
+}
 body .body_content .main_content .news {
   padding: 15px 25px;
-  background-color: rgba(248, 249, 250, 0.1215686275);
+  background-color: var(--nc-transp-bg);
   border-radius: 10px;
   height: fit-content;
   overflow: hidden;
@@ -72,7 +82,7 @@ body .body_content .main_content .summary div ul li {
   margin: 10px 0;
   width: 80%;
   font-weight: 500;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 body .body_content .main_content .summary div ul li:hover {
   background-color: var(--nc-lk-bg);
@@ -89,13 +99,13 @@ body .body_content .main_content .accordion .accordion-item {
   background-color: transparent;
 }
 body .body_content .main_content .accordion .accordion-item .accordion-button {
-  color: white;
+  color: var(--nc-tx-1);
   background-color: transparent;
-  border-bottom: solid 0.5px rgba(248, 249, 250, 0.1215686275);
+  border-bottom: solid 0.5px var(--nc-hr-transp);
   font-size: 1.25rem;
 }
 body .body_content .main_content .accordion .accordion-item .accordion-button::after {
-  background-color: rgba(248, 249, 250, 0.1215686275);
+  background-color: var(--nc-transp-bg);
   padding: 15px;
   border-radius: 50%;
   background-position: center;
@@ -148,7 +158,7 @@ body .body_content section .container article ul li {
   margin: 10px 0;
   width: 80%;
   font-weight: 500;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 body .body_content section .container article ul li:hover {
   background-color: var(--nc-lk-bg);
@@ -160,7 +170,7 @@ body .body_content section .container article ul li a:hover {
 }
 
 aside {
-  background-color: var(--nc-bg-3);
+  background-color: var(--nc-bg-2);
   height: 100%;
   width: 250px;
   overflow-y: scroll;
@@ -188,15 +198,16 @@ aside ul li a:hover {
   color: var(--nc-ac-1);
 }
 
-header {
-  height: 25vh;
-}
 header .title {
   display: flex;
 }
 header .title img {
   height: 57px;
   margin: 0;
+}
+header nav {
+  position: absolute;
+  bottom: 0;
 }
 header .d-flex .form-control {
   background-color: rgba(248, 249, 250, 0.1215686275) !important;

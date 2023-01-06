@@ -1,0 +1,3 @@
+{% for p in site.pages|filter(p => p.section == 'enseignants','etudiants','direction','administration')|sort_by_weight %}
+...
+{% endfor %}
