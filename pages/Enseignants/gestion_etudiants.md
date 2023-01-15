@@ -61,6 +61,8 @@ Risus in hendrerit gravida rutrum quisque non tellus orci. Malesuada proin liber
 
 Pour saisir une note, il faut vous rendre sur la page **Dashboard** où un espace nommé **Mes cours** est dédié à vos différentes actions en tant que professeur. Sélectionnez un semestre puis cliquez sur **Saisir, voir ou modifier des notes** :
 
+![aperçu de l'espace Mes Cours](/images/evaluation1.jpeg)
+
 <hr>
 
 ## Suivi des périodes de stage et d'alternance {#suivi-des-periodes-de-stage-et-d-alternance}
