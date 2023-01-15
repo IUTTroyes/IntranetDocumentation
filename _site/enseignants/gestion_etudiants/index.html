@@ -1,0 +1,685 @@
+        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="theme-color" media="(prefers-color-scheme: light)" content="white"/>
+        <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black"/>
+    <title>Gestion des étudiants &middot; Documentation de l&#039;Intranet des IUT</title>
+    <meta name="description" content="Site description" />
+    <meta name="author" content="Arnaud Ligny" />
+    <meta name="robots" content="index,follow" />
+    <link rel="icon" sizes="32x32" href="http://localhost:8000/assets/thumbnails/32/favicon.c1af8a129a0cde81f9b94ffbf452e10b.png" type="image/png" />
+    <link rel="icon" sizes="57x57" href="http://localhost:8000/assets/thumbnails/57/favicon.c1af8a129a0cde81f9b94ffbf452e10b.png" type="image/png" />
+    <link rel="icon" sizes="76x76" href="http://localhost:8000/assets/thumbnails/76/favicon.c1af8a129a0cde81f9b94ffbf452e10b.png" type="image/png" />
+    <link rel="icon" sizes="96x96" href="http://localhost:8000/assets/thumbnails/96/favicon.c1af8a129a0cde81f9b94ffbf452e10b.png" type="image/png" />
+    <link rel="icon" sizes="128x128" href="http://localhost:8000/assets/thumbnails/128/favicon.c1af8a129a0cde81f9b94ffbf452e10b.png" type="image/png" />
+    <link rel="icon" sizes="192x192" href="http://localhost:8000/assets/thumbnails/192/favicon.c1af8a129a0cde81f9b94ffbf452e10b.png" type="image/png" />
+    <link rel="icon" sizes="228x228" href="http://localhost:8000/assets/thumbnails/228/favicon.c1af8a129a0cde81f9b94ffbf452e10b.png" type="image/png" />
+    <link rel="shortcut icon" sizes="196x196" href="http://localhost:8000/assets/thumbnails/196/favicon.c1af8a129a0cde81f9b94ffbf452e10b.png" type="image/png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="http://localhost:8000/assets/thumbnails/120/favicon.c1af8a129a0cde81f9b94ffbf452e10b.png" type="image/png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="http://localhost:8000/assets/thumbnails/152/favicon.c1af8a129a0cde81f9b94ffbf452e10b.png" type="image/png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:8000/assets/thumbnails/180/favicon.c1af8a129a0cde81f9b94ffbf452e10b.png" type="image/png" />
+    <link rel="next" href="http://localhost:8000/enseignants/intro/" />
+    <link rel="canonical" type="text/html" title="Gestion des étudiants &middot; Documentation de l&#039;Intranet des IUT" href="http://localhost:8000/enseignants/gestion_etudiants/" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Documentation de l'Intranet des IUT" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Gestion des étudiants &middot; Documentation de l&#039;Intranet des IUT" />
+    <meta property="og:description" content="Site description" />
+    <meta property="og:url" content="http://localhost:8000/enseignants/gestion_etudiants/" />
+    <meta property="og:image" content="http://localhost:8000/logo.11de65a5e07ccdeff9ebb2e4acf11505.svg" />
+    <meta property="og:image:type" content="image/svg+xml" />
+    <meta property="og:image:width" content="0" />
+    <meta property="og:image:height" content="0" />
+    <meta property="og:image:alt" content="Gestion des étudiants &middot; Documentation de l&#039;Intranet des IUT" />
+    <meta name="twitter:title" content="Gestion des étudiants &middot; Documentation de l&#039;Intranet des IUT" />
+    <meta name="twitter:description" content="Site description" />
+    <meta name="twitter:card" content="summary" />
+
+
+        <link rel="stylesheet" href="/bootstrap.min.339d8db63836978e6a52d0a501412b07.min.css" type="text/css"/>
+    <link rel="stylesheet" href="/styles/css/style.4ccb2d76ed19dd437d404a1e0e462137.min.css" type="text/css"/>
+    
+        <style>/* source: https://github.com/xz/new.css/blob/80e7107b491b1062193331ae93ff3670c6a2398d/new.css */
+:root {
+    --nc-font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --nc-font-mono: Consolas, monaco, 'Ubuntu Mono', 'Liberation Mono', 'Courier New', Courier, monospace;
+
+    /* Light theme */
+    --nc-tx-1: #000000;
+    --nc-tx-2: #1A1A1A;
+    --nc-bg-1: #f5f6fa;
+    --nc-bg-2: #f3f4f6;
+    --nc-bg-3: #d9d2e2;
+    --nc-hr: #4f387d;
+    --nc-lk-1: #282828;
+    --nc-lk-2: #ffc44b;
+    --nc-lk-bg: rgba(255, 255, 255, 0.2);
+    --nc-lk-tx: #FFFFFF;
+    --nc-ac-1: #4e377a;
+    --nc-ac-2: #1b493f;
+    --nc-ac-tx: #4f387d;
+    --nc-toast: rgb(215 215 215 / 38%);
+    --nc-miniLink: rgba(12, 12, 12, 0.67);
+    --nc-hr-transp: rgba(84, 84, 84, 0.27);
+    --nc-transp-bg: rgba(100, 89, 124, 0.4);
+
+    /* Dark theme */
+    --nc-d-tx-1: #f3f3f3;
+    --nc-d-tx-2: #eeeeee;
+    --nc-d-bg-1: #1a1523;
+    --nc-d-bg-2: #130f1a;
+    --nc-d-bg-3: rgba(100, 89, 124, 0.71);
+    --nc-d-hr: #FFFFFF;
+    --nc-d-lk-1: #f3f3f3;
+    --nc-d-lk-2: #ffc44b;
+    --nc-d-lk-bg: rgba(255, 255, 255, 0.2);
+    --nc-d-lk-tx: #FFFFFF;
+    --nc-d-ac-1: #ffce43;
+    --nc-d-ac-2: #e8bb30;
+    --nc-d-ac-tx: #FFFFFF;
+    --nc-d-toast: rgb(215 215 215 / 38%);
+    --nc-d-miniLink: #FFFFFFAA;
+    --nc-d-hr-transp: rgba(248,249,250,.1215686275);
+    --nc-d-transp-bg: rgba(248,249,250,.1215686275);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --nc-tx-1: var(--nc-d-tx-1);
+        --nc-tx-2: var(--nc-d-tx-2);
+        --nc-bg-1: var(--nc-d-bg-1);
+        --nc-bg-2: var(--nc-d-bg-2);
+        --nc-bg-3: var(--nc-d-bg-3);
+        --nc-hr: var(--nc-d-hr);
+        --nc-lk-1: var(--nc-d-lk-1);
+        --nc-lk-2: var(--nc-d-lk-2);
+        --nc-lk-bg: var(--nc-d-lk-bg);
+        --nc-lk-tx: var(--nc-d-lk-tx);
+        --nc-ac-1: var(--nc-d-ac-1);
+        --nc-ac-2: var(--nc-d-ac-2);
+        --nc-ac-tx: var(--nc-d-ac-tx);
+        --nc-toast: var(--nc-d-toast);
+        --nc-miniLink: var(--nc-d-miniLink);
+        --nc-transp-bg: var(--nc-d-transp-bg);
+        --nc-hr-transp: var(--nc-d-hr-transp);
+    }
+}
+
+* {
+    /* Reset margins and padding */
+    margin: 0;
+    padding: 0;
+}
+
+address,
+area,
+article,
+aside,
+audio,
+blockquote,
+datalist,
+details,
+dl,
+fieldset,
+figure,
+form,
+input,
+iframe,
+img,
+meter,
+nav,
+ol,
+optgroup,
+option,
+output,
+p,
+pre,
+progress,
+ruby,
+section,
+table,
+textarea,
+ul,
+video {
+    /* Margins for most elements */
+    margin-bottom: 1rem;
+}
+
+html, input, select, button {
+    /* Set body font family and some finicky elements */
+    font-family: var(--nc-font-sans);
+}
+
+body {
+    /* Center body in page */
+    margin: 0 auto;
+    overflow-x: hidden;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    background: var(--nc-bg-1);
+
+    /* Main body text */
+    color: var(--nc-tx-2);
+    font-size: 1.03rem;
+    line-height: 1.5;
+}
+
+::selection {
+    /* Set background color for selected text */
+    background: var(--nc-ac-1);
+    color: var(--nc-ac-tx);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1;
+    color: var(--nc-tx-1);
+    padding-top: .875rem;
+}
+
+h1,
+h2 {
+    color: var(--nc-tx-1);
+    padding-bottom: 2px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid var(--nc-ac-1);
+}
+
+h4,
+h5,
+h6 {
+    margin-bottom: .3rem;
+}
+
+h1 {
+    font-size: 1.85rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+h4 {
+    font-size: 1.15rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+h6 {
+    font-size: .875rem;
+}
+
+a {
+    color: var(--nc-lk-1);
+}
+
+a:hover {
+    color: var(--nc-lk-2);
+}
+
+abbr:hover {
+    /* Set the '?' cursor while hovering an abbreviation */
+    cursor: help;
+}
+
+blockquote {
+    padding: 1.5rem;
+    background: var(--nc-bg-2);
+    border-left: 5px solid var(--nc-bg-3);
+}
+
+abbr {
+    cursor: help;
+}
+
+blockquote *:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+header {
+    height: 25vh;
+    position: relative;
+    background: var(--nc-bg-1);
+    border-bottom: .5px solid var(--nc-hr);
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+}
+
+header h1,
+header h2,
+header h3 {
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+
+header > *:first-child {
+    margin-top: 15px;
+    padding-top: 0;
+}
+
+header > *:last-child {
+    margin: 15px 0 0 0;
+}
+
+a button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    font-size: 1rem;
+    display: inline-block;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    background: var(--nc-lk-1);
+    color: var(--nc-lk-tx);
+    border: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: var(--nc-lk-tx);
+}
+
+a button[disabled],
+button[disabled],
+input[type="submit"][disabled],
+input[type="reset"][disabled],
+input[type="button"][disabled] {
+    cursor: default;
+    opacity: .5;
+
+    /* Set the [X] cursor while hovering a disabled link */
+    cursor: not-allowed;
+}
+
+.button:focus,
+.button:enabled:hover,
+button:focus,
+button:enabled:hover,
+input[type="submit"]:focus,
+input[type="submit"]:enabled:hover,
+input[type="reset"]:focus,
+input[type="reset"]:enabled:hover,
+input[type="button"]:focus,
+a img {
+    margin-bottom: 0px;
+}
+
+code,
+pre,
+kbd,
+samp {
+    /* Set the font family for monospaced elements */
+    font-family: var(--nc-font-mono);
+}
+
+code,
+samp,
+kbd,
+pre {
+    /* The main preformatted style. This is changed slightly across different cases. */
+    background: var(--nc-bg-2);
+    border: 1px solid var(--nc-bg-3);
+    border-radius: 4px;
+    padding: 3px 6px;
+    /* ↓ font-size is relative to containing element, so it scales for titles*/
+    font-size: 0.9em;
+}
+
+kbd {
+    /* Makes the kbd element look like a keyboard key */
+    border-bottom: 3px solid var(--nc-bg-3);
+}
+
+pre {
+    padding: 1rem 1.4rem;
+    max-width: 100%;
+    overflow: auto;
+}
+
+pre code {
+    /* When <code> is in a <pre>, reset it's formatting to blend in */
+    background: inherit;
+    font-size: inherit;
+    color: inherit;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+code pre {
+    /* When <pre> is in a <code>, reset it's formatting to blend in */
+    display: inline;
+    background: inherit;
+    font-size: inherit;
+    color: inherit;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+details {
+    /* Make the <details> look more "clickable" */
+    padding: .6rem 1rem;
+    background: var(--nc-bg-2);
+    border: 1px solid var(--nc-bg-3);
+    border-radius: 4px;
+}
+
+summary {
+    /* Makes the <summary> look more like a "clickable" link with the pointer cursor */
+    cursor: pointer;
+    font-weight: bold;
+}
+
+details[open] {
+    /* Adjust the <details> padding while open */
+    padding-bottom: .75rem;
+}
+
+details[open] summary {
+    /* Adjust the <details> padding while open */
+    margin-bottom: 6px;
+}
+
+details[open] > *:last-child {
+    /* Resets the bottom margin of the last element in the <details> while <details> is opened. This prevents double margins/paddings. */
+    margin-bottom: 0;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd::before {
+    /* Add an arrow to data table definitions */
+    content: '→ ';
+}
+
+
+fieldset {
+    margin-top: 1rem;
+    padding: 2rem;
+    border: 1px solid var(--nc-bg-3);
+    border-radius: 4px;
+}
+
+legend {
+    padding: auto .5rem;
+}
+
+table {
+    /* border-collapse sets the table's elements to share borders, rather than floating as separate "boxes". */
+    border-collapse: collapse;
+    width: 100%
+}
+
+td,
+th {
+    border: 1px solid var(--nc-bg-3);
+    text-align: left;
+    padding: .5rem;
+}
+
+th {
+    background: var(--nc-bg-2);
+}
+
+tr:nth-child(even) {
+    /* Set every other cell slightly darker. Improves readability. */
+    background: var(--nc-bg-2);
+}
+
+table caption {
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+textarea {
+    /* Don't let the <textarea> extend off the screen naturally or when dragged by the user */
+    max-width: 100%;
+}
+
+ol,
+ul {
+    /* Replace the browser default padding */
+    padding-left: 2rem;
+}
+
+li {
+    margin-top: .4rem;
+}
+
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+    margin-bottom: 0;
+}
+
+mark {
+    padding: 3px 6px;
+    background: var(--nc-ac-1);
+    color: var(--nc-ac-tx);
+}
+
+textarea,
+select,
+input {
+    padding: 6px 12px;
+    margin-bottom: .5rem;
+    background: var(--nc-bg-2);
+    color: var(--nc-tx-2);
+    border: 1px solid var(--nc-bg-3);
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+            /* nav */
+            nav ul {
+                padding: 0;
+                margin: 0;
+            }
+
+            nav li {
+                display: inline-block;
+                margin: 0 .5rem 0 0;
+            }
+
+            nav a {
+                text-decoration: none;
+            }
+
+            nav a:hover {
+                text-decoration: underline;
+            }
+
+            /* footer */
+            footer {
+                border-top: 1px solid var(--nc-bg-3);
+                padding-top: 1rem;
+                margin-top: 2rem;
+            }
+
+            /* image */
+            img {
+                height: auto;
+            }
+            </style>
+
+            <script src="/bootstrap.min.259e416ef6833be43801b8b68a93b008.min.js"></script>
+        <script type="module" src="/script.65ca2904389cf65ae62c826bc0f8b465.min.js"></script>
+        <script src="https://kit.fontawesome.com/c610cfb1f1.js" crossorigin="anonymous"></script>
+    
+  <meta name="generator" content="Cecil 7.29.0" />
+</head>
+<body>
+<header>
+    <div class="title">
+        <img src="/logo.11de65a5e07ccdeff9ebb2e4acf11505.svg" alt="">
+        <h1>Documentation de l'Intranet des IUT</h1>
+    </div>
+
+        
+    <div id="autocomplete">
+            </div>
+      <nav>
+        <ul>
+          <li><a href="/">Accueil</a></li>
+          <li><a href="/administration/">Administration</a></li>
+          <li><a href="/direction/">Direction</a></li>
+          <li><a href="/enseignants/">Enseignants</a></li>
+          <li><a href="/etudiants/">Etudiants</a></li>
+        </ul>
+      </nav>
+</header>
+<div class="body_content">
+    <aside>
+        <h4>Enseignants</h4>
+        <ul>
+                <li><a href="">Premiers pas</a></li>
+            
+                <li><a href="">Gestion des étudiants</a></li>
+            
+                <li><a href="">Gestion du prévisionnel</a></li>
+                    </ul>
+        <hr>
+        <h4>Etudiants</h4>
+        <ul>
+                <li><a href="">Premiers pas</a></li>
+            
+                <li><a href="">Gestion des absences</a></li>
+            
+                <li><a href="">Consulter ses notes</a></li>
+            
+                <li><a href="">Demande de rattrapage</a></li>
+                    </ul>
+        <hr>
+        <h4>Administration</h4>
+        <ul>
+                <li><a href="">process</a></li>
+            
+                <li><a href="">Premiers pas</a></li>
+                    </ul>
+        <hr>
+        <h4>Direction de Dépt.</h4>
+        <ul>
+                <li><a href="">Premiers pas</a></li>
+            
+                <li><a href="">Gestion des étudiants</a></li>
+            
+                <li><a href="">Gestion des absences</a></li>
+                    </ul>
+    </aside>
+    <div class="main_content">
+        <main>
+            <div class="toast align-items-center show" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="d-flex">
+                    <div class="toast-body">
+                        <i class="fa-solid fa-circle-info"></i> Vous êtes sur la documentation de l'intranet
+                        pour
+                        
+        les enseignants et intervenants                    </div>
+                    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast"
+                            aria-label="Close"></button>
+                </div>
+            </div>
+            <h1>Gestion des étudiants</h1>
+
+            <h2 id="gestion-des-absences">Gestion des absences</h2>
+<h3 id="gestion-des-absences">Appel et saisie des présents</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus in hendrerit gravida rutrum quisque non tellus orci. Malesuada proin libero nunc consequat interdum varius sit. Enim ut tellus elementum sagittis vitae et. Tempus quam pellentesque nec nam aliquam sem et tortor. Tempor orci eu lobortis elementum nibh. Netus et malesuada fames ac turpis egestas sed tempus urna. At augue eget arcu dictum varius duis. Ornare suspendisse sed nisi lacus sed viverra tellus. A cras semper auctor neque vitae tempus quam. Platea dictumst vestibulum rhoncus est pellentesque. Mi sit amet mauris commodo quis. Vitae justo eget magna fermentum iaculis eu. Fringilla ut morbi tincidunt augue interdum velit euismod in pellentesque. Sed viverra ipsum nunc aliquet bibendum enim facilisis.</p>
+<hr>
+<h3 id="saisie_absence">Comment saisir ou supprimer une absence ?</h3>
+<p>Pour accéder à l'espace de gestion des absences, deux options s'offrent à vous :</p>
+<ul>
+<li>L'accès depuis le Dashboard</li>
+<li>L'accès depuis l'emploi du temps</li>
+</ul>
+<h4 id="accès-depuis-le-dashboard">Accès depuis le Dashboard</h4>
+<p>Il suffit de vous rendre sur la page <strong>Dashboard</strong> où un espace nommé <strong>Mes cours</strong> est dédié à vos différentes actions en tant qu'enseignant.</p>
+<img src="/images/absence1.7d1bd5d22e48c83ae119c8fc351647df.png" alt="aperçu de l&#039;espace Mes Cours" loading="lazy" width="1735" height="304" />
+<p>Une fois dans la rubrique <strong>Mes Cours</strong>, cliquez sur <strong>Saisir voir ou modifier des absences</strong> disponible dans la zone intitulée <strong>Absences</strong>. Vous êtes redirigé sur une page spécifique à la saisie d'absence qui ressemble à la suivante :</p>
+<img src="/images/absence2.3b12b8b286cb81568dbc31d8ea634e32.png" alt="aperçu de l&#039;espace Mes Cours" loading="lazy" width="1920" height="736" />
+<p>Vous devez ensuite remplir plusieurs paramètres propres à votre cours :</p>
+<ul>
+<li>Le module que vous enseignez</li>
+<li>La date du jour</li>
+<li>Le créneau horaire de votre cours</li>
+<li>Le groupe que vous encadrez : CM pour Cours Magistral, TD pour Travaux Dirigés et TP pour Travaux Pratiques.</li>
+</ul>
+<img src="/images/absence3.ccc582b7d04973bf8cff1b33f36373aa.png" alt="aperçu de l&#039;espace Mes Cours" loading="lazy" width="1920" height="1080" />
+<p>Une fois le groupe choisi, la liste des étudiants correspondant apparaît, ce qui vous permet de soit saisir une absence, soit en supprimer une. </p>
+<p>Il ne vous reste plus qu'à cliquer sur l'étudiant qui n'était pas présent lors de votre cours afin de signaler son absence ou bien de cliquer sur l'étudiant en rouge afin de retirer son absence. La zone grisée deviendra rouge si l'étudiant est noté absent et inversement si il est noté présent.</p>
+<img src="/images/absence4.370aaef08262a541cf56d0b358f8e5c6.png" alt="aperçu de l&#039;espace Mes Cours" loading="lazy" width="407" height="192" />
+<img src="/images/absence5.97c7b047434bc9b80e86c23b808e7200.png" alt="aperçu de l&#039;espace Mes Cours" loading="lazy" width="403" height="191" />
+<p>Si vous souhaitez vérifier que votre étudiant est bien noté absent ou présent, rendez-vous sur le trombinoscope, vous y trouverez vos étudiants. Cliquez sur la photo de profil ou le nom de votre étudiant absent afin d'arriver sur cette page :</p>
+<p>Vous y trouverez toutes les absences de l'étudiant en question, ainsi que celles que vous avez saisies.</p>
+<img src="/images/absence8.2e2a4b84f3e51f698439c5619a9e8e54.png" alt="aperçu de l&#039;espace Mes Cours" loading="lazy" width="1773" height="743" />
+<h4 id="accès-depuis-l-emploi-du-temps">Accès depuis l'emploi du temps</h4>
+<p>Risus in hendrerit gravida rutrum quisque non tellus orci. Malesuada proin libero nunc consequat interdum varius sit. Enim ut tellus elementum sagittis vitae et. Tempus quam pellentesque nec nam aliquam sem et tortor. Tempor orci eu lobortis elementum nibh. </p>
+<hr>
+<h2 id="gestion-des-notes">Gestion des notes</h2>
+<h3 id="comment-saisir-une-note">Comment saisir une note ?</h3>
+<p>Pour saisir une note, il faut vous rendre sur la page <strong>Dashboard</strong> où un espace nommé <strong>Mes cours</strong> est dédié à vos différentes actions en tant que professeur. Sélectionnez un semestre puis cliquez sur <strong>Saisir, voir ou modifier des notes</strong> :</p>
+<img src="/images/evaluation1.548f09b898c731bca37387f8b9aaab93.jpeg" alt="aperçu de l&#039;espace Mes Cours" loading="lazy" width="1423" height="314" />
+<hr>
+<h2 id="suivi-des-periodes-de-stage-et-d-alternance">Suivi des périodes de stage et d'alternance</h2>
+<h3 id="accéder-à-la-liste-des-étudiants-que-vous-suivez">Accéder à la liste des étudiants que vous suivez</h3>
+<p>Pour cela rendez vous sur le menu <strong>Applications</strong>, puis sur la page, choisir l'onglet <strong>Stages et Alternances</strong>&quot;.
+Dans cet onglet, vous avez les informations des stagiaires que vous suivez, mais aussi des alternants.
+Sur cette page, vous avez :</p>
+<ul>
+<li>Le nom de l'alternant</li>
+<li>Le nom de la formation</li>
+<li>L'entreprise, avec la possibilité de cliquer pour obtenir les informations de contacts</li>
+<li>La ville</li>
+<li>La partie suivi avec deux options :
+<ul>
+<li>&quot;Attente des informations&quot; : indiquant que l'alternant n'a pas encore saisie les informations de son alternance</li>
+<li>&quot;Suivi&quot; : Permettant de consulter et saisir les fiches de suivi.</li>
+</ul></li>
+</ul>
+<img src="/images/suivi01.c8bdf1219632ebf7a7cb13ea102db301.png" alt="aperçu de l&#039;espace Applications" loading="lazy" width="2876" height="1460" />
+<hr>
+<h3 id="editer-une-fiche-de-suivi-pour-un-étudiant-alternant">Editer une fiche de suivi pour un étudiant alternant</h3>
+<p>En cliquant sur le bouton &quot;Suivi&quot; de la ligne d'un alternant, vous accéder aux fiches de suivi de cet alternant, déjà saisies, et à la possibilité d'en créer une nouvelle.</p>
+<img src="/images/suivi02.b7f335c393c32643dd1151cbf268b583.png" alt="aperçu de l&#039;espace Applications" loading="lazy" width="2878" height="1460" />
+<p>Pour créer une nouvelle fiche de suivi d'alternance, cliquez sur le &quot;+&quot; en haut de la page, à coté de la flèche jaune pour ajouter une nouvelle fiche.</p>
+<p>Vous obtenez le formulaire ci-dessous à compléter. Tous les champs sont obligatoires.</p>
+<img src="/images/suivi03.3c0fbc298cebf52bc283921baeedd3f3.png" alt="aperçu de l&#039;espace Applications" loading="lazy" width="2880" height="1452" />
+<p>Vous pouvez ensuite sauvegarder, pour obtenir un résumé de votre fiche, et pouvoir la modifier (bouton ...) ou l'imprimer en PDF (bouton ...).</p>
+<p>Une fois la fiche sauvegardée vous avez le récapitulatif des éléments</p>
+<img src="/images/suivi04.a107fed025ddc9aa78184c9890d65c71.png" alt="aperçu de l&#039;espace Applications" loading="lazy" width="2876" height="1532" />
+<p>Depuis cette page vous pouvez imprimer (bouton bleu), modifier (bouton orange) ou supprimer la fiche (bouton rouge).</p>
+<p>En revenant sur la liste des suivis de cet alternant vous voyez maintenant votre fiche apparaître dans la liste. Vous pouvez de nouveau la consulter, la modifier ou la supprimer.</p>
+<img src="/images/suivi05.2b8d764b424946c1a7f92ab098fb0637.png" alt="aperçu de l&#039;espace Applications" loading="lazy" width="1442" height="727" />
+                    <nav>
+                        <ul>
+                                <li><a href="/enseignants/intro/">Premiers pas</a></li>
+                        </ul>
+                    </nav>
+        </main>
+        <footer>
+            <small>Powered by <a href="https://cecil.app/#7.29.0">Cecil</a> &amp; <a href="https://newcss.net">new.css</a></small>
+        </footer>
+    </div>
+</div>
+</body>
+</html>
+

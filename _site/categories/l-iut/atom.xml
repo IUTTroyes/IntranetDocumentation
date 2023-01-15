@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/xsl/atom.xsl" media="all"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>http://localhost:8000/categories/l-iut/</id>
+  <title>Documentation de l&#039;Intranet des IUT - l&#039;IUT</title>
+  <subtitle><![CDATA[Site description]]></subtitle>
+  <link href="http://localhost:8000/categories/l-iut/atom.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:8000/categories/l-iut/" rel="alternate" type="text/html" />
+  <updated>2023-01-15T12:08:34+00:00</updated>
+  <author>
+    <name>Arnaud Ligny</name>
+    <uri>https://arnaudligny.fr</uri>
+  </author>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/</id>
+    <title>Accueil</title>
+    <content type="html">
+      <![CDATA[<h2 id="présentation-de-l-intranet">Présentation de l'Intranet</h2>
+<p>L'Intranet est un réseau informatique interne privé appartenant à une entité organisationnelle. Le concept de cet Intranet est de pouvoir accéder à une multitude d'informations et de contenus propres à chaque étudiant comme la visualisation de ces notes, de ces absences ou de son emploi du temps par exemple. D'autre part, cet Intranet permet aux professeurs d'intégrer ses différentes ressources aisément.</p>
+<p>Cet intranet est spécialisé dans la gestion de formation universitaire de type DUT, B.U.T ou Licences professionnelles, et très prochainement (rentrée 2021) de type B.U.T. (Bachelor Universitaire de Technologie).</p>
+<p>Les améliorations sont régulières, tout comme les ajustements et les correctifs. Toutes les informations sont dans le <a href="https://github.com/Dannebicque/intranetV3/blob/main/CHANGELOG.md">changelog</a>.</p>]]>
+    </content>
+    <link href="http://localhost:8000/" rel="alternate" type="text/html" />
+    <published>2023-01-15T12:08:34+00:00</published>
+    <updated>2023-01-15T12:08:34+00:00</updated>
+  </entry>
+</feed>

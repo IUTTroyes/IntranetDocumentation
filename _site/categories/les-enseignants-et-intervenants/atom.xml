@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/xsl/atom.xsl" media="all"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>http://localhost:8000/categories/les-enseignants-et-intervenants/</id>
+  <title>Documentation de l&#039;Intranet des IUT - les enseignants et intervenants</title>
+  <subtitle><![CDATA[Site description]]></subtitle>
+  <link href="http://localhost:8000/categories/les-enseignants-et-intervenants/atom.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:8000/categories/les-enseignants-et-intervenants/" rel="alternate" type="text/html" />
+  <updated>2023-01-15T12:08:34+00:00</updated>
+  <author>
+    <name>Arnaud Ligny</name>
+    <uri>https://arnaudligny.fr</uri>
+  </author>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/enseignants/gestion_previsionnel/</id>
+    <title>Gestion du prévisionnel</title>
+    <content type="html">
+      <![CDATA[<h2 id="comment-saisir-une-absence">Comment saisir une absence ?</h2>]]>
+    </content>
+    <link href="http://localhost:8000/enseignants/gestion_previsionnel/" rel="alternate" type="text/html" />
+    <published>2023-01-15T12:08:34+00:00</published>
+    <updated>2023-01-15T12:08:34+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/enseignants/gestion_etudiants/</id>
+    <title>Gestion des étudiants</title>
+    <content type="html">
+      <![CDATA[<h2 id="gestion-des-absences">Gestion des absences</h2>
+<h3 id="gestion-des-absences">Appel et saisie des présents</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus in hendrerit gravida rutrum quisque non tellus orci. Malesuada proin libero nunc consequat interdum varius sit. Enim ut tellus elementum sagittis vitae et. Tempus quam pellentesque nec nam aliquam sem et tortor. Tempor orci eu lobortis elementum nibh. Netus et malesuada fames ac turpis egestas sed tempus urna. At augue eget arcu dictum varius duis. Ornare suspendisse sed nisi lacus sed viverra tellus. A cras semper auctor neque vitae tempus quam. Platea dictumst vestibulum rhoncus est pellentesque. Mi sit amet mauris commodo quis. Vitae justo eget magna fermentum iaculis eu. Fringilla ut morbi tincidunt augue interdum velit euismod in pellentesque. Sed viverra ipsum nunc aliquet bibendum enim facilisis.</p>
+<hr>
+<h3 id="saisie_absence">Comment saisir ou supprimer une absence ?</h3>
+<p>Pour accéder à l'espace de gestion des absences, deux options s'offrent à vous :</p>
+<ul>
+<li>L'accès depuis le Dashboard</li>
+<li>L'accès depuis l'emploi du temps</li>
+</ul>
+<h4 id="accès-depuis-le-dashboard">Accès depuis le Dashboard</h4>
+<p>Il suffit de vous rendre sur la page <strong>Dashboard</strong> où un espace nommé <strong>Mes cours</strong> est dédié à vos différentes actions en tant qu'enseignant.</p>
+<img src="/images/absence1.7d1bd5d22e48c83ae119c8fc351647df.png" alt="aperçu de l&#039;espace Mes Cours" loading="lazy" width="1735" height="304" />
+<p>Une fois dans la rubrique <strong>Mes Cours</strong>, cliquez sur <strong>Saisir voir ou modifier des absences</strong> disponible dans la zone intitulée <strong>Absences</strong>. Vous êtes redirigé sur une page spécifique à la saisie d'absence qui ressemble à la suivante :</p>
+<img src="/images/absence2.3b12b8b286cb81568dbc31d8ea634e32.png" alt="aperçu de l&#039;espace Mes Cours" loading="lazy" width="1920" height="736" />
+<p>Vous devez ensuite remplir plusieurs paramètres propres à votre cours :</p>
+<ul>
+<li>Le module que vous enseignez</li>
+<li>La date du jour</li>
+<li>Le créneau horaire de votre cours</li>
+<li>Le groupe que vous encadrez : CM pour Cours Magistral, TD pour Travaux Dirigés et TP pour Travaux Pratiques.</li>
+</ul>
+<img src="/images/absence3.ccc582b7d04973bf8cff1b33f36373aa.png" alt="aperçu de l&#039;espace Mes Cours" loading="lazy" width="1920" height="1080" />
+<p>Une fois le groupe choisi, la liste des étudiants correspondant apparaît, ce qui vous permet de soit saisir une absence, soit en supprimer une. </p>
+<p>Il ne vous reste plus qu'à cliquer sur l'étudiant qui n'était pas présent lors de votre cours afin de signaler son absence ou bien de cliquer sur l'étudiant en rouge afin de retirer son absence. La zone grisée deviendra rouge si l'étudiant est noté absent et inversement si il est noté présent.</p>
+<img src="/images/absence4.370aaef08262a541cf56d0b358f8e5c6.png" alt="aperçu de l&#039;espace Mes Cours" loading="lazy" width="407" height="192" />
+<img src="/images/absence5.97c7b047434bc9b80e86c23b808e7200.png" alt="aperçu de l&#039;espace Mes Cours" loading="lazy" width="403" height="191" />
+<p>Si vous souhaitez vérifier que votre étudiant est bien noté absent ou présent, rendez-vous sur le trombinoscope, vous y trouverez vos étudiants. Cliquez sur la photo de profil ou le nom de votre étudiant absent afin d'arriver sur cette page :</p>
+<p>Vous y trouverez toutes les absences de l'étudiant en question, ainsi que celles que vous avez saisies.</p>
+<img src="/images/absence8.2e2a4b84f3e51f698439c5619a9e8e54.png" alt="aperçu de l&#039;espace Mes Cours" loading="lazy" width="1773" height="743" />
+<h4 id="accès-depuis-l-emploi-du-temps">Accès depuis l'emploi du temps</h4>
+<p>Risus in hendrerit gravida rutrum quisque non tellus orci. Malesuada proin libero nunc consequat interdum varius sit. Enim ut tellus elementum sagittis vitae et. Tempus quam pellentesque nec nam aliquam sem et tortor. Tempor orci eu lobortis elementum nibh. </p>
+<hr>
+<h2 id="gestion-des-notes">Gestion des notes</h2>
+<h3 id="comment-saisir-une-note">Comment saisir une note ?</h3>
+<p>Pour saisir une note, il faut vous rendre sur la page <strong>Dashboard</strong> où un espace nommé <strong>Mes cours</strong> est dédié à vos différentes actions en tant que professeur. Sélectionnez un semestre puis cliquez sur <strong>Saisir, voir ou modifier des notes</strong> :</p>
+<img src="/images/evaluation1.548f09b898c731bca37387f8b9aaab93.jpeg" alt="aperçu de l&#039;espace Mes Cours" loading="lazy" width="1423" height="314" />
+<hr>
+<h2 id="suivi-des-periodes-de-stage-et-d-alternance">Suivi des périodes de stage et d'alternance</h2>
+<h3 id="accéder-à-la-liste-des-étudiants-que-vous-suivez">Accéder à la liste des étudiants que vous suivez</h3>
+<p>Pour cela rendez vous sur le menu <strong>Applications</strong>, puis sur la page, choisir l'onglet <strong>Stages et Alternances</strong>&quot;.
+Dans cet onglet, vous avez les informations des stagiaires que vous suivez, mais aussi des alternants.
+Sur cette page, vous avez :</p>
+<ul>
+<li>Le nom de l'alternant</li>
+<li>Le nom de la formation</li>
+<li>L'entreprise, avec la possibilité de cliquer pour obtenir les informations de contacts</li>
+<li>La ville</li>
+<li>La partie suivi avec deux options :
+<ul>
+<li>&quot;Attente des informations&quot; : indiquant que l'alternant n'a pas encore saisie les informations de son alternance</li>
+<li>&quot;Suivi&quot; : Permettant de consulter et saisir les fiches de suivi.</li>
+</ul></li>
+</ul>
+<img src="/images/suivi01.c8bdf1219632ebf7a7cb13ea102db301.png" alt="aperçu de l&#039;espace Applications" loading="lazy" width="2876" height="1460" />
+<hr>
+<h3 id="editer-une-fiche-de-suivi-pour-un-étudiant-alternant">Editer une fiche de suivi pour un étudiant alternant</h3>
+<p>En cliquant sur le bouton &quot;Suivi&quot; de la ligne d'un alternant, vous accéder aux fiches de suivi de cet alternant, déjà saisies, et à la possibilité d'en créer une nouvelle.</p>
+<img src="/images/suivi02.b7f335c393c32643dd1151cbf268b583.png" alt="aperçu de l&#039;espace Applications" loading="lazy" width="2878" height="1460" />
+<p>Pour créer une nouvelle fiche de suivi d'alternance, cliquez sur le &quot;+&quot; en haut de la page, à coté de la flèche jaune pour ajouter une nouvelle fiche.</p>
+<p>Vous obtenez le formulaire ci-dessous à compléter. Tous les champs sont obligatoires.</p>
+<img src="/images/suivi03.3c0fbc298cebf52bc283921baeedd3f3.png" alt="aperçu de l&#039;espace Applications" loading="lazy" width="2880" height="1452" />
+<p>Vous pouvez ensuite sauvegarder, pour obtenir un résumé de votre fiche, et pouvoir la modifier (bouton ...) ou l'imprimer en PDF (bouton ...).</p>
+<p>Une fois la fiche sauvegardée vous avez le récapitulatif des éléments</p>
+<img src="/images/suivi04.a107fed025ddc9aa78184c9890d65c71.png" alt="aperçu de l&#039;espace Applications" loading="lazy" width="2876" height="1532" />
+<p>Depuis cette page vous pouvez imprimer (bouton bleu), modifier (bouton orange) ou supprimer la fiche (bouton rouge).</p>
+<p>En revenant sur la liste des suivis de cet alternant vous voyez maintenant votre fiche apparaître dans la liste. Vous pouvez de nouveau la consulter, la modifier ou la supprimer.</p>
+<img src="/images/suivi05.2b8d764b424946c1a7f92ab098fb0637.png" alt="aperçu de l&#039;espace Applications" loading="lazy" width="1442" height="727" />]]>
+    </content>
+    <link href="http://localhost:8000/enseignants/gestion_etudiants/" rel="alternate" type="text/html" />
+    <published>2023-01-09T15:26:38+00:00</published>
+    <updated>2023-01-09T15:26:38+00:00</updated>
+  </entry>
+</feed>
