@@ -1,0 +1,79 @@
+{
+  "data": [
+    {
+      "type": "direction",
+      "id": "direction/gestion_absences",
+      "attributes": {
+        "title": "\"Gestion des absences\"",
+        "weight": 3,
+        "categories": ["les membres du personnel administratif"],
+        "subtitles": ["sub1","sub2"],
+        "body": "\"## Comment se connecter ?\"",
+        "date": "\"2023-01-06T15:46:59+00:00\"",
+        "updated": "\"2023-01-06T15:46:59+00:00\""
+      }
+    },
+    {
+      "type": "direction",
+      "id": "direction/gestion_etudiants",
+      "attributes": {
+        "title": "\"Gestion des étudiants\"",
+        "weight": 2,
+        "categories": ["les membres du personnel administratif"],
+        "subtitles": ["sub1","sub2"],
+        "body": "\"## Comment se connecter ?\"",
+        "date": "\"2023-01-06T15:46:59+00:00\"",
+        "updated": "\"2023-01-06T15:46:59+00:00\""
+      }
+    },
+    {
+      "type": "direction",
+      "id": "direction/intro",
+      "attributes": {
+        "title": "\"Premiers pas\"",
+        "weight": 1,
+        "categories": ["la Direction des Départements"],
+        "subtitles": ["Saisie des présents","Comment saisir une absence","Comment supprimer une absence"],
+        "body": "\"## Comment saisir une absence ?\"",
+        "date": "\"2023-01-06T15:46:59+00:00\"",
+        "updated": "\"2023-01-06T15:46:59+00:00\""
+      }
+    },
+    {
+      "type": "enseignants",
+      "id": "enseignants/intro",
+      "attributes": {
+        "title": "\"Premiers pas\"",
+        "weight": 1,
+        "categories": ["enseignants et intervenants"],
+        "subtitles": ["Comment se connecter ?","Connexion via l'URCA"],
+        "body": "\"## Comment se connecter ?\\r\\n\\r\\n### Connexion via l&#039;URCA\\r\\n\\r\\nMuni de votre identifiant et de votre mot de passe (fournis par votre IUT), inscrivez votre identifiant dans le champ nommé &quot;Login&quot; et votre mot de passe dans le champ nommé &quot;Mot de passe&quot;.\\r\\n\\r\\n### Connexion via l&#039;intranet\\r\\n\\r\\nMuni de votre identifiant et de votre mot de passe (fournis par votre IUT), inscrivez votre identifiant dans le champ nommé &quot;Login&quot; et votre mot de passe dans le champ nommé &quot;Mot de passe&quot;.\"",
+        "date": "\"2023-01-06T15:46:59+00:00\"",
+        "updated": "\"2023-01-06T15:46:59+00:00\""
+      }
+    },
+    {
+      "type": "etudiants",
+      "id": "etudiants/intro",
+      "attributes": {
+        "title": "\"Premiers pas\"",
+        "weight": 1,
+        "categories": ["étudiants"],
+        "subtitles": ["Comment se connecter ?","Connexion via l'URCA"],
+        "body": "\"## Comment se connecter ?\\r\\n\\r\\n### Connexion via l&#039;URCA\\r\\n\\r\\nMuni de votre identifiant et de votre mot de passe (fournis par votre IUT), inscrivez votre identifiant dans le champ nommé &quot;Login&quot; et votre mot de passe dans le champ nommé &quot;Mot de passe&quot;.\"",
+        "date": "\"2023-01-06T15:46:59+00:00\"",
+        "updated": "\"2023-01-06T15:46:59+00:00\""
+      }
+    }
+  ],
+  "meta": {
+    "totalPages": 22
+  },
+  "links": {
+    "self": "http://localhost:8000/page/2.json",
+    "first": "http://localhost:8000/index.json",
+    "prev": "http://localhost:8000/index.json",
+    "next": "http://localhost:8000/page/3.json",
+    "last": "http://localhost:8000/page/5.json"
+  }
+}

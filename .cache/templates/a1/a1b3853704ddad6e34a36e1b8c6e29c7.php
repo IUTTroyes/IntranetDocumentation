@@ -39,11 +39,11 @@ class __TwigTemplate_84730ad8337df748a32958d1fb750d6b extends Template
 
         // line 1
         list($context["section"], $context["balise"]) =         ["pages", "h3"];
-        // line 14
-        echo "[";
         // line 15
+        echo "[";
+        // line 16
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable($this->extensions['Cecil\Renderer\Extension\Core']->sortByWeight(twig_get_attribute($this->env, $this->source, (isset($context["site"]) || array_key_exists("site", $context) ? $context["site"] : (function () { throw new RuntimeError('Variable "site" does not exist.', 15, $this->source); })()), "pages", [], "any", false, false, false, 15)));
+        $context['_seq'] = twig_ensure_traversable($this->extensions['Cecil\Renderer\Extension\Core']->sortByWeight(twig_get_attribute($this->env, $this->source, (isset($context["site"]) || array_key_exists("site", $context) ? $context["site"] : (function () { throw new RuntimeError('Variable "site" does not exist.', 16, $this->source); })()), "pages", [], "any", false, false, false, 16)));
         $context['loop'] = [
           'parent' => $context['_parent'],
           'index0' => 0,
@@ -58,15 +58,15 @@ class __TwigTemplate_84730ad8337df748a32958d1fb750d6b extends Template
             $context['loop']['last'] = 1 === $length;
         }
         foreach ($context['_seq'] as $context["_key"] => $context["p"]) {
-            // line 16
-            $context["count"] = 0;
             // line 17
-            $context["sections"] = $this->extensions['Cecil\Renderer\Extension\Core']->pregSplit(twig_get_attribute($this->env, $this->source, $context["p"], "content", [], "any", false, false, false, 17), (("/<" . (isset($context["balise"]) || array_key_exists("balise", $context) ? $context["balise"] : (function () { throw new RuntimeError('Variable "balise" does not exist.', 17, $this->source); })())) . "[^>]*>/"));
+            $context["count"] = 0;
             // line 18
-            if ((twig_length_filter($this->env, (isset($context["sections"]) || array_key_exists("sections", $context) ? $context["sections"] : (function () { throw new RuntimeError('Variable "sections" does not exist.', 18, $this->source); })())) > 0)) {
-                // line 19
+            $context["sections"] = $this->extensions['Cecil\Renderer\Extension\Core']->pregSplit(twig_get_attribute($this->env, $this->source, $context["p"], "content", [], "any", false, false, false, 18), (("/<" . (isset($context["balise"]) || array_key_exists("balise", $context) ? $context["balise"] : (function () { throw new RuntimeError('Variable "balise" does not exist.', 18, $this->source); })())) . "[^>]*>/"));
+            // line 19
+            if ((twig_length_filter($this->env, (isset($context["sections"]) || array_key_exists("sections", $context) ? $context["sections"] : (function () { throw new RuntimeError('Variable "sections" does not exist.', 19, $this->source); })())) > 0)) {
+                // line 20
                 $context['_parent'] = $context;
-                $context['_seq'] = twig_ensure_traversable((isset($context["sections"]) || array_key_exists("sections", $context) ? $context["sections"] : (function () { throw new RuntimeError('Variable "sections" does not exist.', 19, $this->source); })()));
+                $context['_seq'] = twig_ensure_traversable((isset($context["sections"]) || array_key_exists("sections", $context) ? $context["sections"] : (function () { throw new RuntimeError('Variable "sections" does not exist.', 20, $this->source); })()));
                 $context['loop'] = [
                   'parent' => $context['_parent'],
                   'index0' => 0,
@@ -81,41 +81,43 @@ class __TwigTemplate_84730ad8337df748a32958d1fb750d6b extends Template
                     $context['loop']['last'] = 1 === $length;
                 }
                 foreach ($context['_seq'] as $context["_key"] => $context["section"]) {
-                    // line 20
-                    if ((twig_get_attribute($this->env, $this->source, $context["loop"], "index0", [], "any", false, false, false, 20) > 0)) {
-                        // line 21
-                        $context["section_content"] = twig_split_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["sections"]) || array_key_exists("sections", $context) ? $context["sections"] : (function () { throw new RuntimeError('Variable "sections" does not exist.', 21, $this->source); })()), twig_get_attribute($this->env, $this->source, $context["loop"], "index0", [], "any", false, false, false, 21), [], "array", false, false, false, 21), (("</" . (isset($context["balise"]) || array_key_exists("balise", $context) ? $context["balise"] : (function () { throw new RuntimeError('Variable "balise" does not exist.', 21, $this->source); })())) . ">"));
+                    // line 21
+                    if ((twig_get_attribute($this->env, $this->source, $context["loop"], "index0", [], "any", false, false, false, 21) > 0)) {
                         // line 22
-                        $context["title"] = twig_trim_filter(twig_striptags(twig_get_attribute($this->env, $this->source, (isset($context["section_content"]) || array_key_exists("section_content", $context) ? $context["section_content"] : (function () { throw new RuntimeError('Variable "section_content" does not exist.', 22, $this->source); })()), 0, [], "array", false, false, false, 22)));
+                        $context["section_content"] = twig_split_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["sections"]) || array_key_exists("sections", $context) ? $context["sections"] : (function () { throw new RuntimeError('Variable "sections" does not exist.', 22, $this->source); })()), twig_get_attribute($this->env, $this->source, $context["loop"], "index0", [], "any", false, false, false, 22), [], "array", false, false, false, 22), (("</" . (isset($context["balise"]) || array_key_exists("balise", $context) ? $context["balise"] : (function () { throw new RuntimeError('Variable "balise" does not exist.', 22, $this->source); })())) . ">"));
                         // line 23
-                        $context["anchor"] = twig_replace_filter(twig_lower_filter($this->env, (isset($context["title"]) || array_key_exists("title", $context) ? $context["title"] : (function () { throw new RuntimeError('Variable "title" does not exist.', 23, $this->source); })())), [" " => "-", ":" => "", "_" => "-"]);
+                        $context["title"] = twig_trim_filter(twig_striptags(twig_get_attribute($this->env, $this->source, (isset($context["section_content"]) || array_key_exists("section_content", $context) ? $context["section_content"] : (function () { throw new RuntimeError('Variable "section_content" does not exist.', 23, $this->source); })()), 0, [], "array", false, false, false, 23)));
                         // line 24
-                        $context["content"] = twig_trim_filter(twig_striptags(twig_get_attribute($this->env, $this->source, (isset($context["section_content"]) || array_key_exists("section_content", $context) ? $context["section_content"] : (function () { throw new RuntimeError('Variable "section_content" does not exist.', 24, $this->source); })()), 1, [], "array", false, false, false, 24)));
-                        // line 25
-                        $context["description"] = "";
+                        $context["anchor"] = twig_replace_filter(twig_lower_filter($this->env, (isset($context["title"]) || array_key_exists("title", $context) ? $context["title"] : (function () { throw new RuntimeError('Variable "title" does not exist.', 24, $this->source); })())), [" " => "-", ":" => "", "_" => "-"]);
                         // line 26
-                        if ((is_string($__internal_compile_0 = twig_trim_filter(twig_get_attribute($this->env, $this->source, (isset($context["section_content"]) || array_key_exists("section_content", $context) ? $context["section_content"] : (function () { throw new RuntimeError('Variable "section_content" does not exist.', 26, $this->source); })()), 1, [], "array", false, false, false, 26))) && is_string($__internal_compile_1 = "<p>") && ('' === $__internal_compile_1 || 0 === strpos($__internal_compile_0, $__internal_compile_1)))) {
-                            // line 27
-                            $context["description"] = twig_trim_filter(twig_striptags(twig_first($this->env, twig_split_filter($this->env, twig_trim_filter(twig_get_attribute($this->env, $this->source, (isset($context["section_content"]) || array_key_exists("section_content", $context) ? $context["section_content"] : (function () { throw new RuntimeError('Variable "section_content" does not exist.', 27, $this->source); })()), 1, [], "array", false, false, false, 27)), "</p>"))));
-                        }
+                        echo "                ";
+                        // line 27
+                        echo "                ";
+                        // line 28
+                        echo "                ";
                         // line 29
-                        $context["experimental"] = 0;
+                        echo "                ";
                         // line 30
-                        if (twig_in_filter("Experimental", (isset($context["content"]) || array_key_exists("content", $context) ? $context["content"] : (function () { throw new RuntimeError('Variable "content" does not exist.', 30, $this->source); })()))) {
-                            // line 31
-                            $context["experimental"] = 1;
-                        }
+                        echo "                ";
+                        // line 31
+                        echo "                ";
+                        // line 32
+                        echo "                ";
                         // line 33
-                        echo twig_call_macro($macros["_self"], "macro_dataset", [((twig_get_attribute($this->env, $this->source,                         // line 34
-$context["p"], "id", [], "any", false, false, false, 34) . "#") . (isset($context["anchor"]) || array_key_exists("anchor", $context) ? $context["anchor"] : (function () { throw new RuntimeError('Variable "anchor" does not exist.', 34, $this->source); })())), twig_get_attribute($this->env, $this->source,                         // line 35
-$context["p"], "title", [], "any", false, false, false, 35),                         // line 36
-(isset($context["title"]) || array_key_exists("title", $context) ? $context["title"] : (function () { throw new RuntimeError('Variable "title" does not exist.', 36, $this->source); })())], 33, $context, $this->getSourceContext());
-                        // line 38
-                        if ( !twig_get_attribute($this->env, $this->source, $context["loop"], "last", [], "any", false, false, false, 38)) {
+                        echo "                ";
+                        // line 34
+                        echo twig_call_macro($macros["_self"], "macro_dataset", [((twig_get_attribute($this->env, $this->source,                         // line 35
+$context["p"], "id", [], "any", false, false, false, 35) . "#") . (isset($context["anchor"]) || array_key_exists("anchor", $context) ? $context["anchor"] : (function () { throw new RuntimeError('Variable "anchor" does not exist.', 35, $this->source); })())), twig_get_attribute($this->env, $this->source,                         // line 36
+$context["p"], "title", [], "any", false, false, false, 36),                         // line 37
+(isset($context["title"]) || array_key_exists("title", $context) ? $context["title"] : (function () { throw new RuntimeError('Variable "title" does not exist.', 37, $this->source); })()), twig_capitalize_string_filter($this->env, twig_get_attribute($this->env, $this->source,                         // line 38
+$context["p"], "section", [], "any", false, false, false, 38)), ((twig_get_attribute($this->env, $this->source,                         // line 39
+$context["p"], "path", [], "any", false, false, false, 39) . "/#") . (isset($context["anchor"]) || array_key_exists("anchor", $context) ? $context["anchor"] : (function () { throw new RuntimeError('Variable "anchor" does not exist.', 39, $this->source); })()))], 34, $context, $this->getSourceContext());
+                        // line 41
+                        if ( !twig_get_attribute($this->env, $this->source, $context["loop"], "last", [], "any", false, false, false, 41)) {
                             echo ",";
                         }
-                        // line 39
-                        $context["count"] = ((isset($context["count"]) || array_key_exists("count", $context) ? $context["count"] : (function () { throw new RuntimeError('Variable "count" does not exist.', 39, $this->source); })()) + 1);
+                        // line 42
+                        $context["count"] = ((isset($context["count"]) || array_key_exists("count", $context) ? $context["count"] : (function () { throw new RuntimeError('Variable "count" does not exist.', 42, $this->source); })()) + 1);
                     }
                     ++$context['loop']['index0'];
                     ++$context['loop']['index'];
@@ -129,8 +131,8 @@ $context["p"], "title", [], "any", false, false, false, 35),                    
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['section'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-                // line 42
-                if (( !twig_get_attribute($this->env, $this->source, $context["loop"], "last", [], "any", false, false, false, 42) && ((isset($context["count"]) || array_key_exists("count", $context) ? $context["count"] : (function () { throw new RuntimeError('Variable "count" does not exist.', 42, $this->source); })()) > 0))) {
+                // line 45
+                if (( !twig_get_attribute($this->env, $this->source, $context["loop"], "last", [], "any", false, false, false, 45) && ((isset($context["count"]) || array_key_exists("count", $context) ? $context["count"] : (function () { throw new RuntimeError('Variable "count" does not exist.', 45, $this->source); })()) > 0))) {
                     echo ",";
                 }
             }
@@ -146,7 +148,7 @@ $context["p"], "title", [], "any", false, false, false, 35),                    
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['p'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 44
+        // line 47
         echo "
 ]
 ";
@@ -156,17 +158,18 @@ $context["p"], "title", [], "any", false, false, false, 35),                    
     }
 
     // line 2
-    public function macro_dataset($__objectID__ = null, $__page__ = null, $__title__ = null, $__description__ = "", $__content__ = null, $__date__ = null, $__href__ = null, $__experimental__ = null, ...$__varargs__)
+    public function macro_dataset($__objectID__ = null, $__page__ = null, $__title__ = null, $__dossier__ = null, $__href__ = null, $__description__ = "", $__content__ = null, $__date__ = null, $__experimental__ = null, ...$__varargs__)
     {
         $macros = $this->macros;
         $context = $this->env->mergeGlobals([
             "objectID" => $__objectID__,
             "page" => $__page__,
             "title" => $__title__,
+            "dossier" => $__dossier__,
+            "href" => $__href__,
             "description" => $__description__,
             "content" => $__content__,
             "date" => $__date__,
-            "href" => $__href__,
             "experimental" => $__experimental__,
             "varargs" => $__varargs__,
         ]);
@@ -191,17 +194,23 @@ $context["p"], "title", [], "any", false, false, false, 35),                    
     \"title\": \"";
             // line 6
             echo (isset($context["title"]) || array_key_exists("title", $context) ? $context["title"] : (function () { throw new RuntimeError('Variable "title" does not exist.', 6, $this->source); })());
+            echo "\",
+    \"dossier\": \"";
+            // line 7
+            echo (isset($context["dossier"]) || array_key_exists("dossier", $context) ? $context["dossier"] : (function () { throw new RuntimeError('Variable "dossier" does not exist.', 7, $this->source); })());
+            echo "\",
+    \"href\": \"";
+            // line 8
+            echo (isset($context["href"]) || array_key_exists("href", $context) ? $context["href"] : (function () { throw new RuntimeError('Variable "href" does not exist.', 8, $this->source); })());
             echo "\"
     ";
-            // line 8
-            echo "    ";
-            // line 9
-            echo "    ";
             // line 10
             echo "    ";
             // line 11
             echo "    ";
             // line 12
+            echo "    ";
+            // line 13
             echo "    }";
             
             $__internal_2b03fcd95a85c4310cf548a70fb8bc2a->leave($__internal_2b03fcd95a85c4310cf548a70fb8bc2a_prof);
@@ -225,21 +234,22 @@ $context["p"], "title", [], "any", false, false, false, 35),                    
 
     public function getDebugInfo()
     {
-        return array (  205 => 12,  203 => 11,  201 => 10,  199 => 9,  197 => 8,  193 => 6,  189 => 5,  185 => 4,  159 => 2,  150 => 44,  133 => 42,  118 => 39,  114 => 38,  112 => 36,  111 => 35,  110 => 34,  109 => 33,  106 => 31,  104 => 30,  102 => 29,  99 => 27,  97 => 26,  95 => 25,  93 => 24,  91 => 23,  89 => 22,  87 => 21,  85 => 20,  68 => 19,  66 => 18,  64 => 17,  62 => 16,  45 => 15,  43 => 14,  41 => 1,);
+        return array (  214 => 13,  212 => 12,  210 => 11,  208 => 10,  204 => 8,  200 => 7,  196 => 6,  192 => 5,  188 => 4,  161 => 2,  152 => 47,  135 => 45,  120 => 42,  116 => 41,  114 => 39,  113 => 38,  112 => 37,  111 => 36,  110 => 35,  109 => 34,  107 => 33,  105 => 32,  103 => 31,  101 => 30,  99 => 29,  97 => 28,  95 => 27,  93 => 26,  91 => 24,  89 => 23,  87 => 22,  85 => 21,  68 => 20,  66 => 19,  64 => 18,  62 => 17,  45 => 16,  43 => 15,  41 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("{%- set section, balise = 'pages', 'h3' -%}
-{%- macro dataset(objectID, page, title, description = '', content, date, href, experimental) ~%}
+{%- macro dataset(objectID, page, title, dossier, href,description = '', content, date, experimental) ~%}
     {
     \"objectID\": \"{{ objectID }}\",
     \"page\": \"{{ page }}\",
-    \"title\": \"{{ title }}\"
+    \"title\": \"{{ title }}\",
+    \"dossier\": \"{{ dossier }}\",
+    \"href\": \"{{ href }}\"
     {#    \"description\": {{ description }},#}
     {#    \"content\": {{ content }},#}
     {#    \"date\": \"{{ date }}\",#}
-    {#    \"href\": \"{{ href }}\",#}
     {#    \"experimental\": \"{{ experimental }}\"#}
     }
 {%- endmacro -%}
@@ -253,25 +263,27 @@ $context["p"], "title", [], "any", false, false, false, 35),                    
                 {%- set section_content = sections[loop.index0]|split('</' ~ balise ~ '>') -%}
                 {%- set title = section_content[0]|striptags|trim -%}
                 {%- set anchor = title|lower|replace({' ': '-', ':': '', '_': '-'}) -%}
-                {%- set content = section_content[1]|striptags|trim ~%}
-                {%- set description = '' -%}
-                {%- if section_content[1]|trim starts with '<p>' -%}
-                    {%- set description = section_content[1]|trim|split('</p>')|first|striptags|trim -%}
-                {%- endif -%}
-                {%- set experimental = 0 -%}
-                {% if 'Experimental' in content %}
-                    {%- set experimental = 1 -%}
-                {% endif %}
+                {#                {%- set content = section_content[1]|striptags|trim ~%}#}
+                {#                {%- set description = '' -%}#}
+                {#                {%- if section_content[1]|trim starts with '<p>' -%}#}
+                {#                    {%- set description = section_content[1]|trim|split('</p>')|first|striptags|trim -%}#}
+                {#                {%- endif -%}#}
+                {#                {%- set experimental = 0 -%}#}
+                {#                {% if 'Experimental' in content %}#}
+                {#                    {%- set experimental = 1 -%}#}
+                {#                {% endif %}#}
                 {{- _self.dataset(
                     p.id ~ '#' ~ anchor,
                     p.title,
-                    title
+                    title,
+                    p.section|capitalize,
+                    p.path ~ '/#' ~ anchor
                 ) -}}
                 {%- if not loop.last %},{% endif ~%}
                 {%- set count = count + 1 -%}
             {%- endif -%}
         {%- endfor -%}
-        {%- if not loop.last and count > 0 %},{% endif ~%}
+                {%- if not loop.last and count > 0 %},{% endif ~%}
     {%- endif -%}
 {%- endfor ~%}
 ]

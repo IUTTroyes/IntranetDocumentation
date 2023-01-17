@@ -6,21 +6,11 @@
   <subtitle><![CDATA[]]></subtitle>
   <link href="http://localhost:8000/categories/les-enseignants-et-intervenants/atom.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:8000/categories/les-enseignants-et-intervenants/" rel="alternate" type="text/html" />
-  <updated>2023-01-17T07:54:03+00:00</updated>
+  <updated>2023-01-17T12:03:46+00:00</updated>
   <author>
     <name>Arnaud Ligny</name>
     <uri>https://arnaudligny.fr</uri>
   </author>
-  <entry xml:lang="en">
-    <id>http://localhost:8000/enseignants/gestion_previsionnel/</id>
-    <title>Gestion du prévisionnel</title>
-    <content type="html">
-      <![CDATA[<h2 id="comment-saisir-une-absence">Comment saisir une absence ?</h2>]]>
-    </content>
-    <link href="http://localhost:8000/enseignants/gestion_previsionnel/" rel="alternate" type="text/html" />
-    <published>2023-01-17T07:54:03+00:00</published>
-    <updated>2023-01-17T07:54:03+00:00</updated>
-  </entry>
   <entry xml:lang="en">
     <id>http://localhost:8000/enseignants/gestion_etudiants/</id>
     <title>Gestion des étudiants</title>
@@ -95,7 +85,17 @@ Sur cette page, vous avez :</p>
 <img src="/images/suivi05.2b8d764b424946c1a7f92ab098fb0637.png" alt="aperçu de l&#039;espace Applications" loading="lazy" width="1442" height="727" />]]>
     </content>
     <link href="http://localhost:8000/enseignants/gestion_etudiants/" rel="alternate" type="text/html" />
-    <published>2023-01-17T07:36:47+00:00</published>
-    <updated>2023-01-17T07:36:47+00:00</updated>
+    <published>2023-01-17T12:03:46+00:00</published>
+    <updated>2023-01-17T12:03:46+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/enseignants/gestion_previsionnel/</id>
+    <title>Gestion du prévisionnel</title>
+    <content type="html">
+      <![CDATA[<h2 id="comment-saisir-une-absence">Comment saisir une absence ?</h2>]]>
+    </content>
+    <link href="http://localhost:8000/enseignants/gestion_previsionnel/" rel="alternate" type="text/html" />
+    <published>2023-01-17T07:54:03+00:00</published>
+    <updated>2023-01-17T07:54:03+00:00</updated>
   </entry>
 </feed>

@@ -1,0 +1,75 @@
+{
+  "data": [
+    {
+      "type": "enseignants",
+      "id": "enseignants/gestion_etudiants",
+      "attributes": {
+        "title": "\"Gestion des étudiants\"",
+        "weight": 2,
+        "categories": ["les enseignants et intervenants"],
+        "subtitles": ["Gestion des absences","Gestion des notes","Suivi des périodes de stage et d'alternance"],
+        "body": "\"## Gestion des absences\\n\\n### Appel et saisie des présents {#gestion-des-absences} \\n\\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus in hendrerit gravida rutrum quisque non tellus orci. Malesuada proin libero nunc consequat interdum varius sit. Enim ut tellus elementum sagittis vitae et. Tempus quam pellentesque nec nam aliquam sem et tortor. Tempor orci eu lobortis elementum nibh. Netus et malesuada fames ac turpis egestas sed tempus urna. At augue eget arcu dictum varius duis. Ornare suspendisse sed nisi lacus sed viverra tellus. A cras semper auctor neque vitae tempus quam. Platea dictumst vestibulum rhoncus est pellentesque. Mi sit amet mauris commodo quis. Vitae justo eget magna fermentum iaculis eu. Fringilla ut morbi tincidunt augue interdum velit euismod in pellentesque. Sed viverra ipsum nunc aliquet bibendum enim facilisis.\\n\\n&lt;hr&gt;\\n\\n### Comment saisir ou supprimer une absence ? {#saisie_absence}\\n\\nPour accéder à l&#039;espace de gestion des absences, deux options s&#039;offrent à vous :\\n- L&#039;accès depuis le Dashboard\\n- L&#039;accès depuis l&#039;emploi du temps\\n\\n#### Accès depuis le Dashboard\\n\\nIl suffit de vous rendre sur la page **Dashboard** où un espace nommé **Mes cours** est dédié à vos différentes actions en tant qu&#039;enseignant.\\n\\n![aperçu de l&#039;espace Mes Cours](/images/absence1.png)\\n\\nUne fois dans la rubrique **Mes Cours**, cliquez sur **Saisir voir ou modifier des absences** disponible dans la zone intitulée **Absences**. Vous êtes redirigé sur une page spécifique à la saisie d&#039;absence qui ressemble à la suivante :\\n\\n![aperçu de l&#039;espace Mes Cours](/images/absence2.png)\\n\\nVous devez ensuite remplir plusieurs paramètres propres à votre cours :\\n- Le module que vous enseignez\\n- La date du jour\\n- Le créneau horaire de votre cours\\n- Le groupe que vous encadrez : CM pour Cours Magistral, TD pour Travaux Dirigés et TP pour Travaux Pratiques.\\n\\n![aperçu de l&#039;espace Mes Cours](/images/absence3.png)\\n\\nUne fois le groupe choisi, la liste des étudiants correspondant apparaît, ce qui vous permet de soit saisir une absence, soit en supprimer une. \\n\\nIl ne vous reste plus qu&#039;à cliquer sur l&#039;étudiant qui n&#039;était pas présent lors de votre cours afin de signaler son absence ou bien de cliquer sur l&#039;étudiant en rouge afin de retirer son absence. La zone grisée deviendra rouge si l&#039;étudiant est noté absent et inversement si il est noté présent.\\n\\n![aperçu de l&#039;espace Mes Cours](/images/absence4.png) \\n![aperçu de l&#039;espace Mes Cours](/images/absence5.png)\\n\\nSi vous souhaitez vérifier que votre étudiant est bien noté absent ou présent, rendez-vous sur le trombinoscope, vous y trouverez vos étudiants. Cliquez sur la photo de profil ou le nom de votre étudiant absent afin d&#039;arriver sur cette page :\\n\\nVous y trouverez toutes les absences de l&#039;étudiant en question, ainsi que celles que vous avez saisies.\\n![aperçu de l&#039;espace Mes Cours](/images/absence8.png)\\n\\n#### Accès depuis l&#039;emploi du temps\\n\\nRisus in hendrerit gravida rutrum quisque non tellus orci. Malesuada proin libero nunc consequat interdum varius sit. Enim ut tellus elementum sagittis vitae et. Tempus quam pellentesque nec nam aliquam sem et tortor. Tempor orci eu lobortis elementum nibh. \\n\\n&lt;hr&gt;\\n\\n## Gestion des notes {#gestion-des-notes}\\n\\n### Comment saisir une note ?\\n\\nPour saisir une note, il faut vous rendre sur la page **Dashboard** où un espace nommé **Mes cours** est dédié à vos différentes actions en tant que professeur. Sélectionnez un semestre puis cliquez sur **Saisir, voir ou modifier des notes** :\\n\\n![aperçu de l&#039;espace Mes Cours](/images/evaluation1.jpeg)\\n\\n&lt;hr&gt;\\n\\n## Suivi des périodes de stage et d&#039;alternance {#suivi-des-periodes-de-stage-et-d-alternance}\\n\\n### Accéder à la liste des étudiants que vous suivez\\n\\nPour cela rendez vous sur le menu **Applications**, puis sur la page, choisir l&#039;onglet **Stages et Alternances**&quot;.\\nDans cet onglet, vous avez les informations des stagiaires que vous suivez, mais aussi des alternants.\\nSur cette page, vous avez :\\n\\n- Le nom de l&#039;alternant\\n- Le nom de la formation\\n- L&#039;entreprise, avec la possibilité de cliquer pour obtenir les informations de contacts\\n- La ville\\n- La partie suivi avec deux options :\\n    - &quot;Attente des informations&quot; : indiquant que l&#039;alternant n&#039;a pas encore saisie les informations de son alternance\\n    - &quot;Suivi&quot; : Permettant de consulter et saisir les fiches de suivi.\\n\\n![aperçu de l&#039;espace Applications](/images/suivi01.png)\\n\\n&lt;hr&gt;\\n\\n### Editer une fiche de suivi pour un étudiant alternant\\n\\nEn cliquant sur le bouton &quot;Suivi&quot; de la ligne d&#039;un alternant, vous accéder aux fiches de suivi de cet alternant, déjà saisies, et à la possibilité d&#039;en créer une nouvelle.\\n\\n![aperçu de l&#039;espace Applications](/images/suivi02.png)\\n\\nPour créer une nouvelle fiche de suivi d&#039;alternance, cliquez sur le &quot;+&quot; en haut de la page, à coté de la flèche jaune pour ajouter une nouvelle fiche.\\n\\nVous obtenez le formulaire ci-dessous à compléter. Tous les champs sont obligatoires.\\n\\n![aperçu de l&#039;espace Applications](/images/suivi03.png)\\n\\nVous pouvez ensuite sauvegarder, pour obtenir un résumé de votre fiche, et pouvoir la modifier (bouton ...) ou l&#039;imprimer en PDF (bouton ...).\\n\\nUne fois la fiche sauvegardée vous avez le récapitulatif des éléments\\n\\n![aperçu de l&#039;espace Applications](/images/suivi04.png)\\n\\nDepuis cette page vous pouvez imprimer (bouton bleu), modifier (bouton orange) ou supprimer la fiche (bouton rouge).\\n\\nEn revenant sur la liste des suivis de cet alternant vous voyez maintenant votre fiche apparaître dans la liste. Vous pouvez de nouveau la consulter, la modifier ou la supprimer.\\n\\n![aperçu de l&#039;espace Applications](/images/suivi05.png)\"",
+        "date": "\"2023-01-17T11:22:20+00:00\"",
+        "updated": "\"2023-01-17T11:22:20+00:00\""
+      }
+    },
+    {
+      "type": "enseignants",
+      "id": "enseignants/gestion_previsionnel",
+      "attributes": {
+        "title": "\"Gestion du prévisionnel\"",
+        "weight": 4,
+        "categories": ["les enseignants et intervenants"],
+        "subtitles": ["Visualiser son prévisionnel","Comprendre son prévisionnel"],
+        "body": "\"## Comment saisir une absence ?\"",
+        "date": "\"2023-01-17T07:54:03+00:00\"",
+        "updated": "\"2023-01-17T07:54:03+00:00\""
+      }
+    },
+    {
+      "type": "etudiants",
+      "id": "etudiants/absences",
+      "attributes": {
+        "title": "\"Gestion des absences\"",
+        "weight": 2,
+        "categories": ["les étudiants"],
+        "subtitles": ["Visualisation des absences","Justification des absences"],
+        "body": "\"## Comment visualiser ses absences ?\\r\\n\\r\\n### Accès depuis le Dashboard\\r\\n\\r\\nMuni de votre identifiant et de votre mot de passe (fournis par votre IUT), inscrivez votre identifiant dans le champ nommé &quot;Login&quot; et votre mot de passe dans le champ nommé &quot;Mot de passe&quot;.\"",
+        "date": "\"2023-01-17T07:22:02+00:00\"",
+        "updated": "\"2023-01-17T07:22:02+00:00\""
+      }
+    },
+    {
+      "type": "administration",
+      "id": "administration/intro",
+      "attributes": {
+        "title": "\"Premiers pas\"",
+        "weight": 1,
+        "categories": ["les membres du personnel administratif"],
+        "subtitles": ["sub1","sub2"],
+        "body": "\"## Comment se connecter ?\"",
+        "date": "\"2023-01-06T15:46:59+00:00\"",
+        "updated": "\"2023-01-06T15:46:59+00:00\""
+      }
+    },
+    {
+      "type": "administration",
+      "id": "administration/process",
+      "attributes": {
+        "title": "\"process\"",
+        "body": "\"---\\r\\ntitle: &quot;process&quot;\\r\\nweight: 1\\r\\ncategories: [admin]\\r\\nsubtitles: [sub1 , sub2]\\r\\n---\"",
+        "date": "\"2023-01-06T15:46:59+00:00\"",
+        "updated": "\"2023-01-06T15:46:59+00:00\""
+      }
+    }
+  ],
+  "meta": {
+    "totalPages": 22
+  },
+  "links": {
+    "self": "http://localhost:8000/index.json",
+    "first": "http://localhost:8000/index.json",
+    "next": "http://localhost:8000/page/2.json",
+    "last": "http://localhost:8000/page/5.json"
+  }
+}

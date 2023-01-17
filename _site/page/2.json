@@ -1,6 +1,16 @@
 {
   "data": [
     {
+      "type": "administration",
+      "id": "administration/process",
+      "attributes": {
+        "title": "\"process\"",
+        "body": "\"---\\r\\ntitle: &quot;process&quot;\\r\\nweight: 1\\r\\ncategories: [admin]\\r\\nsubtitles: [sub1 , sub2]\\r\\n---\"",
+        "date": "\"2023-01-06T15:46:59+00:00\"",
+        "updated": "\"2023-01-06T15:46:59+00:00\""
+      }
+    },
+    {
       "type": "direction",
       "id": "direction/gestion_absences",
       "attributes": {
@@ -35,19 +45,6 @@
         "categories": ["la Direction des Départements"],
         "subtitles": ["Saisie des présents","Comment saisir une absence","Comment supprimer une absence"],
         "body": "\"## Comment saisir une absence ?\"",
-        "date": "\"2023-01-06T15:46:59+00:00\"",
-        "updated": "\"2023-01-06T15:46:59+00:00\""
-      }
-    },
-    {
-      "type": "enseignants",
-      "id": "enseignants/intro",
-      "attributes": {
-        "title": "\"Premiers pas\"",
-        "weight": 1,
-        "categories": ["enseignants et intervenants"],
-        "subtitles": ["Comment se connecter ?","Connexion via l'URCA"],
-        "body": "\"## Comment se connecter ?\\r\\n\\r\\n### Connexion via l&#039;URCA\\r\\n\\r\\nMuni de votre identifiant et de votre mot de passe (fournis par votre IUT), inscrivez votre identifiant dans le champ nommé &quot;Login&quot; et votre mot de passe dans le champ nommé &quot;Mot de passe&quot;.\\r\\n\\r\\n### Connexion via l&#039;intranet\\r\\n\\r\\nMuni de votre identifiant et de votre mot de passe (fournis par votre IUT), inscrivez votre identifiant dans le champ nommé &quot;Login&quot; et votre mot de passe dans le champ nommé &quot;Mot de passe&quot;.\"",
         "date": "\"2023-01-06T15:46:59+00:00\"",
         "updated": "\"2023-01-06T15:46:59+00:00\""
       }

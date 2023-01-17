@@ -21,7 +21,7 @@
     <link rel="apple-touch-icon" sizes="120x120" href="http://localhost:8000/assets/thumbnails/120/favicon.c1af8a129a0cde81f9b94ffbf452e10b.png" type="image/png" />
     <link rel="apple-touch-icon" sizes="152x152" href="http://localhost:8000/assets/thumbnails/152/favicon.c1af8a129a0cde81f9b94ffbf452e10b.png" type="image/png" />
     <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:8000/assets/thumbnails/180/favicon.c1af8a129a0cde81f9b94ffbf452e10b.png" type="image/png" />
-    <link rel="prev" href="http://localhost:8000/enseignants/gestion_etudiants/" />
+    <link rel="next" href="http://localhost:8000/enseignants/gestion_etudiants/" />
     <link rel="canonical" type="text/html" title="Gestion du prévisionnel &middot; Documentation de l&#039;Intranet des IUT" href="http://localhost:8000/enseignants/gestion_previsionnel/" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:site_name" content="Documentation de l'Intranet des IUT" />
@@ -40,7 +40,7 @@
 
 
         <link rel="stylesheet" href="/bootstrap.min.339d8db63836978e6a52d0a501412b07.min.css" type="text/css"/>
-    <link rel="stylesheet" href="/styles/css/style.669ceeeb0853d950d6a498caeecdbaa3.min.css" type="text/css"/>
+    <link rel="stylesheet" href="/styles/css/style.d28e308d5040a2ea82bb1f861b94e2f7.min.css" type="text/css"/>
     
         <style>/* source: https://github.com/xz/new.css/blob/80e7107b491b1062193331ae93ff3670c6a2398d/new.css */
 :root {
@@ -544,24 +544,95 @@ img {
 <div id="autocomplete"></div>
 
 <script src="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-js"></script>
-<script>
-    const { autocomplete } = window['@algolia/autocomplete-js'];
+<script type="module">
+    import algoliasearch
+        from 'https://cdn.jsdelivr.net/npm/algoliasearch@4.14.2/dist/algoliasearch-lite.esm.browser.js';
 
-    // import '@algolia/autocomplete-theme-classic';
+    const {autocomplete, getAlgoliaResults} = window['@algolia/autocomplete-js'];
+
+    const searchClient = algoliasearch(
+        'N15M8DWZID', // Application ID
+        '1fef5e20747e117945db156d00df3b9a' // Search-Only API Key
+    );
+
     //nouvelle version avec la nouvelle version. N'affiche pas encore les réponses. A gérer dans le tableau.
+    //https://www.algolia.com/doc/ui-libraries/autocomplete/introduction/getting-started/
     autocomplete({
         container: '#autocomplete',
-        placeholder: 'Search for products',
-        getSources() {
-            return [];
+        placeholder: 'Rechercher dans la documentation',
+        getSources({query}) {
+            return [
+                {
+                    sourceId: 'intradoc',
+                    getItems() {
+                        return getAlgoliaResults({
+                            searchClient,
+                            queries: [
+                                {
+                                    indexName: 'intradoc',
+                                    query, //saisie de l'utilisateur
+                                    params: {
+                                        hitsPerPage: 5,
+                                    },
+                                },
+                            ],
+                        });
+                    },
+                    getItemUrl({item}) {
+                        return item.url;
+                    },
+                    templates: {
+                        item({item, components, html}) {
+                            return html`
+                                <div class="aa-ItemWrapper">
+                                    <div class="aa-ItemContent">
+                                        <div class="aa-ItemContentBody">
+                                            <div class="aa-ItemContentTitle">
+                                                ${components.Snippet({
+                                                    hit: item,
+                                                    attribute: 'dossier',
+                                                })}
+                                            </div>
+                                            <div class="aa-ItemContentDescription">
+                                                ${components.Snippet({
+                                                    hit: item,
+                                                    attribute: 'page',
+                                                })}
+                                            </div>
+                                            <div class="aa-ItemContentDescription">
+                                                ${components.Highlight({
+                                                    hit: item,
+                                                    attribute: 'title',
+                                                })}
+                                            </div>
+                                        </div>
+                                        <div class="aa-ItemActions">
+                                            <button
+                                                    class="aa-ItemActionButton aa-DesktopOnly aa-ActiveOnly"
+                                                    type="button"
+                                                    title="Select"
+                                            >
+                                                <svg
+                                                        viewBox="0 0 24 24"
+                                                        width="20"
+                                                        height="20"
+                                                        fill="currentColor"
+                                                >
+                                                    <path
+                                                            d="M18.984 6.984h2.016v6h-15.188l3.609 3.609-1.406 1.406-6-6 6-6 1.406 1.406-3.609 3.609h13.172v-4.031z"
+                                                    />
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>`;
+                        },
+                    },
+                },
+            ];
         },
     });
 </script>
-
-
-
-
-
 
       <nav>
         <ul>

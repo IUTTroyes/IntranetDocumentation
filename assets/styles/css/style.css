@@ -220,6 +220,9 @@ header nav {
   position: absolute;
   bottom: 0;
 }
+header nav .aa-ItemContentDescription {
+  overflow-x: visible;
+}
 header .d-flex .form-control {
   background-color: rgba(248, 249, 250, 0.1215686275) !important;
   color: var(--nc-ac-tx);

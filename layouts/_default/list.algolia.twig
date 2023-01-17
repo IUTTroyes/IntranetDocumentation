@@ -1,13 +1,14 @@
 {%- set section, balise = 'pages', 'h3' -%}
-{%- macro dataset(objectID, page, title, description = '', content, date, href, experimental) ~%}
+{%- macro dataset(objectID, page, title, dossier, href,description = '', content, date, experimental) ~%}
     {
     "objectID": "{{ objectID }}",
     "page": "{{ page }}",
-    "title": "{{ title }}"
+    "title": "{{ title }}",
+    "dossier": "{{ dossier }}",
+    "href": "{{ href }}"
     {#    "description": {{ description }},#}
     {#    "content": {{ content }},#}
     {#    "date": "{{ date }}",#}
-    {#    "href": "{{ href }}",#}
     {#    "experimental": "{{ experimental }}"#}
     }
 {%- endmacro -%}
@@ -21,25 +22,27 @@
                 {%- set section_content = sections[loop.index0]|split('</' ~ balise ~ '>') -%}
                 {%- set title = section_content[0]|striptags|trim -%}
                 {%- set anchor = title|lower|replace({' ': '-', ':': '', '_': '-'}) -%}
-                {%- set content = section_content[1]|striptags|trim ~%}
-                {%- set description = '' -%}
-                {%- if section_content[1]|trim starts with '<p>' -%}
-                    {%- set description = section_content[1]|trim|split('</p>')|first|striptags|trim -%}
-                {%- endif -%}
-                {%- set experimental = 0 -%}
-                {% if 'Experimental' in content %}
-                    {%- set experimental = 1 -%}
-                {% endif %}
+                {#                {%- set content = section_content[1]|striptags|trim ~%}#}
+                {#                {%- set description = '' -%}#}
+                {#                {%- if section_content[1]|trim starts with '<p>' -%}#}
+                {#                    {%- set description = section_content[1]|trim|split('</p>')|first|striptags|trim -%}#}
+                {#                {%- endif -%}#}
+                {#                {%- set experimental = 0 -%}#}
+                {#                {% if 'Experimental' in content %}#}
+                {#                    {%- set experimental = 1 -%}#}
+                {#                {% endif %}#}
                 {{- _self.dataset(
                     p.id ~ '#' ~ anchor,
                     p.title,
-                    title
+                    title,
+                    p.section|capitalize,
+                    p.path ~ '/#' ~ anchor
                 ) -}}
                 {%- if not loop.last %},{% endif ~%}
                 {%- set count = count + 1 -%}
             {%- endif -%}
         {%- endfor -%}
-        {%- if not loop.last and count > 0 %},{% endif ~%}
+                {%- if not loop.last and count > 0 %},{% endif ~%}
     {%- endif -%}
 {%- endfor ~%}
 ]

@@ -1,0 +1,79 @@
+[                                                                                                                                
+    {
+    "objectID": "enseignants/intro#connexion-via-l'urca",
+    "page": "Premiers pas",
+    "title": "Connexion via l'URCA",
+    "dossier": "Enseignants",
+    "href": "enseignants/intro#connexion-via-l'urca"
+                    },                                                                                                                                
+    {
+    "objectID": "enseignants/intro#connexion-via-l'intranet",
+    "page": "Premiers pas",
+    "title": "Connexion via l'intranet",
+    "dossier": "Enseignants",
+    "href": "enseignants/intro#connexion-via-l'intranet"
+                    }                                                                                                                                
+    {
+    "objectID": "etudiants/intro#connexion-via-l'urca",
+    "page": "Premiers pas",
+    "title": "Connexion via l'URCA",
+    "dossier": "Etudiants",
+    "href": "etudiants/intro#connexion-via-l'urca"
+                    }                                                                                                                                
+    {
+    "objectID": "enseignants/gestion_etudiants#appel-et-saisie-des-présents",
+    "page": "Gestion des étudiants",
+    "title": "Appel et saisie des présents",
+    "dossier": "Enseignants",
+    "href": "enseignants/gestion_etudiants#appel-et-saisie-des-présents"
+                    },                                                                                                                                
+    {
+    "objectID": "enseignants/gestion_etudiants#comment-saisir-ou-supprimer-une-absence-?",
+    "page": "Gestion des étudiants",
+    "title": "Comment saisir ou supprimer une absence ?",
+    "dossier": "Enseignants",
+    "href": "enseignants/gestion_etudiants#comment-saisir-ou-supprimer-une-absence-?"
+                    },                                                                                                                                
+    {
+    "objectID": "enseignants/gestion_etudiants#comment-saisir-une-note-?",
+    "page": "Gestion des étudiants",
+    "title": "Comment saisir une note ?",
+    "dossier": "Enseignants",
+    "href": "enseignants/gestion_etudiants#comment-saisir-une-note-?"
+                    },                                                                                                                                
+    {
+    "objectID": "enseignants/gestion_etudiants#accéder-à-la-liste-des-étudiants-que-vous-suivez",
+    "page": "Gestion des étudiants",
+    "title": "Accéder à la liste des étudiants que vous suivez",
+    "dossier": "Enseignants",
+    "href": "enseignants/gestion_etudiants#accéder-à-la-liste-des-étudiants-que-vous-suivez"
+                    },                                                                                                                                
+    {
+    "objectID": "enseignants/gestion_etudiants#editer-une-fiche-de-suivi-pour-un-étudiant-alternant",
+    "page": "Gestion des étudiants",
+    "title": "Editer une fiche de suivi pour un étudiant alternant",
+    "dossier": "Enseignants",
+    "href": "enseignants/gestion_etudiants#editer-une-fiche-de-suivi-pour-un-étudiant-alternant"
+                    }                                                                                                                                
+    {
+    "objectID": "etudiants/absences#accès-depuis-le-dashboard",
+    "page": "Gestion des absences",
+    "title": "Accès depuis le Dashboard",
+    "dossier": "Etudiants",
+    "href": "etudiants/absences#accès-depuis-le-dashboard"
+                    }                                                                                                                                
+    {
+    "objectID": "etudiants/notes#connexion-via-l'urca",
+    "page": "Consulter ses notes",
+    "title": "Connexion via l'URCA",
+    "dossier": "Etudiants",
+    "href": "etudiants/notes#connexion-via-l'urca"
+                    }                                                                                                                                
+    {
+    "objectID": "etudiants/rattrapage#connexion-via-l'urca",
+    "page": "Demande de rattrapage",
+    "title": "Connexion via l'URCA",
+    "dossier": "Etudiants",
+    "href": "etudiants/rattrapage#connexion-via-l'urca"
+                    }
+]
