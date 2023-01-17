@@ -1,6 +1,13 @@
 {% extends '_default/page.html.twig' %}
 {%- block content ~%}
     <div class="main_content">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/">Accueil</a></li>
+                <li class="breadcrumb-item"><a href="/{{ page.section }}">{{ page.section|capitalize }}</a></li>
+                <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+            </ol>
+        </nav>
         <main>
             <div class="toast align-items-center show" role="alert" aria-live="assertive" aria-atomic="true">
                 <div class="d-flex">
@@ -13,6 +20,9 @@
                             aria-label="Close"></button>
                 </div>
             </div>
+
+{#            todo: diviser en deux colonnes ? une colonne txt et une colonne screen d'illustration #}
+
             <h1>{{ page.title|e }}</h1>
 
             {{ page.content }}

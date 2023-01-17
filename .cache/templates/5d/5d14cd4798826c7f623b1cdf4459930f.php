@@ -56,7 +56,7 @@ class __TwigTemplate_230b27d226633357a7be5c2df7439fae extends Template
             }
             foreach ($context['_seq'] as $context["_key"] => $context["term"]) {
                 echo "
-      <li><a href=\"/";
+      <li class=\"subtitle\"><a href=\"/";
                 // line 3
                 echo twig_get_attribute($this->env, $this->source, (isset($context["page"]) || array_key_exists("page", $context) ? $context["page"] : (function () { throw new RuntimeError('Variable "page" does not exist.', 3, $this->source); })()), "path", [], "any", false, false, false, 3);
                 echo "/#";
@@ -80,6 +80,9 @@ class __TwigTemplate_230b27d226633357a7be5c2df7439fae extends Template
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['term'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
         }
+        // line 5
+        echo "
+";
         
         $__internal_2b03fcd95a85c4310cf548a70fb8bc2a->leave($__internal_2b03fcd95a85c4310cf548a70fb8bc2a_prof);
 
@@ -97,15 +100,16 @@ class __TwigTemplate_230b27d226633357a7be5c2df7439fae extends Template
 
     public function getDebugInfo()
     {
-        return array (  61 => 3,  42 => 2,  40 => 1,);
+        return array (  84 => 5,  61 => 3,  42 => 2,  40 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("{%- if attribute(page, vocabulary) is defined ~%}
   {%- for term in attribute(page, vocabulary) ~%}
-      <li><a href=\"/{{ page.path }}/#{{ term|slugify }}\">{{ term }}{% if not loop.last %} {% endif %}</a></li>
+      <li class=\"subtitle\"><a href=\"/{{ page.path }}/#{{ term|slugify }}\">{{ term }}{% if not loop.last %} {% endif %}</a></li>
   {%- endfor ~%}
-{%- endif ~%}", "partials/subtitles-list.html.twig", "/var/www/html/IntranetDocumentation/layouts/partials/subtitles-list.html.twig");
+{%- endif ~%}
+", "partials/subtitles-list.html.twig", "/var/www/html/IntranetDocumentation/layouts/partials/subtitles-list.html.twig");
     }
 }

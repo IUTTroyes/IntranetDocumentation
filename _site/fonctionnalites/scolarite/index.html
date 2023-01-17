@@ -7,7 +7,7 @@
         <meta name="theme-color" media="(prefers-color-scheme: light)" content="white"/>
         <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black"/>
     <title>les responsables de la scolarité &middot; Documentation de l&#039;Intranet des IUT</title>
-    <meta name="description" content="Site description" />
+    <meta name="description" content="" />
     <meta name="author" content="Arnaud Ligny" />
     <meta name="robots" content="index,follow" />
     <link rel="icon" sizes="32x32" href="http://localhost:8000/assets/thumbnails/32/favicon.c1af8a129a0cde81f9b94ffbf452e10b.png" type="image/png" />
@@ -28,7 +28,7 @@
     <meta property="og:site_name" content="Documentation de l'Intranet des IUT" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="les responsables de la scolarité &middot; Documentation de l&#039;Intranet des IUT" />
-    <meta property="og:description" content="Site description" />
+    <meta property="og:description" content="" />
     <meta property="og:url" content="http://localhost:8000/fonctionnalites/scolarite/" />
     <meta property="og:image" content="http://localhost:8000/logo.11de65a5e07ccdeff9ebb2e4acf11505.svg" />
     <meta property="og:image:type" content="image/svg+xml" />
@@ -36,12 +36,12 @@
     <meta property="og:image:height" content="0" />
     <meta property="og:image:alt" content="les responsables de la scolarité &middot; Documentation de l&#039;Intranet des IUT" />
     <meta name="twitter:title" content="les responsables de la scolarité &middot; Documentation de l&#039;Intranet des IUT" />
-    <meta name="twitter:description" content="Site description" />
+    <meta name="twitter:description" content="" />
     <meta name="twitter:card" content="summary" />
 
 
         <link rel="stylesheet" href="/bootstrap.min.339d8db63836978e6a52d0a501412b07.min.css" type="text/css"/>
-    <link rel="stylesheet" href="/styles/css/style.4ccb2d76ed19dd437d404a1e0e462137.min.css" type="text/css"/>
+    <link rel="stylesheet" href="/styles/css/style.669ceeeb0853d950d6a498caeecdbaa3.min.css" type="text/css"/>
     
         <style>/* source: https://github.com/xz/new.css/blob/80e7107b491b1062193331ae93ff3670c6a2398d/new.css */
 :root {
@@ -527,7 +527,7 @@ img {
         <script type="module" src="/script.65ca2904389cf65ae62c826bc0f8b465.min.js"></script>
         <script src="https://kit.fontawesome.com/c610cfb1f1.js" crossorigin="anonymous"></script>
     
-  <meta name="generator" content="Cecil 7.29.0" />
+  <meta name="generator" content="Cecil 7.28.3" />
 </head>
 <body>
 <header>
@@ -536,9 +536,34 @@ img {
         <h1>Documentation de l'Intranet des IUT</h1>
     </div>
 
-        
-    <div id="autocomplete">
-            </div>
+    
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-theme-classic"
+/>
+
+<div id="autocomplete"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-js"></script>
+<script>
+    const { autocomplete } = window['@algolia/autocomplete-js'];
+
+    // import '@algolia/autocomplete-theme-classic';
+    //nouvelle version avec la nouvelle version. N'affiche pas encore les réponses. A gérer dans le tableau.
+    autocomplete({
+        container: '#autocomplete',
+        placeholder: 'Search for products',
+        getSources() {
+            return [];
+        },
+    });
+</script>
+
+
+
+
+
+
       <nav>
         <ul>
           <li><a href="/">Accueil</a></li>
@@ -553,38 +578,48 @@ img {
     <aside>
         <h4>Enseignants</h4>
         <ul>
-                <li><a href="">Premiers pas</a></li>
+                <li><a href="/enseignants/intro">Premiers pas</a></li>
+                
+      <li class="subtitle"><a href="/enseignants/intro/#comment-se-connecter">Comment se connecter ? </a></li>
+      <li class="subtitle"><a href="/enseignants/intro/#connexion-via-l-urca">Connexion via l'URCA</a></li>
             
-                <li><a href="">Gestion des étudiants</a></li>
+                <li><a href="/enseignants/gestion_etudiants">Gestion des étudiants</a></li>
+                
+      <li class="subtitle"><a href="/enseignants/gestion_etudiants/#gestion-des-absences">Gestion des absences </a></li>
+      <li class="subtitle"><a href="/enseignants/gestion_etudiants/#gestion-des-notes">Gestion des notes </a></li>
+      <li class="subtitle"><a href="/enseignants/gestion_etudiants/#suivi-des-periodes-de-stage-et-d-alternance">Suivi des périodes de stage et d'alternance</a></li>
             
-                <li><a href="">Gestion du prévisionnel</a></li>
+                <li><a href="/enseignants/gestion_previsionnel">Gestion du prévisionnel</a></li>
+                
+      <li class="subtitle"><a href="/enseignants/gestion_previsionnel/#visualiser-son-previsionnel">Visualiser son prévisionnel </a></li>
+      <li class="subtitle"><a href="/enseignants/gestion_previsionnel/#comprendre-son-previsionnel">Comprendre son prévisionnel</a></li>
                     </ul>
         <hr>
         <h4>Etudiants</h4>
         <ul>
-                <li><a href="">Premiers pas</a></li>
+                <li><a href="/etudiants/intro">Premiers pas</a></li>
             
-                <li><a href="">Gestion des absences</a></li>
+                <li><a href="/etudiants/absences">Gestion des absences</a></li>
             
-                <li><a href="">Consulter ses notes</a></li>
+                <li><a href="/etudiants/notes">Consulter ses notes</a></li>
             
-                <li><a href="">Demande de rattrapage</a></li>
+                <li><a href="/etudiants/rattrapage">Demande de rattrapage</a></li>
                     </ul>
         <hr>
         <h4>Administration</h4>
         <ul>
-                <li><a href="">process</a></li>
+                <li><a href="/administration/process">process</a></li>
             
-                <li><a href="">Premiers pas</a></li>
+                <li><a href="/administration/intro">Premiers pas</a></li>
                     </ul>
         <hr>
         <h4>Direction de Dépt.</h4>
         <ul>
-                <li><a href="">Premiers pas</a></li>
+                <li><a href="/direction/intro">Premiers pas</a></li>
             
-                <li><a href="">Gestion des étudiants</a></li>
+                <li><a href="/direction/gestion_etudiants">Gestion des étudiants</a></li>
             
-                <li><a href="">Gestion des absences</a></li>
+                <li><a href="/direction/gestion_absences">Gestion des absences</a></li>
                     </ul>
     </aside>
             <ul>

@@ -1,0 +1,35 @@
+{
+  "data": [
+    {
+      "type": "fonctionnalites",
+      "id": "fonctionnalites/scolarite",
+      "attributes": {
+        "title": "\"les responsables de la scolarité\"",
+        "weight": 10,
+        "body": "\"- Récupération des fichiers de fin de semestre pour Apogée\\n\\n- Suivi des étudiants\\n\\n- Enquête diplômés DUT à 6 mois\\n\\n- Inscriptions pour la RDD\\n\\n- Gestion des changements de formation\\n\\n- Imports des étudiants par la scolarité\"",
+        "date": "\"2023-01-06T15:46:59+00:00\"",
+        "updated": "\"2023-01-06T15:46:59+00:00\""
+      }
+    },
+    {
+      "type": "fonctionnalites",
+      "id": "fonctionnalites/stage_responsable",
+      "attributes": {
+        "title": "\"les responsables des stages\"",
+        "weight": 3,
+        "body": "\"- Suivi des étudiants par période de stage\\n\\n- Edition automatisée des conventions et des courriers\\n\\n- Edition des plannings de soutenance et des courriers de convocation\\n\\n- Affectation d’un tuteur universitaire\\n\\n- Statistiques\\n\\n- Gestion des avenants\"",
+        "date": "\"2023-01-06T15:46:59+00:00\"",
+        "updated": "\"2023-01-06T15:46:59+00:00\""
+      }
+    }
+  ],
+  "meta": {
+    "totalPages": 22
+  },
+  "links": {
+    "self": "http://localhost:8000/page/5.json",
+    "first": "http://localhost:8000/index.json",
+    "prev": "http://localhost:8000/page/4.json",
+    "last": "http://localhost:8000/page/5.json"
+  }
+}

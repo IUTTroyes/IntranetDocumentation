@@ -70,53 +70,62 @@ class __TwigTemplate_f15022e4a1ebaeaf94b157f07b3ceda7 extends Template
 
         echo "
           <section>
+              <nav aria-label=\"breadcrumb\">
+                  <ol class=\"breadcrumb\">
+                      <li class=\"breadcrumb-item\"><a href=\"/\">Accueil</a></li>
+                      <li class=\"breadcrumb-item active\" aria-current=\"page\">";
+        // line 19
+        echo twig_get_attribute($this->env, $this->source, (isset($context["page"]) || array_key_exists("page", $context) ? $context["page"] : (function () { throw new RuntimeError('Variable "page" does not exist.', 19, $this->source); })()), "title", [], "any", false, false, false, 19);
+        echo "</li>
+                  </ol>
+              </nav>
               <h2>Espace ";
-        // line 16
-        echo twig_get_attribute($this->env, $this->source, (isset($context["page"]) || array_key_exists("page", $context) ? $context["page"] : (function () { throw new RuntimeError('Variable "page" does not exist.', 16, $this->source); })()), "title", [], "any", false, false, false, 16);
+        // line 22
+        echo twig_get_attribute($this->env, $this->source, (isset($context["page"]) || array_key_exists("page", $context) ? $context["page"] : (function () { throw new RuntimeError('Variable "page" does not exist.', 22, $this->source); })()), "title", [], "any", false, false, false, 22);
         echo "</h2>
               <div class=\"container\">";
-        // line 18
-        echo twig_get_attribute($this->env, $this->source, (isset($context["page"]) || array_key_exists("page", $context) ? $context["page"] : (function () { throw new RuntimeError('Variable "page" does not exist.', 18, $this->source); })()), "content", [], "any", false, false, false, 18);
-        // line 19
+        // line 24
+        echo twig_get_attribute($this->env, $this->source, (isset($context["page"]) || array_key_exists("page", $context) ? $context["page"] : (function () { throw new RuntimeError('Variable "page" does not exist.', 24, $this->source); })()), "content", [], "any", false, false, false, 24);
+        // line 25
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable($this->extensions['Cecil\Renderer\Extension\Core']->sortByWeight((isset($context["pages"]) || array_key_exists("pages", $context) ? $context["pages"] : (function () { throw new RuntimeError('Variable "pages" does not exist.', 19, $this->source); })())));
+        $context['_seq'] = twig_ensure_traversable($this->extensions['Cecil\Renderer\Extension\Core']->sortByWeight((isset($context["pages"]) || array_key_exists("pages", $context) ? $context["pages"] : (function () { throw new RuntimeError('Variable "pages" does not exist.', 25, $this->source); })())));
         foreach ($context['_seq'] as $context["_key"] => $context["p"]) {
             echo "
                       <article>
                           <h3>";
-            // line 21
-            echo twig_get_attribute($this->env, $this->source, $context["p"], "title", [], "any", false, false, false, 21);
+            // line 27
+            echo twig_get_attribute($this->env, $this->source, $context["p"], "title", [], "any", false, false, false, 27);
             echo "</h3>
                           <ul>
                               ";
-            // line 23
-            $this->loadTemplate("partials/subtitles-list.html.twig", "_default/list.html.twig", 23)->display(twig_to_array(["page" => $context["p"], "vocabulary" => "subtitles"]));
-            // line 24
+            // line 29
+            $this->loadTemplate("partials/subtitles-list.html.twig", "_default/list.html.twig", 29)->display(twig_to_array(["page" => $context["p"], "vocabulary" => "subtitles"]));
+            // line 30
             echo "                          </ul>
                       </article>";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['p'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 26
+        // line 32
         echo "
               </div>
 
               ";
-        // line 30
+        // line 36
         echo "              <footer>";
-        // line 31
+        // line 37
         ob_start();
-        // line 32
+        // line 38
         echo "<a href=\"";
-        echo twig_get_attribute($this->env, $this->source, (isset($context["cecil"]) || array_key_exists("cecil", $context) ? $context["cecil"] : (function () { throw new RuntimeError('Variable "cecil" does not exist.', 32, $this->source); })()), "url", [], "any", false, false, false, 32);
+        echo twig_get_attribute($this->env, $this->source, (isset($context["cecil"]) || array_key_exists("cecil", $context) ? $context["cecil"] : (function () { throw new RuntimeError('Variable "cecil" does not exist.', 38, $this->source); })()), "url", [], "any", false, false, false, 38);
         echo "\">Cecil</a> &amp; <a href=\"https://newcss.net\">new.css</a>";
         $context["powered_by"] = ('' === $tmp = ob_get_clean()) ? '' : new Markup($tmp, $this->env->getCharset());
-        // line 33
+        // line 39
         echo "
                   <small>";
-        // line 34
-        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("Powered by %powered_by%", ["%powered_by%" => (isset($context["powered_by"]) || array_key_exists("powered_by", $context) ? $context["powered_by"] : (function () { throw new RuntimeError('Variable "powered_by" does not exist.', 34, $this->source); })())], "messages");
+        // line 40
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("Powered by %powered_by%", ["%powered_by%" => (isset($context["powered_by"]) || array_key_exists("powered_by", $context) ? $context["powered_by"] : (function () { throw new RuntimeError('Variable "powered_by" does not exist.', 40, $this->source); })())], "messages");
         echo "</small>
               </footer>
           </section>";
@@ -137,7 +146,7 @@ class __TwigTemplate_f15022e4a1ebaeaf94b157f07b3ceda7 extends Template
 
     public function getDebugInfo()
     {
-        return array (  119 => 34,  116 => 33,  111 => 32,  109 => 31,  107 => 30,  102 => 26,  95 => 24,  93 => 23,  88 => 21,  81 => 19,  79 => 18,  75 => 16,  65 => 14,  57 => 12,  54 => 9,  52 => 8,  49 => 5,  47 => 4,  45 => 2,  35 => 12,);
+        return array (  128 => 40,  125 => 39,  120 => 38,  118 => 37,  116 => 36,  111 => 32,  104 => 30,  102 => 29,  97 => 27,  90 => 25,  88 => 24,  84 => 22,  78 => 19,  65 => 14,  57 => 12,  54 => 9,  52 => 8,  49 => 5,  47 => 4,  45 => 2,  35 => 12,);
     }
 
     public function getSourceContext()
@@ -157,6 +166,12 @@ class __TwigTemplate_f15022e4a1ebaeaf94b157f07b3ceda7 extends Template
 
       {%- block content ~%}
           <section>
+              <nav aria-label=\"breadcrumb\">
+                  <ol class=\"breadcrumb\">
+                      <li class=\"breadcrumb-item\"><a href=\"/\">Accueil</a></li>
+                      <li class=\"breadcrumb-item active\" aria-current=\"page\">{{ page.title }}</li>
+                  </ol>
+              </nav>
               <h2>Espace {{ page.title }}</h2>
               <div class=\"container\">
                   {{- page.content ~}}
@@ -178,6 +193,7 @@ class __TwigTemplate_f15022e4a1ebaeaf94b157f07b3ceda7 extends Template
                   <small>{% trans %}Powered by %powered_by%{% endtrans %}</small>
               </footer>
           </section>
-      {%- endblock content ~%}", "_default/list.html.twig", "/var/www/html/IntranetDocumentation/layouts/_default/list.html.twig");
+      {%- endblock content ~%}
+", "_default/list.html.twig", "/var/www/html/IntranetDocumentation/layouts/_default/list.html.twig");
     }
 }

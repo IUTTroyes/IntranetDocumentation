@@ -41,7 +41,8 @@ body {
 
       img {
         box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
-        margin: 50px 0;
+        margin: 50px auto;
+        //width:80%;
       }
 
       p {
@@ -161,7 +162,6 @@ body {
           width: 30%;
 
           @include lk-list;
-
         }
       }
     }
@@ -182,6 +182,7 @@ aside {
 
   h4 {
     font-size: 18px;
+    margin-bottom: 10px;
   }
 
   ul {
@@ -193,8 +194,21 @@ aside {
 
       a {
         text-decoration: none;
-        color: var(--nc-miniLink);
         font-weight: 500;
+
+        &:hover {
+          color: var(--nc-ac-1);
+        }
+      }
+    }
+
+    .subtitle {
+      font-size: 15px;
+
+      a {
+        text-decoration: none;
+        color: var(--nc-miniLink);
+        font-weight: 400;
 
         &:hover {
           color: var(--nc-ac-1);

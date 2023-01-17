@@ -7,7 +7,7 @@
         <meta name="theme-color" media="(prefers-color-scheme: light)" content="white"/>
         <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black"/>
     <title>Accueil &middot; Page 3 &middot; Documentation de l&#039;Intranet des IUT</title>
-    <meta name="description" content="Site description" />
+    <meta name="description" content="" />
     <meta name="author" content="Arnaud Ligny" />
     <meta name="robots" content="noindex,follow" />
     <link rel="icon" sizes="32x32" href="http://localhost:8000/assets/thumbnails/32/favicon.c1af8a129a0cde81f9b94ffbf452e10b.png" type="image/png" />
@@ -27,13 +27,15 @@
     <link rel="last" href="http://localhost:8000/page/5/" />
     <link rel="canonical" type="text/html" title="Accueil &middot; Page 3 &middot; Documentation de l&#039;Intranet des IUT" href="http://localhost:8000/page/3/" />
     <link rel="alternate" type="application/atom+xml" title="Accueil &middot; Page 3 &middot; Documentation de l&#039;Intranet des IUT (ATOM)" href="http://localhost:8000/page/3/atom.xml" />
+    <link rel="alternate" type="application/json" title="Accueil &middot; Page 3 &middot; Documentation de l&#039;Intranet des IUT (ALGOLIA)" href="http://localhost:8000/page/3/algolia.json" />
+    <link rel="alternate" type="application/json" title="Accueil &middot; Page 3 &middot; Documentation de l&#039;Intranet des IUT (JSON)" href="http://localhost:8000/page/3.json" />
     <link rel="alternate" hreflang="en" href="http://localhost:8000/">
     <link rel="alternate" hreflang="x-default" href="http://localhost:8000/page/3/">
     <meta property="og:locale" content="en_US" />
     <meta property="og:site_name" content="Documentation de l'Intranet des IUT" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Accueil &middot; Page 3 &middot; Documentation de l&#039;Intranet des IUT" />
-    <meta property="og:description" content="Site description" />
+    <meta property="og:description" content="" />
     <meta property="og:url" content="http://localhost:8000/page/3/" />
     <meta property="og:image" content="http://localhost:8000/logo.11de65a5e07ccdeff9ebb2e4acf11505.svg" />
     <meta property="og:image:type" content="image/svg+xml" />
@@ -41,12 +43,12 @@
     <meta property="og:image:height" content="0" />
     <meta property="og:image:alt" content="Accueil &middot; Page 3 &middot; Documentation de l&#039;Intranet des IUT" />
     <meta name="twitter:title" content="Accueil &middot; Page 3 &middot; Documentation de l&#039;Intranet des IUT" />
-    <meta name="twitter:description" content="Site description" />
+    <meta name="twitter:description" content="" />
     <meta name="twitter:card" content="summary" />
 
 
         <link rel="stylesheet" href="/bootstrap.min.339d8db63836978e6a52d0a501412b07.min.css" type="text/css"/>
-    <link rel="stylesheet" href="/styles/css/style.4ccb2d76ed19dd437d404a1e0e462137.min.css" type="text/css"/>
+    <link rel="stylesheet" href="/styles/css/style.669ceeeb0853d950d6a498caeecdbaa3.min.css" type="text/css"/>
     
         <style>/* source: https://github.com/xz/new.css/blob/80e7107b491b1062193331ae93ff3670c6a2398d/new.css */
 :root {
@@ -532,7 +534,7 @@ img {
         <script type="module" src="/script.65ca2904389cf65ae62c826bc0f8b465.min.js"></script>
         <script src="https://kit.fontawesome.com/c610cfb1f1.js" crossorigin="anonymous"></script>
     
-  <meta name="generator" content="Cecil 7.29.0" />
+  <meta name="generator" content="Cecil 7.28.3" />
 </head>
 <body>
 <header>
@@ -541,9 +543,34 @@ img {
         <h1>Documentation de l'Intranet des IUT</h1>
     </div>
 
-        
-    <div id="autocomplete">
-            </div>
+    
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-theme-classic"
+/>
+
+<div id="autocomplete"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-js"></script>
+<script>
+    const { autocomplete } = window['@algolia/autocomplete-js'];
+
+    // import '@algolia/autocomplete-theme-classic';
+    //nouvelle version avec la nouvelle version. N'affiche pas encore les réponses. A gérer dans le tableau.
+    autocomplete({
+        container: '#autocomplete',
+        placeholder: 'Search for products',
+        getSources() {
+            return [];
+        },
+    });
+</script>
+
+
+
+
+
+
       <nav>
         <ul>
           <li><a href="/">Accueil</a></li>
@@ -558,38 +585,48 @@ img {
     <aside>
         <h4>Enseignants</h4>
         <ul>
-                <li><a href="">Premiers pas</a></li>
+                <li><a href="/enseignants/intro">Premiers pas</a></li>
+                
+      <li class="subtitle"><a href="/enseignants/intro/#comment-se-connecter">Comment se connecter ? </a></li>
+      <li class="subtitle"><a href="/enseignants/intro/#connexion-via-l-urca">Connexion via l'URCA</a></li>
             
-                <li><a href="">Gestion des étudiants</a></li>
+                <li><a href="/enseignants/gestion_etudiants">Gestion des étudiants</a></li>
+                
+      <li class="subtitle"><a href="/enseignants/gestion_etudiants/#gestion-des-absences">Gestion des absences </a></li>
+      <li class="subtitle"><a href="/enseignants/gestion_etudiants/#gestion-des-notes">Gestion des notes </a></li>
+      <li class="subtitle"><a href="/enseignants/gestion_etudiants/#suivi-des-periodes-de-stage-et-d-alternance">Suivi des périodes de stage et d'alternance</a></li>
             
-                <li><a href="">Gestion du prévisionnel</a></li>
+                <li><a href="/enseignants/gestion_previsionnel">Gestion du prévisionnel</a></li>
+                
+      <li class="subtitle"><a href="/enseignants/gestion_previsionnel/#visualiser-son-previsionnel">Visualiser son prévisionnel </a></li>
+      <li class="subtitle"><a href="/enseignants/gestion_previsionnel/#comprendre-son-previsionnel">Comprendre son prévisionnel</a></li>
                     </ul>
         <hr>
         <h4>Etudiants</h4>
         <ul>
-                <li><a href="">Premiers pas</a></li>
+                <li><a href="/etudiants/intro">Premiers pas</a></li>
             
-                <li><a href="">Gestion des absences</a></li>
+                <li><a href="/etudiants/absences">Gestion des absences</a></li>
             
-                <li><a href="">Consulter ses notes</a></li>
+                <li><a href="/etudiants/notes">Consulter ses notes</a></li>
             
-                <li><a href="">Demande de rattrapage</a></li>
+                <li><a href="/etudiants/rattrapage">Demande de rattrapage</a></li>
                     </ul>
         <hr>
         <h4>Administration</h4>
         <ul>
-                <li><a href="">process</a></li>
+                <li><a href="/administration/process">process</a></li>
             
-                <li><a href="">Premiers pas</a></li>
+                <li><a href="/administration/intro">Premiers pas</a></li>
                     </ul>
         <hr>
         <h4>Direction de Dépt.</h4>
         <ul>
-                <li><a href="">Premiers pas</a></li>
+                <li><a href="/direction/intro">Premiers pas</a></li>
             
-                <li><a href="">Gestion des étudiants</a></li>
+                <li><a href="/direction/gestion_etudiants">Gestion des étudiants</a></li>
             
-                <li><a href="">Gestion des absences</a></li>
+                <li><a href="/direction/gestion_absences">Gestion des absences</a></li>
                     </ul>
     </aside>
         <div class="main_content">
@@ -613,44 +650,44 @@ img {
                         <i class="fa-solid fa-graduation-cap fa-xl"></i>
                         <h5>Etudiants</h5>
                         <ul>
-                                <li><a href="">Premiers pas</a></li>
+                                <li><a href="/etudiants/intro">Premiers pas</a></li>
                             
-                                <li><a href="">Gestion des absences</a></li>
+                                <li><a href="/etudiants/absences">Gestion des absences</a></li>
                             
-                                <li><a href="">Consulter ses notes</a></li>
+                                <li><a href="/etudiants/notes">Consulter ses notes</a></li>
                             
-                                <li><a href="">Demande de rattrapage</a></li>
+                                <li><a href="/etudiants/rattrapage">Demande de rattrapage</a></li>
                                                     </ul>
                     </div>
                     <div>
                         <i class="fa-solid fa-chalkboard-user fa-xl"></i>
                         <h5>Enseignants</h5>
                         <ul>
-                                <li><a href="">Premiers pas</a></li>
+                                <li><a href="/enseignants/intro">Premiers pas</a></li>
                             
-                                <li><a href="">Gestion des étudiants</a></li>
+                                <li><a href="/enseignants/gestion_etudiants">Gestion des étudiants</a></li>
                             
-                                <li><a href="">Gestion du prévisionnel</a></li>
+                                <li><a href="/enseignants/gestion_previsionnel">Gestion du prévisionnel</a></li>
                                                     </ul>
                     </div>
                     <div>
                         <i class="fa-solid fa-users fa-xl"></i>
                         <h5>Administration</h5>
                         <ul>
-                                <li><a href="">process</a></li>
+                                <li><a href="/administration/process">process</a></li>
                             
-                                <li><a href="">Premiers pas</a></li>
+                                <li><a href="/administration/intro">Premiers pas</a></li>
                                                     </ul>
                     </div>
                     <div>
                         <i class="fa-solid fa-gears fa-xl"></i>
                         <h5>Direction de Dept.</h5>
                         <ul>
-                                <li><a href="">Premiers pas</a></li>
+                                <li><a href="/direction/intro">Premiers pas</a></li>
                             
-                                <li><a href="">Gestion des étudiants</a></li>
+                                <li><a href="/direction/gestion_etudiants">Gestion des étudiants</a></li>
                             
-                                <li><a href="">Gestion des absences</a></li>
+                                <li><a href="/direction/gestion_absences">Gestion des absences</a></li>
                                                     </ul>
                     </div>
                 </div>
@@ -659,8 +696,8 @@ img {
 
                 <h2 id="présentation-de-l-intranet">Présentation de l'Intranet</h2>
 <p>L'Intranet est un réseau informatique interne privé appartenant à une entité organisationnelle. Le concept de cet Intranet est de pouvoir accéder à une multitude d'informations et de contenus propres à chaque étudiant comme la visualisation de ces notes, de ces absences ou de son emploi du temps par exemple. D'autre part, cet Intranet permet aux professeurs d'intégrer ses différentes ressources aisément.</p>
-<p>Cet intranet est spécialisé dans la gestion de formation universitaire de type DUT, B.U.T ou Licences professionnelles, et très prochainement (rentrée 2021) de type B.U.T. (Bachelor Universitaire de Technologie).</p>
-<p>Les améliorations sont régulières, tout comme les ajustements et les correctifs. Toutes les informations sont dans le <a href="https://github.com/Dannebicque/intranetV3/blob/main/CHANGELOG.md">changelog</a>.</p>
+<p>Cet intranet est spécialisé dans la gestion de formation universitaire de type D.U.T, B.U.T ou Licences professionnelles.</p>
+<p>Les améliorations sont régulières, tout comme les ajustements et les correctifs. Toutes les informations sont dans le <a href="https://github.com/Dannebicque/intranetV3/blob/main/CHANGELOG.md" :target="_blank">changelog</a>.</p>
 
                 <h2>Fonctionnalités</h2>
                 <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -1065,7 +1102,7 @@ img {
                 </div>
 
                 <footer>
-                    <small>Powered by <a href="https://cecil.app/#7.29.0">Cecil</a> &amp; <a href="https://newcss.net">new.css</a></small>
+                    <small>Powered by <a href="https://cecil.app/#7.28.3">Cecil</a> &amp; <a href="https://newcss.net">new.css</a></small>
                 </footer>
             </main>
 

@@ -77,11 +77,8 @@
         <input class="form-control me-2" type="search" placeholder="Recherche dans la documentation" aria-label="Search">
         <button class="btn btn-outline-primary" type="submit">Rechercher</button>
     </form> #}
-    
-    <div id="autocomplete">
-        {# <input type="search">
-        <button class="btn btn-outline-primary" type="submit">Rechercher</button> #}
-    </div>
+
+    {{ include('partials/algolia.html.twig') }}
 
     {%- include 'partials/navigation.html.twig' with {'menu': site.menus.main} only ~%}
 </header>
@@ -89,25 +86,26 @@
     <aside>
         <h4>Enseignants</h4>
         <ul>{%- for themes in site.pages|filter_by('section', 'enseignants')|sort_by_weight ~%}
-                <li><a href="">{{ themes.title }}</a></li>
+                <li><a href="/{{ themes.path }}">{{ themes.title }}</a></li>
+                {% include 'partials/subtitles-list.html.twig' with {'page': themes, 'vocabulary': 'subtitles'} only %}
             {% endfor %}
         </ul>
         <hr>
         <h4>Etudiants</h4>
         <ul>{%- for themes in site.pages|filter_by('section', 'etudiants')|sort_by_weight ~%}
-                <li><a href="">{{ themes.title }}</a></li>
+                <li><a href="/{{ themes.path }}">{{ themes.title }}</a></li>
             {% endfor %}
         </ul>
         <hr>
         <h4>Administration</h4>
         <ul>{%- for themes in site.pages|filter_by('section', 'administration')|sort_by_weight ~%}
-                <li><a href="">{{ themes.title }}</a></li>
+                <li><a href="/{{ themes.path }}">{{ themes.title }}</a></li>
             {% endfor %}
         </ul>
         <hr>
         <h4>Direction de Dépt.</h4>
         <ul>{%- for themes in site.pages|filter_by('section', 'direction')|sort_by_weight ~%}
-                <li><a href="">{{ themes.title }}</a></li>
+                <li><a href="/{{ themes.path }}">{{ themes.title }}</a></li>
             {% endfor %}
         </ul>
     </aside>

@@ -34,7 +34,7 @@ body .body_content .main_content {
 }
 body .body_content .main_content img {
   box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
-  margin: 50px 0;
+  margin: 50px auto;
 }
 body .body_content .main_content p {
   font-weight: 300;
@@ -181,6 +181,7 @@ aside hr {
 }
 aside h4 {
   font-size: 18px;
+  margin-bottom: 10px;
 }
 aside ul {
   padding-left: 10px;
@@ -191,10 +192,20 @@ aside ul li {
 }
 aside ul li a {
   text-decoration: none;
-  color: var(--nc-miniLink);
   font-weight: 500;
 }
 aside ul li a:hover {
+  color: var(--nc-ac-1);
+}
+aside ul .subtitle {
+  font-size: 15px;
+}
+aside ul .subtitle a {
+  text-decoration: none;
+  color: var(--nc-miniLink);
+  font-weight: 400;
+}
+aside ul .subtitle a:hover {
   color: var(--nc-ac-1);
 }
 

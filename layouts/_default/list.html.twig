@@ -13,6 +13,12 @@
 
       {%- block content ~%}
           <section>
+              <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="/">Accueil</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+                  </ol>
+              </nav>
               <h2>Espace {{ page.title }}</h2>
               <div class="container">
                   {{- page.content ~}}

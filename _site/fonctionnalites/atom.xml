@@ -3,10 +3,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>http://localhost:8000/fonctionnalites/</id>
   <title>Documentation de l&#039;Intranet des IUT - Fonctionnalites</title>
-  <subtitle><![CDATA[Site description]]></subtitle>
+  <subtitle><![CDATA[]]></subtitle>
   <link href="http://localhost:8000/fonctionnalites/atom.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:8000/fonctionnalites/" rel="alternate" type="text/html" />
-  <updated>2023-01-15T12:08:34+00:00</updated>
+  <updated>2023-01-06T15:46:59+00:00</updated>
   <author>
     <name>Arnaud Ligny</name>
     <uri>https://arnaudligny.fr</uri>
@@ -34,8 +34,8 @@
 </ul>]]>
     </content>
     <link href="http://localhost:8000/fonctionnalites/absences_responsable/" rel="alternate" type="text/html" />
-    <published>2023-01-15T12:08:34+00:00</published>
-    <updated>2023-01-15T12:08:34+00:00</updated>
+    <published>2023-01-06T15:46:59+00:00</published>
+    <updated>2023-01-06T15:46:59+00:00</updated>
   </entry>
   <entry xml:lang="en">
     <id>http://localhost:8000/fonctionnalites/dept_direction/</id>
@@ -96,8 +96,8 @@
 </ul>]]>
     </content>
     <link href="http://localhost:8000/fonctionnalites/dept_direction/" rel="alternate" type="text/html" />
-    <published>2023-01-15T12:08:34+00:00</published>
-    <updated>2023-01-15T12:08:34+00:00</updated>
+    <published>2023-01-06T15:46:59+00:00</published>
+    <updated>2023-01-06T15:46:59+00:00</updated>
   </entry>
   <entry xml:lang="en">
     <id>http://localhost:8000/fonctionnalites/enseignants/</id>
@@ -137,8 +137,8 @@
 </ul>]]>
     </content>
     <link href="http://localhost:8000/fonctionnalites/enseignants/" rel="alternate" type="text/html" />
-    <published>2023-01-15T12:08:34+00:00</published>
-    <updated>2023-01-15T12:08:34+00:00</updated>
+    <published>2023-01-06T15:46:59+00:00</published>
+    <updated>2023-01-06T15:46:59+00:00</updated>
   </entry>
   <entry xml:lang="en">
     <id>http://localhost:8000/fonctionnalites/etudiants/</id>
@@ -214,8 +214,8 @@
 </ul>]]>
     </content>
     <link href="http://localhost:8000/fonctionnalites/etudiants/" rel="alternate" type="text/html" />
-    <published>2023-01-15T12:08:34+00:00</published>
-    <updated>2023-01-15T12:08:34+00:00</updated>
+    <published>2023-01-06T15:46:59+00:00</published>
+    <updated>2023-01-06T15:46:59+00:00</updated>
   </entry>
   <entry xml:lang="en">
     <id>http://localhost:8000/fonctionnalites/notes_responsable/</id>
@@ -237,8 +237,8 @@
 </ul>]]>
     </content>
     <link href="http://localhost:8000/fonctionnalites/notes_responsable/" rel="alternate" type="text/html" />
-    <published>2023-01-15T12:08:34+00:00</published>
-    <updated>2023-01-15T12:08:34+00:00</updated>
+    <published>2023-01-06T15:46:59+00:00</published>
+    <updated>2023-01-06T15:46:59+00:00</updated>
   </entry>
   <entry xml:lang="en">
     <id>http://localhost:8000/fonctionnalites/ptut_responsable/</id>
@@ -254,8 +254,8 @@
 </ul>]]>
     </content>
     <link href="http://localhost:8000/fonctionnalites/ptut_responsable/" rel="alternate" type="text/html" />
-    <published>2023-01-15T12:08:34+00:00</published>
-    <updated>2023-01-15T12:08:34+00:00</updated>
+    <published>2023-01-06T15:46:59+00:00</published>
+    <updated>2023-01-06T15:46:59+00:00</updated>
   </entry>
   <entry xml:lang="en">
     <id>http://localhost:8000/fonctionnalites/qualite/</id>
@@ -271,8 +271,8 @@
 </ul>]]>
     </content>
     <link href="http://localhost:8000/fonctionnalites/qualite/" rel="alternate" type="text/html" />
-    <published>2023-01-15T12:08:34+00:00</published>
-    <updated>2023-01-15T12:08:34+00:00</updated>
+    <published>2023-01-06T15:46:59+00:00</published>
+    <updated>2023-01-06T15:46:59+00:00</updated>
   </entry>
   <entry xml:lang="en">
     <id>http://localhost:8000/fonctionnalites/rel_internationales/</id>
@@ -288,8 +288,8 @@
 </ul>]]>
     </content>
     <link href="http://localhost:8000/fonctionnalites/rel_internationales/" rel="alternate" type="text/html" />
-    <published>2023-01-15T12:08:34+00:00</published>
-    <updated>2023-01-15T12:08:34+00:00</updated>
+    <published>2023-01-06T15:46:59+00:00</published>
+    <updated>2023-01-06T15:46:59+00:00</updated>
   </entry>
   <entry xml:lang="en">
     <id>http://localhost:8000/fonctionnalites/scolarite/</id>
@@ -317,8 +317,8 @@
 </ul>]]>
     </content>
     <link href="http://localhost:8000/fonctionnalites/scolarite/" rel="alternate" type="text/html" />
-    <published>2023-01-15T12:08:34+00:00</published>
-    <updated>2023-01-15T12:08:34+00:00</updated>
+    <published>2023-01-06T15:46:59+00:00</published>
+    <updated>2023-01-06T15:46:59+00:00</updated>
   </entry>
   <entry xml:lang="en">
     <id>http://localhost:8000/fonctionnalites/stage_responsable/</id>
@@ -346,7 +346,7 @@
 </ul>]]>
     </content>
     <link href="http://localhost:8000/fonctionnalites/stage_responsable/" rel="alternate" type="text/html" />
-    <published>2023-01-15T12:08:34+00:00</published>
-    <updated>2023-01-15T12:08:34+00:00</updated>
+    <published>2023-01-06T15:46:59+00:00</published>
+    <updated>2023-01-06T15:46:59+00:00</updated>
   </entry>
 </feed>

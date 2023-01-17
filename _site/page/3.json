@@ -1,0 +1,73 @@
+{
+  "data": [
+    {
+      "type": "etudiants",
+      "id": "etudiants/notes",
+      "attributes": {
+        "title": "\"Consulter ses notes\"",
+        "weight": 3,
+        "categories": ["les étudiants"],
+        "subtitles": ["sub1","sub2"],
+        "body": "\"## Comment se connecter ?\\r\\n\\r\\n### Connexion via l&#039;URCA\\r\\n\\r\\nMuni de votre identifiant et de votre mot de passe (fournis par votre IUT), inscrivez votre identifiant dans le champ nommé &quot;Login&quot; et votre mot de passe dans le champ nommé &quot;Mot de passe&quot;.\"",
+        "date": "\"2023-01-06T15:46:59+00:00\"",
+        "updated": "\"2023-01-06T15:46:59+00:00\""
+      }
+    },
+    {
+      "type": "etudiants",
+      "id": "etudiants/rattrapage",
+      "attributes": {
+        "title": "\"Demande de rattrapage\"",
+        "weight": 4,
+        "categories": ["étudiants"],
+        "subtitles": ["sub1","sub2"],
+        "body": "\"## Comment se connecter ?\\r\\n\\r\\n### Connexion via l&#039;URCA\\r\\n\\r\\nMuni de votre identifiant et de votre mot de passe (fournis par votre IUT), inscrivez votre identifiant dans le champ nommé &quot;Login&quot; et votre mot de passe dans le champ nommé &quot;Mot de passe&quot;.\"",
+        "date": "\"2023-01-06T15:46:59+00:00\"",
+        "updated": "\"2023-01-06T15:46:59+00:00\""
+      }
+    },
+    {
+      "type": "fonctionnalites",
+      "id": "fonctionnalites/absences_responsable",
+      "attributes": {
+        "title": "\"les responsables des absences\"",
+        "weight": 6,
+        "body": "\"- Suivi des absences\\n\\n- Justifications\\n\\n- Suivi des justificatifs d&#039;absences\\n\\n- Rattrapages\\n\\n- Commission des absences\"",
+        "date": "\"2023-01-06T15:46:59+00:00\"",
+        "updated": "\"2023-01-06T15:46:59+00:00\""
+      }
+    },
+    {
+      "type": "fonctionnalites",
+      "id": "fonctionnalites/dept_direction",
+      "attributes": {
+        "title": "\"la direction du département\"",
+        "weight": 5,
+        "body": "\"- Suivi des étudiants, de leurs notes et de leurs absences Optimisation V3\\n\\n- Possibilité de justifier des absences (une à une)\\n\\n- Possibilité de justifier des absences par lot Nouveauté V3\\n\\n- Gestion des commissions des absences (convocation des étudiants, mailings, planning) Optimisation V3\\n\\n- Gestion des notes et des sous-commissions (calculs des moyennes, proposition de décision)\\n\\n- Possibilité d’ajuster toutes les informations Optimisation V3\\n\\n- Publication des sous-commissions aux étudiants Optimisation V3\\n\\n- Exports pour les fichiers de grand jury\\n\\n- Exports Apogée\\n\\n- Gestion des documents, des dates importantes Optimisation V3\\n\\n- Gestion des prévisionnels (exports/imports OMEGA)\\n\\n- Suivi de cohorte\\n\\n- Edition de documents pour les examens (placements, appels)\\n\\n- Configuration de la formation, des groupes, de l’intranet (règles spécifiques : par département, par diplôme, par année) Optimisation V3\\n\\n- Outils de comparaison EDT/service prévisionnel Optimisation V3\\n\\n- Les scolarités sont sauvegardées à partir de 2020, et possibilité de revenir sur une année antérieure.\\n\\n- Export d&#039;un document de situation (bilan de semestre ou de formation) pour les étudiants : avis de poursuite d&#039;études\"",
+        "date": "\"2023-01-06T15:46:59+00:00\"",
+        "updated": "\"2023-01-06T15:46:59+00:00\""
+      }
+    },
+    {
+      "type": "fonctionnalites",
+      "id": "fonctionnalites/enseignants",
+      "attributes": {
+        "title": "\"les enseignants et intervenants\"",
+        "weight": 2,
+        "body": "\"- Suivi des étudiants (profil, trombinoscope)\\n\\n- Saisie des notes et absences\\n\\n- Graphique de répartition des notes sur une évaluation.\\n\\n- Visualisation du service prévisionnel\\n\\n- Sollicitation des étudiants pour un quizz/sondage\\n\\n- Messagerie vers les étudiants (par promo, groupe ou individuel), mail officiel, mail perso si disponible et message interne de l’intranet\\n\\n- Liste des étudiants à suivre en stage\\n\\n- Formulaire de suivi d’alternance\\n\\n- Historique des absences et des notes des étudiants\\n\\n- Outils de recherche\"",
+        "date": "\"2023-01-06T15:46:59+00:00\"",
+        "updated": "\"2023-01-06T15:46:59+00:00\""
+      }
+    }
+  ],
+  "meta": {
+    "totalPages": 22
+  },
+  "links": {
+    "self": "http://localhost:8000/page/3.json",
+    "first": "http://localhost:8000/index.json",
+    "prev": "http://localhost:8000/page/2.json",
+    "next": "http://localhost:8000/page/4.json",
+    "last": "http://localhost:8000/page/5.json"
+  }
+}

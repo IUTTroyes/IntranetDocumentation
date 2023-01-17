@@ -3,10 +3,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>http://localhost:8000/categories/etudiants/</id>
   <title>Documentation de l&#039;Intranet des IUT - étudiants</title>
-  <subtitle><![CDATA[Site description]]></subtitle>
+  <subtitle><![CDATA[]]></subtitle>
   <link href="http://localhost:8000/categories/etudiants/atom.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:8000/categories/etudiants/" rel="alternate" type="text/html" />
-  <updated>2023-01-15T12:08:34+00:00</updated>
+  <updated>2023-01-06T15:46:59+00:00</updated>
   <author>
     <name>Arnaud Ligny</name>
     <uri>https://arnaudligny.fr</uri>
@@ -20,8 +20,8 @@
 <p>Muni de votre identifiant et de votre mot de passe (fournis par votre IUT), inscrivez votre identifiant dans le champ nommé &quot;Login&quot; et votre mot de passe dans le champ nommé &quot;Mot de passe&quot;.</p>]]>
     </content>
     <link href="http://localhost:8000/etudiants/intro/" rel="alternate" type="text/html" />
-    <published>2023-01-15T12:08:34+00:00</published>
-    <updated>2023-01-15T12:08:34+00:00</updated>
+    <published>2023-01-06T15:46:59+00:00</published>
+    <updated>2023-01-06T15:46:59+00:00</updated>
   </entry>
   <entry xml:lang="en">
     <id>http://localhost:8000/etudiants/rattrapage/</id>
@@ -32,7 +32,7 @@
 <p>Muni de votre identifiant et de votre mot de passe (fournis par votre IUT), inscrivez votre identifiant dans le champ nommé &quot;Login&quot; et votre mot de passe dans le champ nommé &quot;Mot de passe&quot;.</p>]]>
     </content>
     <link href="http://localhost:8000/etudiants/rattrapage/" rel="alternate" type="text/html" />
-    <published>2023-01-15T12:08:34+00:00</published>
-    <updated>2023-01-15T12:08:34+00:00</updated>
+    <published>2023-01-06T15:46:59+00:00</published>
+    <updated>2023-01-06T15:46:59+00:00</updated>
   </entry>
 </feed>

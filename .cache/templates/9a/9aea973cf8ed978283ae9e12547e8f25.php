@@ -76,8 +76,10 @@ class __TwigTemplate_0afb1d10af7f29a1b1946fc0edb2227d extends Template
         $context['_seq'] = twig_ensure_traversable($this->extensions['Cecil\Renderer\Extension\Core']->sortByWeight($this->extensions['Cecil\Renderer\Extension\Core']->filterBy(twig_get_attribute($this->env, $this->source, (isset($context["site"]) || array_key_exists("site", $context) ? $context["site"] : (function () { throw new RuntimeError('Variable "site" does not exist.', 27, $this->source); })()), "pages", [], "any", false, false, false, 27), "section", "etudiants")));
         foreach ($context['_seq'] as $context["_key"] => $context["themes"]) {
             echo "
-                                <li><a href=\"\">";
+                                <li><a href=\"/";
             // line 28
+            echo twig_get_attribute($this->env, $this->source, $context["themes"], "path", [], "any", false, false, false, 28);
+            echo "\">";
             echo twig_get_attribute($this->env, $this->source, $context["themes"], "title", [], "any", false, false, false, 28);
             echo "</a></li>
                             ";
@@ -97,8 +99,10 @@ class __TwigTemplate_0afb1d10af7f29a1b1946fc0edb2227d extends Template
         $context['_seq'] = twig_ensure_traversable($this->extensions['Cecil\Renderer\Extension\Core']->sortByWeight($this->extensions['Cecil\Renderer\Extension\Core']->filterBy(twig_get_attribute($this->env, $this->source, (isset($context["site"]) || array_key_exists("site", $context) ? $context["site"] : (function () { throw new RuntimeError('Variable "site" does not exist.', 35, $this->source); })()), "pages", [], "any", false, false, false, 35), "section", "enseignants")));
         foreach ($context['_seq'] as $context["_key"] => $context["themes"]) {
             echo "
-                                <li><a href=\"\">";
+                                <li><a href=\"/";
             // line 36
+            echo twig_get_attribute($this->env, $this->source, $context["themes"], "path", [], "any", false, false, false, 36);
+            echo "\">";
             echo twig_get_attribute($this->env, $this->source, $context["themes"], "title", [], "any", false, false, false, 36);
             echo "</a></li>
                             ";
@@ -118,8 +122,10 @@ class __TwigTemplate_0afb1d10af7f29a1b1946fc0edb2227d extends Template
         $context['_seq'] = twig_ensure_traversable($this->extensions['Cecil\Renderer\Extension\Core']->sortByWeight($this->extensions['Cecil\Renderer\Extension\Core']->filterBy(twig_get_attribute($this->env, $this->source, (isset($context["site"]) || array_key_exists("site", $context) ? $context["site"] : (function () { throw new RuntimeError('Variable "site" does not exist.', 43, $this->source); })()), "pages", [], "any", false, false, false, 43), "section", "administration")));
         foreach ($context['_seq'] as $context["_key"] => $context["themes"]) {
             echo "
-                                <li><a href=\"\">";
+                                <li><a href=\"/";
             // line 44
+            echo twig_get_attribute($this->env, $this->source, $context["themes"], "path", [], "any", false, false, false, 44);
+            echo "\">";
             echo twig_get_attribute($this->env, $this->source, $context["themes"], "title", [], "any", false, false, false, 44);
             echo "</a></li>
                             ";
@@ -139,8 +145,10 @@ class __TwigTemplate_0afb1d10af7f29a1b1946fc0edb2227d extends Template
         $context['_seq'] = twig_ensure_traversable($this->extensions['Cecil\Renderer\Extension\Core']->sortByWeight($this->extensions['Cecil\Renderer\Extension\Core']->filterBy(twig_get_attribute($this->env, $this->source, (isset($context["site"]) || array_key_exists("site", $context) ? $context["site"] : (function () { throw new RuntimeError('Variable "site" does not exist.', 51, $this->source); })()), "pages", [], "any", false, false, false, 51), "section", "direction")));
         foreach ($context['_seq'] as $context["_key"] => $context["themes"]) {
             echo "
-                                <li><a href=\"\">";
+                                <li><a href=\"/";
             // line 52
+            echo twig_get_attribute($this->env, $this->source, $context["themes"], "path", [], "any", false, false, false, 52);
+            echo "\">";
             echo twig_get_attribute($this->env, $this->source, $context["themes"], "title", [], "any", false, false, false, 52);
             echo "</a></li>
                             ";
@@ -272,7 +280,7 @@ class __TwigTemplate_0afb1d10af7f29a1b1946fc0edb2227d extends Template
 
     public function getDebugInfo()
     {
-        return array (  250 => 11,  238 => 6,  226 => 88,  223 => 87,  218 => 86,  216 => 85,  211 => 81,  200 => 76,  194 => 73,  190 => 72,  182 => 69,  178 => 68,  173 => 66,  166 => 64,  160 => 60,  152 => 54,  144 => 52,  138 => 51,  131 => 46,  123 => 44,  117 => 43,  110 => 38,  102 => 36,  96 => 35,  89 => 30,  81 => 28,  75 => 27,  65 => 19,  63 => 6,  53 => 3,  36 => 1,);
+        return array (  258 => 11,  246 => 6,  234 => 88,  231 => 87,  226 => 86,  224 => 85,  219 => 81,  208 => 76,  202 => 73,  198 => 72,  190 => 69,  186 => 68,  181 => 66,  174 => 64,  168 => 60,  160 => 54,  150 => 52,  144 => 51,  137 => 46,  127 => 44,  121 => 43,  114 => 38,  104 => 36,  98 => 35,  91 => 30,  81 => 28,  75 => 27,  65 => 19,  63 => 6,  53 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -304,7 +312,7 @@ class __TwigTemplate_0afb1d10af7f29a1b1946fc0edb2227d extends Template
                         <i class=\"fa-solid fa-graduation-cap fa-xl\"></i>
                         <h5>Etudiants</h5>
                         <ul>{%- for themes in site.pages|filter_by('section', 'etudiants')|sort_by_weight ~%}
-                                <li><a href=\"\">{{ themes.title }}</a></li>
+                                <li><a href=\"/{{ themes.path }}\">{{ themes.title }}</a></li>
                             {% endfor %}
                         </ul>
                     </div>
@@ -312,7 +320,7 @@ class __TwigTemplate_0afb1d10af7f29a1b1946fc0edb2227d extends Template
                         <i class=\"fa-solid fa-chalkboard-user fa-xl\"></i>
                         <h5>Enseignants</h5>
                         <ul>{%- for themes in site.pages|filter_by('section', 'enseignants')|sort_by_weight ~%}
-                                <li><a href=\"\">{{ themes.title }}</a></li>
+                                <li><a href=\"/{{ themes.path }}\">{{ themes.title }}</a></li>
                             {% endfor %}
                         </ul>
                     </div>
@@ -320,7 +328,7 @@ class __TwigTemplate_0afb1d10af7f29a1b1946fc0edb2227d extends Template
                         <i class=\"fa-solid fa-users fa-xl\"></i>
                         <h5>Administration</h5>
                         <ul>{%- for themes in site.pages|filter_by('section', 'administration')|sort_by_weight ~%}
-                                <li><a href=\"\">{{ themes.title }}</a></li>
+                                <li><a href=\"/{{ themes.path }}\">{{ themes.title }}</a></li>
                             {% endfor %}
                         </ul>
                     </div>
@@ -328,7 +336,7 @@ class __TwigTemplate_0afb1d10af7f29a1b1946fc0edb2227d extends Template
                         <i class=\"fa-solid fa-gears fa-xl\"></i>
                         <h5>Direction de Dept.</h5>
                         <ul>{%- for themes in site.pages|filter_by('section', 'direction')|sort_by_weight ~%}
-                                <li><a href=\"\">{{ themes.title }}</a></li>
+                                <li><a href=\"/{{ themes.path }}\">{{ themes.title }}</a></li>
                             {% endfor %}
                         </ul>
                     </div>

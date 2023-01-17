@@ -25,7 +25,7 @@
                         <i class="fa-solid fa-graduation-cap fa-xl"></i>
                         <h5>Etudiants</h5>
                         <ul>{%- for themes in site.pages|filter_by('section', 'etudiants')|sort_by_weight ~%}
-                                <li><a href="">{{ themes.title }}</a></li>
+                                <li><a href="/{{ themes.path }}">{{ themes.title }}</a></li>
                             {% endfor %}
                         </ul>
                     </div>
@@ -33,7 +33,7 @@
                         <i class="fa-solid fa-chalkboard-user fa-xl"></i>
                         <h5>Enseignants</h5>
                         <ul>{%- for themes in site.pages|filter_by('section', 'enseignants')|sort_by_weight ~%}
-                                <li><a href="">{{ themes.title }}</a></li>
+                                <li><a href="/{{ themes.path }}">{{ themes.title }}</a></li>
                             {% endfor %}
                         </ul>
                     </div>
@@ -41,7 +41,7 @@
                         <i class="fa-solid fa-users fa-xl"></i>
                         <h5>Administration</h5>
                         <ul>{%- for themes in site.pages|filter_by('section', 'administration')|sort_by_weight ~%}
-                                <li><a href="">{{ themes.title }}</a></li>
+                                <li><a href="/{{ themes.path }}">{{ themes.title }}</a></li>
                             {% endfor %}
                         </ul>
                     </div>
@@ -49,7 +49,7 @@
                         <i class="fa-solid fa-gears fa-xl"></i>
                         <h5>Direction de Dept.</h5>
                         <ul>{%- for themes in site.pages|filter_by('section', 'direction')|sort_by_weight ~%}
-                                <li><a href="">{{ themes.title }}</a></li>
+                                <li><a href="/{{ themes.path }}">{{ themes.title }}</a></li>
                             {% endfor %}
                         </ul>
                     </div>

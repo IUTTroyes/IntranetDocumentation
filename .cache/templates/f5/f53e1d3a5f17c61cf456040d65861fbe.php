@@ -79,100 +79,111 @@ class __TwigTemplate_359b5eb75a708cef744da799385c094c extends Template
 
     ";
         // line 80
-        echo "    
-    <div id=\"autocomplete\">
-        ";
-        // line 84
-        echo "    </div>";
-        // line 86
-        $this->loadTemplate("partials/navigation.html.twig", "_default/page.html.twig", 86)->display(twig_to_array(["menu" => twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["site"]) || array_key_exists("site", $context) ? $context["site"] : (function () { throw new RuntimeError('Variable "site" does not exist.', 86, $this->source); })()), "menus", [], "any", false, false, false, 86), "main", [], "any", false, false, false, 86)]));
+        echo "
+    ";
+        // line 81
+        echo twig_include($this->env, $context, "partials/algolia.html.twig");
+        // line 83
+        $this->loadTemplate("partials/navigation.html.twig", "_default/page.html.twig", 83)->display(twig_to_array(["menu" => twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["site"]) || array_key_exists("site", $context) ? $context["site"] : (function () { throw new RuntimeError('Variable "site" does not exist.', 83, $this->source); })()), "menus", [], "any", false, false, false, 83), "main", [], "any", false, false, false, 83)]));
         echo "
 </header>
 <div class=\"body_content\">
     <aside>
         <h4>Enseignants</h4>
         <ul>";
-        // line 91
+        // line 88
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable($this->extensions['Cecil\Renderer\Extension\Core']->sortByWeight($this->extensions['Cecil\Renderer\Extension\Core']->filterBy(twig_get_attribute($this->env, $this->source, (isset($context["site"]) || array_key_exists("site", $context) ? $context["site"] : (function () { throw new RuntimeError('Variable "site" does not exist.', 91, $this->source); })()), "pages", [], "any", false, false, false, 91), "section", "enseignants")));
+        $context['_seq'] = twig_ensure_traversable($this->extensions['Cecil\Renderer\Extension\Core']->sortByWeight($this->extensions['Cecil\Renderer\Extension\Core']->filterBy(twig_get_attribute($this->env, $this->source, (isset($context["site"]) || array_key_exists("site", $context) ? $context["site"] : (function () { throw new RuntimeError('Variable "site" does not exist.', 88, $this->source); })()), "pages", [], "any", false, false, false, 88), "section", "enseignants")));
         foreach ($context['_seq'] as $context["_key"] => $context["themes"]) {
             echo "
-                <li><a href=\"\">";
-            // line 92
-            echo twig_get_attribute($this->env, $this->source, $context["themes"], "title", [], "any", false, false, false, 92);
+                <li><a href=\"/";
+            // line 89
+            echo twig_get_attribute($this->env, $this->source, $context["themes"], "path", [], "any", false, false, false, 89);
+            echo "\">";
+            echo twig_get_attribute($this->env, $this->source, $context["themes"], "title", [], "any", false, false, false, 89);
             echo "</a></li>
-            ";
+                ";
+            // line 90
+            $this->loadTemplate("partials/subtitles-list.html.twig", "_default/page.html.twig", 90)->display(twig_to_array(["page" => $context["themes"], "vocabulary" => "subtitles"]));
+            // line 91
+            echo "            ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['themes'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 94
+        // line 92
         echo "        </ul>
         <hr>
         <h4>Etudiants</h4>
         <ul>";
-        // line 97
+        // line 95
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable($this->extensions['Cecil\Renderer\Extension\Core']->sortByWeight($this->extensions['Cecil\Renderer\Extension\Core']->filterBy(twig_get_attribute($this->env, $this->source, (isset($context["site"]) || array_key_exists("site", $context) ? $context["site"] : (function () { throw new RuntimeError('Variable "site" does not exist.', 97, $this->source); })()), "pages", [], "any", false, false, false, 97), "section", "etudiants")));
+        $context['_seq'] = twig_ensure_traversable($this->extensions['Cecil\Renderer\Extension\Core']->sortByWeight($this->extensions['Cecil\Renderer\Extension\Core']->filterBy(twig_get_attribute($this->env, $this->source, (isset($context["site"]) || array_key_exists("site", $context) ? $context["site"] : (function () { throw new RuntimeError('Variable "site" does not exist.', 95, $this->source); })()), "pages", [], "any", false, false, false, 95), "section", "etudiants")));
         foreach ($context['_seq'] as $context["_key"] => $context["themes"]) {
             echo "
-                <li><a href=\"\">";
-            // line 98
-            echo twig_get_attribute($this->env, $this->source, $context["themes"], "title", [], "any", false, false, false, 98);
+                <li><a href=\"/";
+            // line 96
+            echo twig_get_attribute($this->env, $this->source, $context["themes"], "path", [], "any", false, false, false, 96);
+            echo "\">";
+            echo twig_get_attribute($this->env, $this->source, $context["themes"], "title", [], "any", false, false, false, 96);
             echo "</a></li>
             ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['themes'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 100
+        // line 98
         echo "        </ul>
         <hr>
         <h4>Administration</h4>
         <ul>";
-        // line 103
+        // line 101
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable($this->extensions['Cecil\Renderer\Extension\Core']->sortByWeight($this->extensions['Cecil\Renderer\Extension\Core']->filterBy(twig_get_attribute($this->env, $this->source, (isset($context["site"]) || array_key_exists("site", $context) ? $context["site"] : (function () { throw new RuntimeError('Variable "site" does not exist.', 103, $this->source); })()), "pages", [], "any", false, false, false, 103), "section", "administration")));
+        $context['_seq'] = twig_ensure_traversable($this->extensions['Cecil\Renderer\Extension\Core']->sortByWeight($this->extensions['Cecil\Renderer\Extension\Core']->filterBy(twig_get_attribute($this->env, $this->source, (isset($context["site"]) || array_key_exists("site", $context) ? $context["site"] : (function () { throw new RuntimeError('Variable "site" does not exist.', 101, $this->source); })()), "pages", [], "any", false, false, false, 101), "section", "administration")));
         foreach ($context['_seq'] as $context["_key"] => $context["themes"]) {
             echo "
-                <li><a href=\"\">";
-            // line 104
-            echo twig_get_attribute($this->env, $this->source, $context["themes"], "title", [], "any", false, false, false, 104);
+                <li><a href=\"/";
+            // line 102
+            echo twig_get_attribute($this->env, $this->source, $context["themes"], "path", [], "any", false, false, false, 102);
+            echo "\">";
+            echo twig_get_attribute($this->env, $this->source, $context["themes"], "title", [], "any", false, false, false, 102);
             echo "</a></li>
             ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['themes'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 106
+        // line 104
         echo "        </ul>
         <hr>
         <h4>Direction de Dépt.</h4>
         <ul>";
-        // line 109
+        // line 107
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable($this->extensions['Cecil\Renderer\Extension\Core']->sortByWeight($this->extensions['Cecil\Renderer\Extension\Core']->filterBy(twig_get_attribute($this->env, $this->source, (isset($context["site"]) || array_key_exists("site", $context) ? $context["site"] : (function () { throw new RuntimeError('Variable "site" does not exist.', 109, $this->source); })()), "pages", [], "any", false, false, false, 109), "section", "direction")));
+        $context['_seq'] = twig_ensure_traversable($this->extensions['Cecil\Renderer\Extension\Core']->sortByWeight($this->extensions['Cecil\Renderer\Extension\Core']->filterBy(twig_get_attribute($this->env, $this->source, (isset($context["site"]) || array_key_exists("site", $context) ? $context["site"] : (function () { throw new RuntimeError('Variable "site" does not exist.', 107, $this->source); })()), "pages", [], "any", false, false, false, 107), "section", "direction")));
         foreach ($context['_seq'] as $context["_key"] => $context["themes"]) {
             echo "
-                <li><a href=\"\">";
-            // line 110
-            echo twig_get_attribute($this->env, $this->source, $context["themes"], "title", [], "any", false, false, false, 110);
+                <li><a href=\"/";
+            // line 108
+            echo twig_get_attribute($this->env, $this->source, $context["themes"], "path", [], "any", false, false, false, 108);
+            echo "\">";
+            echo twig_get_attribute($this->env, $this->source, $context["themes"], "title", [], "any", false, false, false, 108);
             echo "</a></li>
             ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['themes'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 112
+        // line 110
         echo "        </ul>
     </aside>";
-        // line 114
+        // line 112
         $this->displayBlock('content', $context, $blocks);
-        // line 118
+        // line 116
         echo "
 </div>";
-        // line 120
-        $this->loadTemplate("partials/googleanalytics.js.twig", "_default/page.html.twig", 120)->display(twig_to_array(["site" => (isset($context["site"]) || array_key_exists("site", $context) ? $context["site"] : (function () { throw new RuntimeError('Variable "site" does not exist.', 120, $this->source); })())]));
+        // line 118
+        $this->loadTemplate("partials/googleanalytics.js.twig", "_default/page.html.twig", 118)->display(twig_to_array(["site" => (isset($context["site"]) || array_key_exists("site", $context) ? $context["site"] : (function () { throw new RuntimeError('Variable "site" does not exist.', 118, $this->source); })())]));
         echo "
 </body>
 </html>
@@ -298,27 +309,27 @@ class __TwigTemplate_359b5eb75a708cef744da799385c094c extends Template
 
     }
 
-    // line 114
+    // line 112
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
         $__internal_2b03fcd95a85c4310cf548a70fb8bc2a = $this->extensions["Twig\\Extension\\ProfilerExtension"];
         $__internal_2b03fcd95a85c4310cf548a70fb8bc2a->enter($__internal_2b03fcd95a85c4310cf548a70fb8bc2a_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "content"));
 
-        // line 115
+        // line 113
         $this->displayBlock('content_header', $context, $blocks);
         echo "
             ";
-        // line 116
-        echo twig_get_attribute($this->env, $this->source, (isset($context["page"]) || array_key_exists("page", $context) ? $context["page"] : (function () { throw new RuntimeError('Variable "page" does not exist.', 116, $this->source); })()), "content", [], "any", false, false, false, 116);
-        // line 117
+        // line 114
+        echo twig_get_attribute($this->env, $this->source, (isset($context["page"]) || array_key_exists("page", $context) ? $context["page"] : (function () { throw new RuntimeError('Variable "page" does not exist.', 114, $this->source); })()), "content", [], "any", false, false, false, 114);
+        // line 115
         $this->displayBlock('content_footer', $context, $blocks);
         
         $__internal_2b03fcd95a85c4310cf548a70fb8bc2a->leave($__internal_2b03fcd95a85c4310cf548a70fb8bc2a_prof);
 
     }
 
-    // line 115
+    // line 113
     public function block_content_header($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -330,7 +341,7 @@ class __TwigTemplate_359b5eb75a708cef744da799385c094c extends Template
 
     }
 
-    // line 117
+    // line 115
     public function block_content_footer($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -354,7 +365,7 @@ class __TwigTemplate_359b5eb75a708cef744da799385c094c extends Template
 
     public function getDebugInfo()
     {
-        return array (  334 => 117,  322 => 115,  315 => 117,  313 => 116,  309 => 115,  302 => 114,  292 => 63,  287 => 62,  280 => 61,  271 => 24,  266 => 23,  259 => 22,  252 => 61,  248 => 59,  246 => 27,  211 => 28,  209 => 27,  206 => 26,  204 => 22,  199 => 20,  186 => 15,  175 => 120,  172 => 118,  170 => 114,  167 => 112,  159 => 110,  153 => 109,  148 => 106,  140 => 104,  134 => 103,  129 => 100,  121 => 98,  115 => 97,  110 => 94,  102 => 92,  96 => 91,  88 => 86,  86 => 84,  82 => 80,  76 => 73,  72 => 72,  65 => 67,  63 => 15,  59 => 13,  55 => 11,  52 => 5,  50 => 4,  48 => 2,  46 => 1,);
+        return array (  345 => 115,  333 => 113,  326 => 115,  324 => 114,  320 => 113,  313 => 112,  303 => 63,  298 => 62,  291 => 61,  282 => 24,  277 => 23,  270 => 22,  263 => 61,  259 => 59,  257 => 27,  222 => 28,  220 => 27,  217 => 26,  215 => 22,  210 => 20,  197 => 15,  186 => 118,  183 => 116,  181 => 112,  178 => 110,  168 => 108,  162 => 107,  157 => 104,  147 => 102,  141 => 101,  136 => 98,  126 => 96,  120 => 95,  115 => 92,  109 => 91,  107 => 90,  101 => 89,  95 => 88,  87 => 83,  85 => 81,  82 => 80,  76 => 73,  72 => 72,  65 => 67,  63 => 15,  59 => 13,  55 => 11,  52 => 5,  50 => 4,  48 => 2,  46 => 1,);
     }
 
     public function getSourceContext()
@@ -438,11 +449,8 @@ class __TwigTemplate_359b5eb75a708cef744da799385c094c extends Template
         <input class=\"form-control me-2\" type=\"search\" placeholder=\"Recherche dans la documentation\" aria-label=\"Search\">
         <button class=\"btn btn-outline-primary\" type=\"submit\">Rechercher</button>
     </form> #}
-    
-    <div id=\"autocomplete\">
-        {# <input type=\"search\">
-        <button class=\"btn btn-outline-primary\" type=\"submit\">Rechercher</button> #}
-    </div>
+
+    {{ include('partials/algolia.html.twig') }}
 
     {%- include 'partials/navigation.html.twig' with {'menu': site.menus.main} only ~%}
 </header>
@@ -450,25 +458,26 @@ class __TwigTemplate_359b5eb75a708cef744da799385c094c extends Template
     <aside>
         <h4>Enseignants</h4>
         <ul>{%- for themes in site.pages|filter_by('section', 'enseignants')|sort_by_weight ~%}
-                <li><a href=\"\">{{ themes.title }}</a></li>
+                <li><a href=\"/{{ themes.path }}\">{{ themes.title }}</a></li>
+                {% include 'partials/subtitles-list.html.twig' with {'page': themes, 'vocabulary': 'subtitles'} only %}
             {% endfor %}
         </ul>
         <hr>
         <h4>Etudiants</h4>
         <ul>{%- for themes in site.pages|filter_by('section', 'etudiants')|sort_by_weight ~%}
-                <li><a href=\"\">{{ themes.title }}</a></li>
+                <li><a href=\"/{{ themes.path }}\">{{ themes.title }}</a></li>
             {% endfor %}
         </ul>
         <hr>
         <h4>Administration</h4>
         <ul>{%- for themes in site.pages|filter_by('section', 'administration')|sort_by_weight ~%}
-                <li><a href=\"\">{{ themes.title }}</a></li>
+                <li><a href=\"/{{ themes.path }}\">{{ themes.title }}</a></li>
             {% endfor %}
         </ul>
         <hr>
         <h4>Direction de Dépt.</h4>
         <ul>{%- for themes in site.pages|filter_by('section', 'direction')|sort_by_weight ~%}
-                <li><a href=\"\">{{ themes.title }}</a></li>
+                <li><a href=\"/{{ themes.path }}\">{{ themes.title }}</a></li>
             {% endfor %}
         </ul>
     </aside>
