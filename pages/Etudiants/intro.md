@@ -2,7 +2,7 @@
 title: "Premiers pas"
 weight: 1
 categories: [étudiants]
-subtitles: [Comment se connecter ? , Connexion via l'URCA]
+subtitles: [Comment se connecter ?]
 ---
 
 ## Comment se connecter ?

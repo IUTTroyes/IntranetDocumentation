@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/xsl/atom.xsl" media="all"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>http://localhost:8000/</id>
+  <title>Documentation de l&#039;Intranet des IUT</title>
+  <subtitle><![CDATA[]]></subtitle>
+  <link href="http://localhost:8000/atom.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:8000/" rel="alternate" type="text/html" />
+  <updated>2023-01-19T13:58:00+00:00</updated>
+  <author>
+    <name>Arnaud Ligny</name>
+    <uri>https://arnaudligny.fr</uri>
+  </author>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/administration/gestion_typeprime/</id>
+    <title>Gestion des types de primes ou HRS</title>
+    <content type="html">
+      <![CDATA[<h2 id="création-d-un-type-de-prime-ou-hrs">Création d'un type de prime ou HRS</h2>]]>
+    </content>
+    <link href="http://localhost:8000/administration/gestion_typeprime/" rel="alternate" type="text/html" />
+    <published>2023-01-19T13:58:00+00:00</published>
+    <updated>2023-01-19T13:58:00+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/enseignants/gestion_previsionnel/</id>
+    <title>Gestion du prévisionnel</title>
+    <content type="html">
+      <![CDATA[<h2 id="visualiser-son-prévisionnel">Visualiser son prévisionnel</h2>
+<h2 id="comprendre-son-prévisionnel">Comprendre son prévisionnel</h2>]]>
+    </content>
+    <link href="http://localhost:8000/enseignants/gestion_previsionnel/" rel="alternate" type="text/html" />
+    <published>2023-01-19T13:50:36+00:00</published>
+    <updated>2023-01-19T13:50:36+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/enseignants/edt/</id>
+    <title>Emploi du temps</title>
+    <content type="html">
+      <![CDATA[<h2 id="visualisation-de-l-emploi-du-temps">Visualisation de l'emploi du temps</h2>
+<h2 id="synchronisation-de-l-emploi-du-temps-avec-un-agenda-personnel">Synchronisation de l'emploi du temps avec un agenda personnel</h2>]]>
+    </content>
+    <link href="http://localhost:8000/enseignants/edt/" rel="alternate" type="text/html" />
+    <published>2023-01-19T13:46:01+00:00</published>
+    <updated>2023-01-19T13:46:01+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/enseignants/intro/</id>
+    <title>Premiers pas</title>
+    <content type="html">
+      <![CDATA[<h2 id="comment-se-connecter">Comment se connecter ?</h2>
+<h3 id="connexion-via-l-urca">Connexion via l'URCA</h3>
+<p>Muni de votre identifiant et de votre mot de passe (fournis par votre IUT), inscrivez votre identifiant dans le champ nommé &quot;Login&quot; et votre mot de passe dans le champ nommé &quot;Mot de passe&quot;.</p>
+<h3 id="connexion-via-l-intranet">Connexion via l'intranet</h3>
+<p>Muni de votre identifiant et de votre mot de passe (fournis par votre IUT), inscrivez votre identifiant dans le champ nommé &quot;Login&quot; et votre mot de passe dans le champ nommé &quot;Mot de passe&quot;.</p>]]>
+    </content>
+    <link href="http://localhost:8000/enseignants/intro/" rel="alternate" type="text/html" />
+    <published>2023-01-19T13:46:01+00:00</published>
+    <updated>2023-01-19T13:46:01+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/administration/gestion_scolarite/</id>
+    <title>Gestion de la scolarité</title>
+    <content type="html">
+      <![CDATA[<h2 id="gestion-des-inscrits-à-la-rdd">Gestion des inscrits à la RDD</h2>
+<h2 id="gestion-des-enquêtes-des-diplômés">Gestion des enquêtes des diplômés</h2>
+<h2 id="exportation-des-données-d-apogée">Exportation des données d'Apogée</h2>]]>
+    </content>
+    <link href="http://localhost:8000/administration/gestion_scolarite/" rel="alternate" type="text/html" />
+    <published>2023-01-19T13:34:59+00:00</published>
+    <updated>2023-01-19T13:34:59+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/administration/gestion_enquetes/</id>
+    <title>Gestion des enquêtes qualité</title>
+    <content type="html">
+      <![CDATA[<h2 id="畳ㅢ">sub1</h2>
+<h2 id="獵戲">sub2</h2>]]>
+    </content>
+    <link href="http://localhost:8000/administration/gestion_enquetes/" rel="alternate" type="text/html" />
+    <published>2023-01-19T13:32:13+00:00</published>
+    <updated>2023-01-19T13:32:13+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/administration/gestion_comptabilite/</id>
+    <title>Gestion de la comptabilité</title>
+    <content type="html">
+      <![CDATA[<h2 id="畳ㅢ">sub1</h2>
+<h2 id="獵戲">sub2</h2>]]>
+    </content>
+    <link href="http://localhost:8000/administration/gestion_comptabilite/" rel="alternate" type="text/html" />
+    <published>2023-01-19T13:31:36+00:00</published>
+    <updated>2023-01-19T13:31:36+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/administration/gestion_typediplome/</id>
+    <title>Gestion des types de diplômes</title>
+    <content type="html">
+      <![CDATA[<h2 id="畳ㅢ">sub1</h2>
+<h2 id="獵戲">sub2</h2>]]>
+    </content>
+    <link href="http://localhost:8000/administration/gestion_typediplome/" rel="alternate" type="text/html" />
+    <published>2023-01-19T13:20:00+00:00</published>
+    <updated>2023-01-19T13:20:00+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/administration/gestion_ufr/</id>
+    <title>Gestion des UFR</title>
+    <content type="html">
+      <![CDATA[<h2 id="畳ㅢ">sub1</h2>
+<h2 id="獵戲">sub2</h2>]]>
+    </content>
+    <link href="http://localhost:8000/administration/gestion_ufr/" rel="alternate" type="text/html" />
+    <published>2023-01-19T13:18:24+00:00</published>
+    <updated>2023-01-19T13:18:24+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/administration/gestion_sites/</id>
+    <title>Gestion des sites</title>
+    <content type="html">
+      <![CDATA[<h2 id="畳ㅢ">sub1</h2>
+<h2 id="獵戲">sub2</h2>]]>
+    </content>
+    <link href="http://localhost:8000/administration/gestion_sites/" rel="alternate" type="text/html" />
+    <published>2023-01-19T13:14:47+00:00</published>
+    <updated>2023-01-19T13:14:47+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/administration/gestion_materiels/</id>
+    <title>Gestion des matériels communs</title>
+    <content type="html">
+      <![CDATA[<h2 id="畳ㅢ">sub1</h2>
+<h2 id="獵戲">sub2</h2>]]>
+    </content>
+    <link href="http://localhost:8000/administration/gestion_materiels/" rel="alternate" type="text/html" />
+    <published>2023-01-19T13:13:25+00:00</published>
+    <updated>2023-01-19T13:13:25+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/administration/gestion_bac/</id>
+    <title>Gestion des bac</title>
+    <content type="html">
+      <![CDATA[<h2 id="畳ㅢ">sub1</h2>
+<h2 id="獵戲">sub2</h2>]]>
+    </content>
+    <link href="http://localhost:8000/administration/gestion_bac/" rel="alternate" type="text/html" />
+    <published>2023-01-19T13:11:59+00:00</published>
+    <updated>2023-01-19T13:11:59+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/administration/gestion_salles/</id>
+    <title>Gestion des salles</title>
+    <content type="html">
+      <![CDATA[<h2 id="consultation-des-disponibilités">Consultation des disponibilités</h2>
+<h2 id="réservation-des-salles">Réservation des salles</h2>]]>
+    </content>
+    <link href="http://localhost:8000/administration/gestion_salles/" rel="alternate" type="text/html" />
+    <published>2023-01-19T13:09:48+00:00</published>
+    <updated>2023-01-19T13:09:48+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/administration/gestion_celcat/</id>
+    <title>Gestion de Celcat</title>
+    <content type="html">
+      <![CDATA[<h2 id="importation-des-données-de-celcat">Importation des données de Celcat</h2>
+<h2 id="synchronisation-avec-celcat">Synchronisation avec Celcat</h2>]]>
+    </content>
+    <link href="http://localhost:8000/administration/gestion_celcat/" rel="alternate" type="text/html" />
+    <published>2023-01-19T11:12:23+00:00</published>
+    <updated>2023-01-19T11:12:23+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/direction/config_intranet/</id>
+    <title>Configuration de l&#039;intranet</title>
+    <content type="html">
+      <![CDATA[<h2 id="configuration-de-l-emploi-du-temps">Configuration de l'emploi du temps</h2>
+<h2 id="configuration-des-absences">Configuration des absences</h2>
+<h2 id="configuration-des-notes">Configuration des notes</h2>
+<h2 id="configuration-des-droits">Configuration des droits</h2>]]>
+    </content>
+    <link href="http://localhost:8000/direction/config_intranet/" rel="alternate" type="text/html" />
+    <published>2023-01-19T11:09:04+00:00</published>
+    <updated>2023-01-19T11:09:04+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/etudiants/edt/</id>
+    <title>Emploi du temps</title>
+    <content type="html">
+      <![CDATA[<h2 id="visualisation-de-l-emploi-du-temps">Visualisation de l'emploi du temps</h2>
+<h2 id="synchronisation-de-l-emploi-du-temps-avec-un-agenda-personnel">Synchronisation de l'emploi du temps avec un agenda personnel</h2>]]>
+    </content>
+    <link href="http://localhost:8000/etudiants/edt/" rel="alternate" type="text/html" />
+    <published>2023-01-19T10:57:27+00:00</published>
+    <updated>2023-01-19T10:57:27+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/etudiants/notes/</id>
+    <title>Gestion des notes</title>
+    <content type="html">
+      <![CDATA[<h2 id="visualisation-des-notes">Visualisation des notes</h2>
+<h2 id="demandes-de-rattrapages">Demandes de rattrapages</h2>]]>
+    </content>
+    <link href="http://localhost:8000/etudiants/notes/" rel="alternate" type="text/html" />
+    <published>2023-01-19T10:52:27+00:00</published>
+    <updated>2023-01-19T10:52:27+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/etudiants/intro/</id>
+    <title>Premiers pas</title>
+    <content type="html">
+      <![CDATA[<h2 id="comment-se-connecter">Comment se connecter ?</h2>
+<h3 id="connexion-via-l-urca">Connexion via l'URCA</h3>
+<p>Muni de votre identifiant et de votre mot de passe (fournis par votre IUT), inscrivez votre identifiant dans le champ nommé &quot;Login&quot; et votre mot de passe dans le champ nommé &quot;Mot de passe&quot;.</p>]]>
+    </content>
+    <link href="http://localhost:8000/etudiants/intro/" rel="alternate" type="text/html" />
+    <published>2023-01-19T10:46:51+00:00</published>
+    <updated>2023-01-19T10:46:51+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/direction/gestion_alternances/</id>
+    <title>Gestion des alternances</title>
+    <content type="html">
+      <![CDATA[<h2 id="accès-à-la-gestion-des-alternances">Accès à la gestion des alternances</h2>]]>
+    </content>
+    <link href="http://localhost:8000/direction/gestion_alternances/" rel="alternate" type="text/html" />
+    <published>2023-01-19T10:41:11+00:00</published>
+    <updated>2023-01-19T10:41:11+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/direction/gestion_stages/</id>
+    <title>Gestion des stages</title>
+    <content type="html">
+      <![CDATA[<h2 id="création-des-périodes-de-stages">Création des périodes de stages</h2>
+<h2 id="edition-et-gestion-des-conventions">Edition et gestion des conventions</h2>
+<h2 id="gestions-des-stages-à-l-étranger">Gestions des stages à l'étranger</h2>
+<h2 id="gestion-des-soutenances-de-stage">Gestion des soutenances de stage</h2>
+<h2 id="gestion-des-courriers">Gestion des courriers</h2>
+<h2 id="gestion-des-entreprises-et-offres-de-stage">Gestion des entreprises et offres de stage</h2>]]>
+    </content>
+    <link href="http://localhost:8000/direction/gestion_stages/" rel="alternate" type="text/html" />
+    <published>2023-01-19T10:38:06+00:00</published>
+    <updated>2023-01-19T10:38:06+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/direction/gestion_examens/</id>
+    <title>Gestion des examens</title>
+    <content type="html">
+      <![CDATA[<h2 id="gestion-des-salles-d-examens">Gestion des salles d'examens</h2>
+<h2 id="gestion-des-demandes-de-rattrapages">Gestion des demandes de rattrapages</h2>
+<h2 id="gestion-des-plannings">Gestion des plannings</h2>]]>
+    </content>
+    <link href="http://localhost:8000/direction/gestion_examens/" rel="alternate" type="text/html" />
+    <published>2023-01-19T10:14:45+00:00</published>
+    <updated>2023-01-19T10:14:45+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/direction/gestion_notes/</id>
+    <title>Gestion des notes</title>
+    <content type="html">
+      <![CDATA[<h2 id="visualisation-des-notes">Visualisation des notes</h2>
+<h2 id="initialisation-des-évaluations">Initialisation des évaluations</h2>
+<h2 id="affectation-des-enseignants-pour-la-saisie">Affectation des enseignants pour la saisie</h2>
+<h2 id="mcc-modalités-controle-continu">MCC?=modalités controle continu?</h2>]]>
+    </content>
+    <link href="http://localhost:8000/direction/gestion_notes/" rel="alternate" type="text/html" />
+    <published>2023-01-19T10:12:31+00:00</published>
+    <updated>2023-01-19T10:12:31+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/administration/intro/</id>
+    <title>Premiers pas</title>
+    <content type="html">
+      <![CDATA[<h2 id="comment-se-connecter">Comment se connecter ?</h2>
+<h3 id="connexion-via-l-urca">Connexion via l'URCA</h3>
+<p>Muni de votre identifiant et de votre mot de passe (fournis par votre IUT), inscrivez votre identifiant dans le champ nommé &quot;Login&quot; et votre mot de passe dans le champ nommé &quot;Mot de passe&quot;.</p>
+<h3 id="connexion-via-l-intranet">Connexion via l'intranet</h3>
+<p>Muni de votre identifiant et de votre mot de passe (fournis par votre IUT), inscrivez votre identifiant dans le champ nommé &quot;Login&quot; et votre mot de passe dans le champ nommé &quot;Mot de passe&quot;.</p>]]>
+    </content>
+    <link href="http://localhost:8000/administration/intro/" rel="alternate" type="text/html" />
+    <published>2023-01-19T09:33:14+00:00</published>
+    <updated>2023-01-19T09:33:14+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/direction/annee/</id>
+    <title>Changement d&#039;année</title>
+    <content type="html">
+      <![CDATA[<h2 id="changement-d-année-universitaire">Changement d'année universitaire</h2>
+<h2 id="changement-d-année-du-prévisionnel">Changement d'année du prévisionnel</h2>
+<h2 id="importation-des-étudiants">Importation des étudiants</h2>
+<h2 id="mise-à-jour-de-la-structure-des-groupes">Mise à jour de la structure des groupes</h2>
+<h2 id="affectation-des-étudiants-dans-leurs-groupes">Affectation des étudiants dans leurs groupes</h2>]]>
+    </content>
+    <link href="http://localhost:8000/direction/annee/" rel="alternate" type="text/html" />
+    <published>2023-01-19T09:31:27+00:00</published>
+    <updated>2023-01-19T09:31:27+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/direction/gestion_edt/</id>
+    <title>Gestion des emplois du temps</title>
+    <content type="html">
+      <![CDATA[<h2 id="visualisation-des-évènements">Visualisation des évènements</h2>
+<h2 id="création-d-un-évènement">Création d'un évènement</h2>
+<h2 id="gestion-des-heures-de-cours">Gestion des heures de cours</h2>]]>
+    </content>
+    <link href="http://localhost:8000/direction/gestion_edt/" rel="alternate" type="text/html" />
+    <published>2023-01-19T09:26:40+00:00</published>
+    <updated>2023-01-19T09:26:40+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/direction/gestion_ptut/</id>
+    <title>Gestion des projets tutorés</title>
+    <content type="html">
+      <![CDATA[<h2 id="création-d-un-projet">Création d'un projet</h2>
+<h2 id="assignation-des-étudiants">Assignation des étudiants</h2>]]>
+    </content>
+    <link href="http://localhost:8000/direction/gestion_ptut/" rel="alternate" type="text/html" />
+    <published>2023-01-19T09:18:00+00:00</published>
+    <updated>2023-01-19T09:18:00+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/direction/semestre/</id>
+    <title>Gestion des fins de semestres</title>
+    <content type="html">
+      <![CDATA[<h2 id="simulation-des-sous-commissions">Simulation des sous-commissions</h2>
+<h2 id="préparation-des-sous-commissions">Préparation des sous-commissions</h2>
+<h2 id="mise-à-jour-d-une-sous-commission">Mise à jour d'une sous-commission</h2>
+<h2 id="changement-de-semestre">Changement de semestre</h2>]]>
+    </content>
+    <link href="http://localhost:8000/direction/semestre/" rel="alternate" type="text/html" />
+    <published>2023-01-19T09:13:10+00:00</published>
+    <updated>2023-01-19T09:13:10+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/direction/gestion_structure_dept/</id>
+    <title>Gestion de la structure du département</title>
+    <content type="html">
+      <![CDATA[<h2 id="gestion-des-parcours">Gestion des parcours</h2>
+<h2 id="gestion-des-ue">Gestion des UE</h2>
+<h2 id="gestion-du-pn">Gestion du PN</h2>
+<h2 id="création-d-un-semestre">Création d'un semestre</h2>
+<h2 id="création-d-une-année">Création d'une année</h2>
+<h2 id="visualisation-des-statistiques">Visualisation des statistiques</h2>]]>
+    </content>
+    <link href="http://localhost:8000/direction/gestion_structure_dept/" rel="alternate" type="text/html" />
+    <published>2023-01-19T09:04:30+00:00</published>
+    <updated>2023-01-19T09:04:30+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/direction/gestion_etudiants/</id>
+    <title>Gestion des étudiants</title>
+    <content type="html">
+      <![CDATA[<h2 id="gestions-des-données">Gestions des données</h2>
+<h2 id="gestion-des-groupes">Gestion des groupes</h2>
+<h2 id="gestion-des-cohortes">Gestion des cohortes</h2>]]>
+    </content>
+    <link href="http://localhost:8000/direction/gestion_etudiants/" rel="alternate" type="text/html" />
+    <published>2023-01-19T09:02:14+00:00</published>
+    <updated>2023-01-19T09:02:14+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/direction/gestion_personnel/</id>
+    <title>Gestion des personnels</title>
+    <content type="html">
+      <![CDATA[<h2 id="visualisation-de-la-liste-des-personnels">Visualisation de la liste des personnels</h2>
+<h2 id="ajout-d-un-personnel">Ajout d'un personnel</h2>
+<h2 id="modification-d-un-personnel">Modification d'un personnel</h2>
+<h2 id="suppression-d-un-personnel">Suppression d'un personnel</h2>]]>
+    </content>
+    <link href="http://localhost:8000/direction/gestion_personnel/" rel="alternate" type="text/html" />
+    <published>2023-01-19T08:58:30+00:00</published>
+    <updated>2023-01-19T08:58:30+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/direction/gestion_absences/</id>
+    <title>Gestion des absences</title>
+    <content type="html">
+      <![CDATA[<h2 id="suivi-du-pointage-des-présents">Suivi du pointage des présents</h2>
+<h2 id="suivi-des-absences-par-semestre">Suivi des absences par semestre</h2>
+<h2 id="modification-et-suppression-d-absences">Modification et suppression d'absences</h2>
+<h2 id="gestion-des-justificatifs-d-absences">Gestion des justificatifs d'absences</h2>]]>
+    </content>
+    <link href="http://localhost:8000/direction/gestion_absences/" rel="alternate" type="text/html" />
+    <published>2023-01-19T08:52:45+00:00</published>
+    <updated>2023-01-19T08:52:45+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/enseignants/gestion_etudiants/</id>
+    <title>Gestion des étudiants</title>
+    <content type="html">
+      <![CDATA[<h2 id="gestion-des-absences">Gestion des absences</h2>
+<h3 id="gestion-des-absences">Appel et saisie des présents</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus in hendrerit gravida rutrum quisque non tellus orci. Malesuada proin libero nunc consequat interdum varius sit. Enim ut tellus elementum sagittis vitae et. Tempus quam pellentesque nec nam aliquam sem et tortor. Tempor orci eu lobortis elementum nibh. Netus et malesuada fames ac turpis egestas sed tempus urna. At augue eget arcu dictum varius duis. Ornare suspendisse sed nisi lacus sed viverra tellus. A cras semper auctor neque vitae tempus quam. Platea dictumst vestibulum rhoncus est pellentesque. Mi sit amet mauris commodo quis. Vitae justo eget magna fermentum iaculis eu. Fringilla ut morbi tincidunt augue interdum velit euismod in pellentesque. Sed viverra ipsum nunc aliquet bibendum enim facilisis.</p>
+<hr>
+<h3 id="saisie_absence">Comment saisir ou supprimer une absence ?</h3>
+<p>Pour accéder à l'espace de gestion des absences, deux options s'offrent à vous :</p>
+<ul>
+<li>L'accès depuis le Dashboard</li>
+<li>L'accès depuis l'emploi du temps</li>
+</ul>
+<h4 id="accès-depuis-le-dashboard">Accès depuis le Dashboard</h4>
+<p>Il suffit de vous rendre sur la page <strong>Dashboard</strong> où un espace nommé <strong>Mes cours</strong> est dédié à vos différentes actions en tant qu'enseignant.</p>
+<img src="/images/absence1.7d1bd5d22e48c83ae119c8fc351647df.png" alt="aperçu de l&#039;espace Mes Cours" loading="lazy" width="1735" height="304" />
+<p>Une fois dans la rubrique <strong>Mes Cours</strong>, cliquez sur <strong>Saisir voir ou modifier des absences</strong> disponible dans la zone intitulée <strong>Absences</strong>. Vous êtes redirigé sur une page spécifique à la saisie d'absence qui ressemble à la suivante :</p>
+<img src="/images/absence2.3b12b8b286cb81568dbc31d8ea634e32.png" alt="aperçu de l&#039;espace Mes Cours" loading="lazy" width="1920" height="736" />
+<p>Vous devez ensuite remplir plusieurs paramètres propres à votre cours :</p>
+<ul>
+<li>Le module que vous enseignez</li>
+<li>La date du jour</li>
+<li>Le créneau horaire de votre cours</li>
+<li>Le groupe que vous encadrez : CM pour Cours Magistral, TD pour Travaux Dirigés et TP pour Travaux Pratiques.</li>
+</ul>
+<img src="/images/absence3.ccc582b7d04973bf8cff1b33f36373aa.png" alt="aperçu de l&#039;espace Mes Cours" loading="lazy" width="1920" height="1080" />
+<p>Une fois le groupe choisi, la liste des étudiants correspondant apparaît, ce qui vous permet de soit saisir une absence, soit en supprimer une. </p>
+<p>Il ne vous reste plus qu'à cliquer sur l'étudiant qui n'était pas présent lors de votre cours afin de signaler son absence ou bien de cliquer sur l'étudiant en rouge afin de retirer son absence. La zone grisée deviendra rouge si l'étudiant est noté absent et inversement si il est noté présent.</p>
+<img src="/images/absence4.370aaef08262a541cf56d0b358f8e5c6.png" alt="aperçu de l&#039;espace Mes Cours" loading="lazy" width="407" height="192" />
+<img src="/images/absence5.97c7b047434bc9b80e86c23b808e7200.png" alt="aperçu de l&#039;espace Mes Cours" loading="lazy" width="403" height="191" />
+<p>Si vous souhaitez vérifier que votre étudiant est bien noté absent ou présent, rendez-vous sur le trombinoscope, vous y trouverez vos étudiants. Cliquez sur la photo de profil ou le nom de votre étudiant absent afin d'arriver sur cette page :</p>
+<p>Vous y trouverez toutes les absences de l'étudiant en question, ainsi que celles que vous avez saisies.</p>
+<img src="/images/absence8.2e2a4b84f3e51f698439c5619a9e8e54.png" alt="aperçu de l&#039;espace Mes Cours" loading="lazy" width="1773" height="743" />
+<h4 id="accès-depuis-l-emploi-du-temps">Accès depuis l'emploi du temps</h4>
+<p>Risus in hendrerit gravida rutrum quisque non tellus orci. Malesuada proin libero nunc consequat interdum varius sit. Enim ut tellus elementum sagittis vitae et. Tempus quam pellentesque nec nam aliquam sem et tortor. Tempor orci eu lobortis elementum nibh. </p>
+<hr>
+<h2 id="gestion-des-notes">Gestion des notes</h2>
+<h3 id="comment-saisir-une-note">Comment saisir une note ?</h3>
+<p>Pour saisir une note, il faut vous rendre sur la page <strong>Dashboard</strong> où un espace nommé <strong>Mes cours</strong> est dédié à vos différentes actions en tant que professeur. Sélectionnez un semestre puis cliquez sur <strong>Saisir, voir ou modifier des notes</strong> :</p>
+<img src="/images/evaluation1.548f09b898c731bca37387f8b9aaab93.jpeg" alt="aperçu de l&#039;espace Mes Cours" loading="lazy" width="1423" height="314" />
+<hr>
+<h2 id="suivi-des-periodes-de-stage-et-d-alternance">Suivi des périodes de stage et d'alternance</h2>
+<h3 id="accéder-à-la-liste-des-étudiants-que-vous-suivez">Accéder à la liste des étudiants que vous suivez</h3>
+<p>Pour cela rendez vous sur le menu <strong>Applications</strong>, puis sur la page, choisir l'onglet <strong>Stages et Alternances</strong>&quot;.
+Dans cet onglet, vous avez les informations des stagiaires que vous suivez, mais aussi des alternants.
+Sur cette page, vous avez :</p>
+<ul>
+<li>Le nom de l'alternant</li>
+<li>Le nom de la formation</li>
+<li>L'entreprise, avec la possibilité de cliquer pour obtenir les informations de contacts</li>
+<li>La ville</li>
+<li>La partie suivi avec deux options :
+<ul>
+<li>&quot;Attente des informations&quot; : indiquant que l'alternant n'a pas encore saisie les informations de son alternance</li>
+<li>&quot;Suivi&quot; : Permettant de consulter et saisir les fiches de suivi.</li>
+</ul></li>
+</ul>
+<img src="/images/suivi01.c8bdf1219632ebf7a7cb13ea102db301.png" alt="aperçu de l&#039;espace Applications" loading="lazy" width="2876" height="1460" />
+<hr>
+<h3 id="editer-une-fiche-de-suivi-pour-un-étudiant-alternant">Editer une fiche de suivi pour un étudiant alternant</h3>
+<p>En cliquant sur le bouton &quot;Suivi&quot; de la ligne d'un alternant, vous accéder aux fiches de suivi de cet alternant, déjà saisies, et à la possibilité d'en créer une nouvelle.</p>
+<img src="/images/suivi02.b7f335c393c32643dd1151cbf268b583.png" alt="aperçu de l&#039;espace Applications" loading="lazy" width="2878" height="1460" />
+<p>Pour créer une nouvelle fiche de suivi d'alternance, cliquez sur le &quot;+&quot; en haut de la page, à coté de la flèche jaune pour ajouter une nouvelle fiche.</p>
+<p>Vous obtenez le formulaire ci-dessous à compléter. Tous les champs sont obligatoires.</p>
+<img src="/images/suivi03.3c0fbc298cebf52bc283921baeedd3f3.png" alt="aperçu de l&#039;espace Applications" loading="lazy" width="2880" height="1452" />
+<p>Vous pouvez ensuite sauvegarder, pour obtenir un résumé de votre fiche, et pouvoir la modifier (bouton ...) ou l'imprimer en PDF (bouton ...).</p>
+<p>Une fois la fiche sauvegardée vous avez le récapitulatif des éléments</p>
+<img src="/images/suivi04.a107fed025ddc9aa78184c9890d65c71.png" alt="aperçu de l&#039;espace Applications" loading="lazy" width="2876" height="1532" />
+<p>Depuis cette page vous pouvez imprimer (bouton bleu), modifier (bouton orange) ou supprimer la fiche (bouton rouge).</p>
+<p>En revenant sur la liste des suivis de cet alternant vous voyez maintenant votre fiche apparaître dans la liste. Vous pouvez de nouveau la consulter, la modifier ou la supprimer.</p>
+<img src="/images/suivi05.2b8d764b424946c1a7f92ab098fb0637.png" alt="aperçu de l&#039;espace Applications" loading="lazy" width="1442" height="727" />]]>
+    </content>
+    <link href="http://localhost:8000/enseignants/gestion_etudiants/" rel="alternate" type="text/html" />
+    <published>2023-01-17T12:03:46+00:00</published>
+    <updated>2023-01-17T12:03:46+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/etudiants/absences/</id>
+    <title>Gestion des absences</title>
+    <content type="html">
+      <![CDATA[<h2 id="comment-visualiser-ses-absences">Comment visualiser ses absences ?</h2>
+<h3 id="accès-depuis-le-dashboard">Accès depuis le Dashboard</h3>
+<p>Muni de votre identifiant et de votre mot de passe (fournis par votre IUT), inscrivez votre identifiant dans le champ nommé &quot;Login&quot; et votre mot de passe dans le champ nommé &quot;Mot de passe&quot;.</p>]]>
+    </content>
+    <link href="http://localhost:8000/etudiants/absences/" rel="alternate" type="text/html" />
+    <published>2023-01-17T07:22:02+00:00</published>
+    <updated>2023-01-17T07:22:02+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/fonctionnalites/absences_responsable/</id>
+    <title>les responsables des absences</title>
+    <content type="html">
+      <![CDATA[<ul>
+<li>
+<p>Suivi des absences</p>
+</li>
+<li>
+<p>Justifications</p>
+</li>
+<li>
+<p>Suivi des justificatifs d'absences</p>
+</li>
+<li>
+<p>Rattrapages</p>
+</li>
+<li>
+<p>Commission des absences</p>
+</li>
+</ul>]]>
+    </content>
+    <link href="http://localhost:8000/fonctionnalites/absences_responsable/" rel="alternate" type="text/html" />
+    <published>2023-01-06T15:46:59+00:00</published>
+    <updated>2023-01-06T15:46:59+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/fonctionnalites/dept_direction/</id>
+    <title>la direction du département</title>
+    <content type="html">
+      <![CDATA[<ul>
+<li>
+<p>Suivi des étudiants, de leurs notes et de leurs absences Optimisation V3</p>
+</li>
+<li>
+<p>Possibilité de justifier des absences (une à une)</p>
+</li>
+<li>
+<p>Possibilité de justifier des absences par lot Nouveauté V3</p>
+</li>
+<li>
+<p>Gestion des commissions des absences (convocation des étudiants, mailings, planning) Optimisation V3</p>
+</li>
+<li>
+<p>Gestion des notes et des sous-commissions (calculs des moyennes, proposition de décision)</p>
+</li>
+<li>
+<p>Possibilité d’ajuster toutes les informations Optimisation V3</p>
+</li>
+<li>
+<p>Publication des sous-commissions aux étudiants Optimisation V3</p>
+</li>
+<li>
+<p>Exports pour les fichiers de grand jury</p>
+</li>
+<li>
+<p>Exports Apogée</p>
+</li>
+<li>
+<p>Gestion des documents, des dates importantes Optimisation V3</p>
+</li>
+<li>
+<p>Gestion des prévisionnels (exports/imports OMEGA)</p>
+</li>
+<li>
+<p>Suivi de cohorte</p>
+</li>
+<li>
+<p>Edition de documents pour les examens (placements, appels)</p>
+</li>
+<li>
+<p>Configuration de la formation, des groupes, de l’intranet (règles spécifiques : par département, par diplôme, par année) Optimisation V3</p>
+</li>
+<li>
+<p>Outils de comparaison EDT/service prévisionnel Optimisation V3</p>
+</li>
+<li>
+<p>Les scolarités sont sauvegardées à partir de 2020, et possibilité de revenir sur une année antérieure.</p>
+</li>
+<li>
+<p>Export d'un document de situation (bilan de semestre ou de formation) pour les étudiants : avis de poursuite d'études</p>
+</li>
+</ul>]]>
+    </content>
+    <link href="http://localhost:8000/fonctionnalites/dept_direction/" rel="alternate" type="text/html" />
+    <published>2023-01-06T15:46:59+00:00</published>
+    <updated>2023-01-06T15:46:59+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/fonctionnalites/enseignants/</id>
+    <title>les enseignants et intervenants</title>
+    <content type="html">
+      <![CDATA[<ul>
+<li>
+<p>Suivi des étudiants (profil, trombinoscope)</p>
+</li>
+<li>
+<p>Saisie des notes et absences</p>
+</li>
+<li>
+<p>Graphique de répartition des notes sur une évaluation.</p>
+</li>
+<li>
+<p>Visualisation du service prévisionnel</p>
+</li>
+<li>
+<p>Sollicitation des étudiants pour un quizz/sondage</p>
+</li>
+<li>
+<p>Messagerie vers les étudiants (par promo, groupe ou individuel), mail officiel, mail perso si disponible et message interne de l’intranet</p>
+</li>
+<li>
+<p>Liste des étudiants à suivre en stage</p>
+</li>
+<li>
+<p>Formulaire de suivi d’alternance</p>
+</li>
+<li>
+<p>Historique des absences et des notes des étudiants</p>
+</li>
+<li>
+<p>Outils de recherche</p>
+</li>
+</ul>]]>
+    </content>
+    <link href="http://localhost:8000/fonctionnalites/enseignants/" rel="alternate" type="text/html" />
+    <published>2023-01-06T15:46:59+00:00</published>
+    <updated>2023-01-06T15:46:59+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/fonctionnalites/etudiants/</id>
+    <title>les etudiants</title>
+    <content type="html">
+      <![CDATA[<ul>
+<li>
+<p>Consultation de leur emploi du temps (synchronisation avec Celcat)  <span> Nouveauté V3 </span></p>
+</li>
+<li>
+<p>Synchronisation ICAL avec leur agenda (format ics).</p>
+</li>
+<li>
+<p>Paramétrage de la visibilité de l’emploi du temps, par les gestionnaires (nombre de semaines) </p>
+</li>
+<li>
+<p>Visibilité de leurs notes et leurs absences (en temps réel ou non)</p>
+</li>
+<li>
+<p>Consultation de leur parcours scolaire (au sein de l’établissement)</p>
+</li>
+<li>
+<p>Consultation des Modalités de Contrôle des Connaissances (MCC)</p>
+</li>
+<li>
+<p>Consultation de documents</p>
+</li>
+<li>
+<p>Système de blog pour les relations internationales, C2I, infos pratiques</p>
+</li>
+<li>
+<p>Dates importantes</p>
+</li>
+<li>
+<p>Demandes de rattrapages</p>
+</li>
+<li>
+<p>Suivi de leur stage</p>
+</li>
+<li>
+<p>Offres de stage</p>
+</li>
+<li>
+<p>Données pour la convention</p>
+</li>
+<li>
+<p>Tuteur</p>
+</li>
+<li>
+<p>Suivi de leur projets tutorés</p>
+</li>
+<li>
+<p>Edition des conventions</p>
+</li>
+<li>
+<p>Suivi de l'alternance</p>
+</li>
+<li>
+<p>Informations sur l'alternance</p>
+</li>
+<li>
+<p>Système d’emprunt de matériel (MMI)</p>
+</li>
+<li>
+<p>Système (basique) de quizz/sondage</p>
+</li>
+<li>
+<p>Système de notification</p>
+</li>
+<li>
+<p>Possibilité de déposer un justificatif d'absence en ligne</p>
+</li>
+</ul>]]>
+    </content>
+    <link href="http://localhost:8000/fonctionnalites/etudiants/" rel="alternate" type="text/html" />
+    <published>2023-01-06T15:46:59+00:00</published>
+    <updated>2023-01-06T15:46:59+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/fonctionnalites/notes_responsable/</id>
+    <title>les responsables des notes</title>
+    <content type="html">
+      <![CDATA[<ul>
+<li>
+<p>Suivi des notes et des évaluations</p>
+</li>
+<li>
+<p>Niveau de complétion</p>
+</li>
+<li>
+<p>Rattrapages et planning de rattrapage</p>
+</li>
+<li>
+<p>Sous-commissions</p>
+</li>
+</ul>]]>
+    </content>
+    <link href="http://localhost:8000/fonctionnalites/notes_responsable/" rel="alternate" type="text/html" />
+    <published>2023-01-06T15:46:59+00:00</published>
+    <updated>2023-01-06T15:46:59+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/fonctionnalites/ptut_responsable/</id>
+    <title>les responsables des projets tutorés</title>
+    <content type="html">
+      <![CDATA[<ul>
+<li>
+<p>Suivi des étudiants par période de projet</p>
+</li>
+<li>
+<p>Edition automatisée des conventions</p>
+</li>
+</ul>]]>
+    </content>
+    <link href="http://localhost:8000/fonctionnalites/ptut_responsable/" rel="alternate" type="text/html" />
+    <published>2023-01-06T15:46:59+00:00</published>
+    <updated>2023-01-06T15:46:59+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/fonctionnalites/qualite/</id>
+    <title>les responsables de la partie Qualité / ISO 9001</title>
+    <content type="html">
+      <![CDATA[<ul>
+<li>
+<p>Mise en place d'un &quot;lime-survey&quot; interne pour la création des questions qualités</p>
+</li>
+<li>
+<p>Export des résultats des enquêtes au formation qualité</p>
+</li>
+</ul>]]>
+    </content>
+    <link href="http://localhost:8000/fonctionnalites/qualite/" rel="alternate" type="text/html" />
+    <published>2023-01-06T15:46:59+00:00</published>
+    <updated>2023-01-06T15:46:59+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/fonctionnalites/rel_internationales/</id>
+    <title>les responsables des Relations Internationales</title>
+    <content type="html">
+      <![CDATA[<ul>
+<li>
+<p>Alimentation du blog RI</p>
+</li>
+<li>
+<p>Dépôt de documents</p>
+</li>
+</ul>]]>
+    </content>
+    <link href="http://localhost:8000/fonctionnalites/rel_internationales/" rel="alternate" type="text/html" />
+    <published>2023-01-06T15:46:59+00:00</published>
+    <updated>2023-01-06T15:46:59+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/fonctionnalites/scolarite/</id>
+    <title>les responsables de la scolarité</title>
+    <content type="html">
+      <![CDATA[<ul>
+<li>
+<p>Récupération des fichiers de fin de semestre pour Apogée</p>
+</li>
+<li>
+<p>Suivi des étudiants</p>
+</li>
+<li>
+<p>Enquête diplômés DUT à 6 mois</p>
+</li>
+<li>
+<p>Inscriptions pour la RDD</p>
+</li>
+<li>
+<p>Gestion des changements de formation</p>
+</li>
+<li>
+<p>Imports des étudiants par la scolarité</p>
+</li>
+</ul>]]>
+    </content>
+    <link href="http://localhost:8000/fonctionnalites/scolarite/" rel="alternate" type="text/html" />
+    <published>2023-01-06T15:46:59+00:00</published>
+    <updated>2023-01-06T15:46:59+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/fonctionnalites/stage_responsable/</id>
+    <title>les responsables des stages</title>
+    <content type="html">
+      <![CDATA[<ul>
+<li>
+<p>Suivi des étudiants par période de stage</p>
+</li>
+<li>
+<p>Edition automatisée des conventions et des courriers</p>
+</li>
+<li>
+<p>Edition des plannings de soutenance et des courriers de convocation</p>
+</li>
+<li>
+<p>Affectation d’un tuteur universitaire</p>
+</li>
+<li>
+<p>Statistiques</p>
+</li>
+<li>
+<p>Gestion des avenants</p>
+</li>
+</ul>]]>
+    </content>
+    <link href="http://localhost:8000/fonctionnalites/stage_responsable/" rel="alternate" type="text/html" />
+    <published>2023-01-06T15:46:59+00:00</published>
+    <updated>2023-01-06T15:46:59+00:00</updated>
+  </entry>
+</feed>

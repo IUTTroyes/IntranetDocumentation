@@ -294,7 +294,7 @@ class __TwigTemplate_0afb1d10af7f29a1b1946fc0edb2227d extends Template
                     <section class=\"news\">
                         <article>
                             <h2>Nouveautés</h2>
-                            {#                            todo: liste de nouveautés = 4 derniers ajouts de la page fonctionnalités #}
+                            {# todo: récup. 4 derniers ajouts du changelog = link git repo ? #}
                             <ul>
                                 <li>Nouv. 1</li>
                                 <li>Nouv. 2</li>

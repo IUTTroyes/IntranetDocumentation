@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/xsl/atom.xsl" media="all"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>http://localhost:8000/administration/</id>
+  <title>Documentation de l&#039;Intranet des IUT - Administration</title>
+  <subtitle><![CDATA[]]></subtitle>
+  <link href="http://localhost:8000/administration/atom.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:8000/administration/" rel="alternate" type="text/html" />
+  <updated>2023-01-19T13:58:00+00:00</updated>
+  <author>
+    <name>Arnaud Ligny</name>
+    <uri>https://arnaudligny.fr</uri>
+  </author>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/administration/gestion_typeprime/</id>
+    <title>Gestion des types de primes ou HRS</title>
+    <content type="html">
+      <![CDATA[<h2 id="création-d-un-type-de-prime-ou-hrs">Création d'un type de prime ou HRS</h2>]]>
+    </content>
+    <link href="http://localhost:8000/administration/gestion_typeprime/" rel="alternate" type="text/html" />
+    <published>2023-01-19T13:58:00+00:00</published>
+    <updated>2023-01-19T13:58:00+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/administration/gestion_scolarite/</id>
+    <title>Gestion de la scolarité</title>
+    <content type="html">
+      <![CDATA[<h2 id="gestion-des-inscrits-à-la-rdd">Gestion des inscrits à la RDD</h2>
+<h2 id="gestion-des-enquêtes-des-diplômés">Gestion des enquêtes des diplômés</h2>
+<h2 id="exportation-des-données-d-apogée">Exportation des données d'Apogée</h2>]]>
+    </content>
+    <link href="http://localhost:8000/administration/gestion_scolarite/" rel="alternate" type="text/html" />
+    <published>2023-01-19T13:34:59+00:00</published>
+    <updated>2023-01-19T13:34:59+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/administration/gestion_enquetes/</id>
+    <title>Gestion des enquêtes qualité</title>
+    <content type="html">
+      <![CDATA[<h2 id="畳ㅢ">sub1</h2>
+<h2 id="獵戲">sub2</h2>]]>
+    </content>
+    <link href="http://localhost:8000/administration/gestion_enquetes/" rel="alternate" type="text/html" />
+    <published>2023-01-19T13:32:13+00:00</published>
+    <updated>2023-01-19T13:32:13+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/administration/gestion_comptabilite/</id>
+    <title>Gestion de la comptabilité</title>
+    <content type="html">
+      <![CDATA[<h2 id="畳ㅢ">sub1</h2>
+<h2 id="獵戲">sub2</h2>]]>
+    </content>
+    <link href="http://localhost:8000/administration/gestion_comptabilite/" rel="alternate" type="text/html" />
+    <published>2023-01-19T13:31:36+00:00</published>
+    <updated>2023-01-19T13:31:36+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/administration/gestion_typediplome/</id>
+    <title>Gestion des types de diplômes</title>
+    <content type="html">
+      <![CDATA[<h2 id="畳ㅢ">sub1</h2>
+<h2 id="獵戲">sub2</h2>]]>
+    </content>
+    <link href="http://localhost:8000/administration/gestion_typediplome/" rel="alternate" type="text/html" />
+    <published>2023-01-19T13:20:00+00:00</published>
+    <updated>2023-01-19T13:20:00+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/administration/gestion_ufr/</id>
+    <title>Gestion des UFR</title>
+    <content type="html">
+      <![CDATA[<h2 id="畳ㅢ">sub1</h2>
+<h2 id="獵戲">sub2</h2>]]>
+    </content>
+    <link href="http://localhost:8000/administration/gestion_ufr/" rel="alternate" type="text/html" />
+    <published>2023-01-19T13:18:24+00:00</published>
+    <updated>2023-01-19T13:18:24+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/administration/gestion_sites/</id>
+    <title>Gestion des sites</title>
+    <content type="html">
+      <![CDATA[<h2 id="畳ㅢ">sub1</h2>
+<h2 id="獵戲">sub2</h2>]]>
+    </content>
+    <link href="http://localhost:8000/administration/gestion_sites/" rel="alternate" type="text/html" />
+    <published>2023-01-19T13:14:47+00:00</published>
+    <updated>2023-01-19T13:14:47+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/administration/gestion_materiels/</id>
+    <title>Gestion des matériels communs</title>
+    <content type="html">
+      <![CDATA[<h2 id="畳ㅢ">sub1</h2>
+<h2 id="獵戲">sub2</h2>]]>
+    </content>
+    <link href="http://localhost:8000/administration/gestion_materiels/" rel="alternate" type="text/html" />
+    <published>2023-01-19T13:13:25+00:00</published>
+    <updated>2023-01-19T13:13:25+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/administration/gestion_bac/</id>
+    <title>Gestion des bac</title>
+    <content type="html">
+      <![CDATA[<h2 id="畳ㅢ">sub1</h2>
+<h2 id="獵戲">sub2</h2>]]>
+    </content>
+    <link href="http://localhost:8000/administration/gestion_bac/" rel="alternate" type="text/html" />
+    <published>2023-01-19T13:11:59+00:00</published>
+    <updated>2023-01-19T13:11:59+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/administration/gestion_salles/</id>
+    <title>Gestion des salles</title>
+    <content type="html">
+      <![CDATA[<h2 id="consultation-des-disponibilités">Consultation des disponibilités</h2>
+<h2 id="réservation-des-salles">Réservation des salles</h2>]]>
+    </content>
+    <link href="http://localhost:8000/administration/gestion_salles/" rel="alternate" type="text/html" />
+    <published>2023-01-19T13:09:48+00:00</published>
+    <updated>2023-01-19T13:09:48+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/administration/gestion_celcat/</id>
+    <title>Gestion de Celcat</title>
+    <content type="html">
+      <![CDATA[<h2 id="importation-des-données-de-celcat">Importation des données de Celcat</h2>
+<h2 id="synchronisation-avec-celcat">Synchronisation avec Celcat</h2>]]>
+    </content>
+    <link href="http://localhost:8000/administration/gestion_celcat/" rel="alternate" type="text/html" />
+    <published>2023-01-19T11:12:23+00:00</published>
+    <updated>2023-01-19T11:12:23+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/administration/intro/</id>
+    <title>Premiers pas</title>
+    <content type="html">
+      <![CDATA[<h2 id="comment-se-connecter">Comment se connecter ?</h2>
+<h3 id="connexion-via-l-urca">Connexion via l'URCA</h3>
+<p>Muni de votre identifiant et de votre mot de passe (fournis par votre IUT), inscrivez votre identifiant dans le champ nommé &quot;Login&quot; et votre mot de passe dans le champ nommé &quot;Mot de passe&quot;.</p>
+<h3 id="connexion-via-l-intranet">Connexion via l'intranet</h3>
+<p>Muni de votre identifiant et de votre mot de passe (fournis par votre IUT), inscrivez votre identifiant dans le champ nommé &quot;Login&quot; et votre mot de passe dans le champ nommé &quot;Mot de passe&quot;.</p>]]>
+    </content>
+    <link href="http://localhost:8000/administration/intro/" rel="alternate" type="text/html" />
+    <published>2023-01-19T09:33:14+00:00</published>
+    <updated>2023-01-19T09:33:14+00:00</updated>
+  </entry>
+</feed>

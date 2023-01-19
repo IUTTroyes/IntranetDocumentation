@@ -80,7 +80,7 @@ class __TwigTemplate_8dbea5395726d2677b54271bb75f51be extends Template
                         });
                     },
                     getItemUrl({item}) {
-                        return item.url;
+                        return item.href;
                     },
                     templates: {
                         item({item, components, html}) {
@@ -100,7 +100,7 @@ class __TwigTemplate_8dbea5395726d2677b54271bb75f51be extends Template
                                                     attribute: 'page',
                                                 })}
                                             </div>
-                                            <div class=\"aa-ItemContentDescription\">
+                                            <div class=\"aa-ItemContentDescription\" style=\"overflow: hidden\">
                                                 \${components.Highlight({
                                                     hit: item,
                                                     attribute: 'title',
@@ -131,8 +131,28 @@ class __TwigTemplate_8dbea5395726d2677b54271bb75f51be extends Template
                     },
                 },
             ];
-        },
+        }
     });
+    //     // Default Navigator API implementation
+    //     navigator: {
+    //         navigate({ itemUrl }) {
+    //             window.location.assign(itemUrl);
+    //         },
+    //         navigateNewTab({ itemUrl }) {
+    //             const windowReference = window.open(itemUrl, '_blank', 'noopener');
+    //
+    //             if (windowReference) {
+    //                 windowReference.focus();
+    //             }
+    //         },
+    //         navigateNewWindow({ itemUrl }) {
+    //             window.open(itemUrl, '_blank', 'noopener');
+    //         },
+    //     },
+    // })
+    // .onclick('autocomplete:selected', function(event, item, dataset) {
+    //     location.href = item.href;
+    // });
 </script>
 ";
         
@@ -195,7 +215,7 @@ class __TwigTemplate_8dbea5395726d2677b54271bb75f51be extends Template
                         });
                     },
                     getItemUrl({item}) {
-                        return item.url;
+                        return item.href;
                     },
                     templates: {
                         item({item, components, html}) {
@@ -215,7 +235,7 @@ class __TwigTemplate_8dbea5395726d2677b54271bb75f51be extends Template
                                                     attribute: 'page',
                                                 })}
                                             </div>
-                                            <div class=\"aa-ItemContentDescription\">
+                                            <div class=\"aa-ItemContentDescription\" style=\"overflow: hidden\">
                                                 \${components.Highlight({
                                                     hit: item,
                                                     attribute: 'title',
@@ -246,8 +266,28 @@ class __TwigTemplate_8dbea5395726d2677b54271bb75f51be extends Template
                     },
                 },
             ];
-        },
+        }
     });
+    //     // Default Navigator API implementation
+    //     navigator: {
+    //         navigate({ itemUrl }) {
+    //             window.location.assign(itemUrl);
+    //         },
+    //         navigateNewTab({ itemUrl }) {
+    //             const windowReference = window.open(itemUrl, '_blank', 'noopener');
+    //
+    //             if (windowReference) {
+    //                 windowReference.focus();
+    //             }
+    //         },
+    //         navigateNewWindow({ itemUrl }) {
+    //             window.open(itemUrl, '_blank', 'noopener');
+    //         },
+    //     },
+    // })
+    // .onclick('autocomplete:selected', function(event, item, dataset) {
+    //     location.href = item.href;
+    // });
 </script>
 ", "partials/algolia.html.twig", "/var/www/html/IntranetDocumentation/layouts/partials/algolia.html.twig");
     }

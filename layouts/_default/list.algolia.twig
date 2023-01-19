@@ -1,4 +1,4 @@
-{%- set section, balise = 'pages', 'h3' -%}
+{%- set section, balise = 'pages', 'h2' -%}
 {%- macro dataset(objectID, page, title, dossier, href,description = '', content, date, experimental) ~%}
     {
     "objectID": "{{ objectID }}",
@@ -36,7 +36,7 @@
                     p.title,
                     title,
                     p.section|capitalize,
-                    p.path ~ '/#' ~ anchor
+                    url(p) ~ '#' ~ anchor
                 ) -}}
                 {%- if not loop.last %},{% endif ~%}
                 {%- set count = count + 1 -%}

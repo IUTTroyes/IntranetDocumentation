@@ -1,0 +1,894 @@
+        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="theme-color" media="(prefers-color-scheme: light)" content="white"/>
+        <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black"/>
+    <title>Premiers pas &middot; Documentation de l&#039;Intranet des IUT</title>
+    <meta name="description" content="" />
+    <meta name="author" content="Arnaud Ligny" />
+    <meta name="robots" content="index,follow" />
+    <link rel="icon" sizes="32x32" href="http://localhost:8000/assets/thumbnails/32/favicon.c1af8a129a0cde81f9b94ffbf452e10b.png" type="image/png" />
+    <link rel="icon" sizes="57x57" href="http://localhost:8000/assets/thumbnails/57/favicon.c1af8a129a0cde81f9b94ffbf452e10b.png" type="image/png" />
+    <link rel="icon" sizes="76x76" href="http://localhost:8000/assets/thumbnails/76/favicon.c1af8a129a0cde81f9b94ffbf452e10b.png" type="image/png" />
+    <link rel="icon" sizes="96x96" href="http://localhost:8000/assets/thumbnails/96/favicon.c1af8a129a0cde81f9b94ffbf452e10b.png" type="image/png" />
+    <link rel="icon" sizes="128x128" href="http://localhost:8000/assets/thumbnails/128/favicon.c1af8a129a0cde81f9b94ffbf452e10b.png" type="image/png" />
+    <link rel="icon" sizes="192x192" href="http://localhost:8000/assets/thumbnails/192/favicon.c1af8a129a0cde81f9b94ffbf452e10b.png" type="image/png" />
+    <link rel="icon" sizes="228x228" href="http://localhost:8000/assets/thumbnails/228/favicon.c1af8a129a0cde81f9b94ffbf452e10b.png" type="image/png" />
+    <link rel="shortcut icon" sizes="196x196" href="http://localhost:8000/assets/thumbnails/196/favicon.c1af8a129a0cde81f9b94ffbf452e10b.png" type="image/png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="http://localhost:8000/assets/thumbnails/120/favicon.c1af8a129a0cde81f9b94ffbf452e10b.png" type="image/png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="http://localhost:8000/assets/thumbnails/152/favicon.c1af8a129a0cde81f9b94ffbf452e10b.png" type="image/png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:8000/assets/thumbnails/180/favicon.c1af8a129a0cde81f9b94ffbf452e10b.png" type="image/png" />
+    <link rel="prev" href="http://localhost:8000/enseignants/gestion_etudiants/" />
+    <link rel="next" href="http://localhost:8000/enseignants/edt/" />
+    <link rel="canonical" type="text/html" title="Premiers pas &middot; Documentation de l&#039;Intranet des IUT" href="http://localhost:8000/enseignants/intro/" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Documentation de l'Intranet des IUT" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Premiers pas &middot; Documentation de l&#039;Intranet des IUT" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="http://localhost:8000/enseignants/intro/" />
+    <meta property="og:image" content="http://localhost:8000/logo.11de65a5e07ccdeff9ebb2e4acf11505.svg" />
+    <meta property="og:image:type" content="image/svg+xml" />
+    <meta property="og:image:width" content="0" />
+    <meta property="og:image:height" content="0" />
+    <meta property="og:image:alt" content="Premiers pas &middot; Documentation de l&#039;Intranet des IUT" />
+    <meta name="twitter:title" content="Premiers pas &middot; Documentation de l&#039;Intranet des IUT" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:card" content="summary" />
+
+
+        <link rel="stylesheet" href="/bootstrap.min.339d8db63836978e6a52d0a501412b07.min.css" type="text/css"/>
+    <link rel="stylesheet" href="/styles/css/style.851b029f83b7e01443d6cb6da54ec662.min.css" type="text/css"/>
+    
+        <style>/* source: https://github.com/xz/new.css/blob/80e7107b491b1062193331ae93ff3670c6a2398d/new.css */
+:root {
+    --nc-font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --nc-font-mono: Consolas, monaco, 'Ubuntu Mono', 'Liberation Mono', 'Courier New', Courier, monospace;
+
+    /* Light theme */
+    --nc-tx-1: #000000;
+    --nc-tx-2: #1A1A1A;
+    --nc-bg-1: #f5f6fa;
+    --nc-bg-2: #f3f4f6;
+    --nc-bg-3: #d9d2e2;
+    --nc-hr: #4f387d;
+    --nc-lk-1: #282828;
+    --nc-lk-2: #ffc44b;
+    --nc-lk-bg: rgba(255, 255, 255, 0.2);
+    --nc-lk-tx: #FFFFFF;
+    --nc-ac-1: #4e377a;
+    --nc-ac-2: #1b493f;
+    --nc-ac-tx: #4f387d;
+    --nc-toast: rgb(215 215 215 / 38%);
+    --nc-miniLink: rgba(12, 12, 12, 0.67);
+    --nc-hr-transp: rgba(84, 84, 84, 0.27);
+    --nc-transp-bg: rgba(100, 89, 124, 0.4);
+
+    /* Dark theme */
+    --nc-d-tx-1: #f3f3f3;
+    --nc-d-tx-2: #eeeeee;
+    --nc-d-bg-1: #1a1523;
+    --nc-d-bg-2: #130f1a;
+    --nc-d-bg-3: rgba(100, 89, 124, 0.71);
+    --nc-d-hr: #FFFFFF;
+    --nc-d-lk-1: #f3f3f3;
+    --nc-d-lk-2: #ffc44b;
+    --nc-d-lk-bg: rgba(255, 255, 255, 0.2);
+    --nc-d-lk-tx: #FFFFFF;
+    --nc-d-ac-1: #ffce43;
+    --nc-d-ac-2: #e8bb30;
+    --nc-d-ac-tx: #FFFFFF;
+    --nc-d-toast: rgb(215 215 215 / 38%);
+    --nc-d-miniLink: #FFFFFFAA;
+    --nc-d-hr-transp: rgba(248,249,250,.1215686275);
+    --nc-d-transp-bg: rgba(248,249,250,.1215686275);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --nc-tx-1: var(--nc-d-tx-1);
+        --nc-tx-2: var(--nc-d-tx-2);
+        --nc-bg-1: var(--nc-d-bg-1);
+        --nc-bg-2: var(--nc-d-bg-2);
+        --nc-bg-3: var(--nc-d-bg-3);
+        --nc-hr: var(--nc-d-hr);
+        --nc-lk-1: var(--nc-d-lk-1);
+        --nc-lk-2: var(--nc-d-lk-2);
+        --nc-lk-bg: var(--nc-d-lk-bg);
+        --nc-lk-tx: var(--nc-d-lk-tx);
+        --nc-ac-1: var(--nc-d-ac-1);
+        --nc-ac-2: var(--nc-d-ac-2);
+        --nc-ac-tx: var(--nc-d-ac-tx);
+        --nc-toast: var(--nc-d-toast);
+        --nc-miniLink: var(--nc-d-miniLink);
+        --nc-transp-bg: var(--nc-d-transp-bg);
+        --nc-hr-transp: var(--nc-d-hr-transp);
+    }
+}
+
+* {
+    /* Reset margins and padding */
+    margin: 0;
+    padding: 0;
+}
+
+address,
+area,
+article,
+aside,
+audio,
+blockquote,
+datalist,
+details,
+dl,
+fieldset,
+figure,
+form,
+input,
+iframe,
+img,
+meter,
+nav,
+ol,
+optgroup,
+option,
+output,
+p,
+pre,
+progress,
+ruby,
+section,
+table,
+textarea,
+ul,
+video {
+    /* Margins for most elements */
+    margin-bottom: 1rem;
+}
+
+html, input, select, button {
+    /* Set body font family and some finicky elements */
+    font-family: var(--nc-font-sans);
+}
+
+body {
+    /* Center body in page */
+    margin: 0 auto;
+    overflow-x: hidden;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    background: var(--nc-bg-1);
+
+    /* Main body text */
+    color: var(--nc-tx-2);
+    font-size: 1.03rem;
+    line-height: 1.5;
+}
+
+::selection {
+    /* Set background color for selected text */
+    background: var(--nc-ac-1);
+    color: var(--nc-ac-tx);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1;
+    color: var(--nc-tx-1);
+    padding-top: .875rem;
+}
+
+h1,
+h2 {
+    color: var(--nc-tx-1);
+    padding-bottom: 2px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid var(--nc-ac-1);
+}
+
+h4,
+h5,
+h6 {
+    margin-bottom: .3rem;
+}
+
+h1 {
+    font-size: 1.85rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+h4 {
+    font-size: 1.15rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+h6 {
+    font-size: .875rem;
+}
+
+a {
+    color: var(--nc-lk-1);
+}
+
+a:hover {
+    color: var(--nc-lk-2);
+}
+
+abbr:hover {
+    /* Set the '?' cursor while hovering an abbreviation */
+    cursor: help;
+}
+
+blockquote {
+    padding: 1.5rem;
+    background: var(--nc-bg-2);
+    border-left: 5px solid var(--nc-bg-3);
+}
+
+abbr {
+    cursor: help;
+}
+
+blockquote *:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+header {
+    position: relative;
+    background: var(--nc-bg-1);
+    border-bottom: .5px solid var(--nc-hr);
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px 50px 50px;
+}
+
+header h1,
+header h2,
+header h3 {
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+
+header > *:first-child {
+    margin-top: 15px;
+    padding-top: 0;
+}
+
+header > *:last-child {
+    margin: 15px 0 0 0;
+}
+
+a button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    font-size: 1rem;
+    display: inline-block;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    background: var(--nc-lk-1);
+    color: var(--nc-lk-tx);
+    border: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: var(--nc-lk-tx);
+}
+
+a button[disabled],
+button[disabled],
+input[type="submit"][disabled],
+input[type="reset"][disabled],
+input[type="button"][disabled] {
+    cursor: default;
+    opacity: .5;
+
+    /* Set the [X] cursor while hovering a disabled link */
+    cursor: not-allowed;
+}
+
+.button:focus,
+.button:enabled:hover,
+button:focus,
+button:enabled:hover,
+input[type="submit"]:focus,
+input[type="submit"]:enabled:hover,
+input[type="reset"]:focus,
+input[type="reset"]:enabled:hover,
+input[type="button"]:focus,
+a img {
+    margin-bottom: 0px;
+}
+
+code,
+pre,
+kbd,
+samp {
+    /* Set the font family for monospaced elements */
+    font-family: var(--nc-font-mono);
+}
+
+code,
+samp,
+kbd,
+pre {
+    /* The main preformatted style. This is changed slightly across different cases. */
+    background: var(--nc-bg-2);
+    border: 1px solid var(--nc-bg-3);
+    border-radius: 4px;
+    padding: 3px 6px;
+    /* ↓ font-size is relative to containing element, so it scales for titles*/
+    font-size: 0.9em;
+}
+
+kbd {
+    /* Makes the kbd element look like a keyboard key */
+    border-bottom: 3px solid var(--nc-bg-3);
+}
+
+pre {
+    padding: 1rem 1.4rem;
+    max-width: 100%;
+    overflow: auto;
+}
+
+pre code {
+    /* When <code> is in a <pre>, reset it's formatting to blend in */
+    background: inherit;
+    font-size: inherit;
+    color: inherit;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+code pre {
+    /* When <pre> is in a <code>, reset it's formatting to blend in */
+    display: inline;
+    background: inherit;
+    font-size: inherit;
+    color: inherit;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+details {
+    /* Make the <details> look more "clickable" */
+    padding: .6rem 1rem;
+    background: var(--nc-bg-2);
+    border: 1px solid var(--nc-bg-3);
+    border-radius: 4px;
+}
+
+summary {
+    /* Makes the <summary> look more like a "clickable" link with the pointer cursor */
+    cursor: pointer;
+    font-weight: bold;
+}
+
+details[open] {
+    /* Adjust the <details> padding while open */
+    padding-bottom: .75rem;
+}
+
+details[open] summary {
+    /* Adjust the <details> padding while open */
+    margin-bottom: 6px;
+}
+
+details[open] > *:last-child {
+    /* Resets the bottom margin of the last element in the <details> while <details> is opened. This prevents double margins/paddings. */
+    margin-bottom: 0;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd::before {
+    /* Add an arrow to data table definitions */
+    content: '→ ';
+}
+
+
+fieldset {
+    margin-top: 1rem;
+    padding: 2rem;
+    border: 1px solid var(--nc-bg-3);
+    border-radius: 4px;
+}
+
+legend {
+    padding: auto .5rem;
+}
+
+table {
+    /* border-collapse sets the table's elements to share borders, rather than floating as separate "boxes". */
+    border-collapse: collapse;
+    width: 100%
+}
+
+td,
+th {
+    border: 1px solid var(--nc-bg-3);
+    text-align: left;
+    padding: .5rem;
+}
+
+th {
+    background: var(--nc-bg-2);
+}
+
+tr:nth-child(even) {
+    /* Set every other cell slightly darker. Improves readability. */
+    background: var(--nc-bg-2);
+}
+
+table caption {
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+textarea {
+    /* Don't let the <textarea> extend off the screen naturally or when dragged by the user */
+    max-width: 100%;
+}
+
+ol,
+ul {
+    /* Replace the browser default padding */
+    padding-left: 2rem;
+}
+
+li {
+    margin-top: .4rem;
+}
+
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+    margin-bottom: 0;
+}
+
+mark {
+    padding: 3px 6px;
+    background: var(--nc-ac-1);
+    color: var(--nc-ac-tx);
+}
+
+textarea,
+select,
+input {
+    padding: 6px 12px;
+    margin-bottom: .5rem;
+    background: var(--nc-bg-2);
+    color: var(--nc-tx-2);
+    border: 1px solid var(--nc-bg-3);
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+            /* nav */
+            nav ul {
+                padding: 0;
+                margin: 0;
+            }
+
+            nav li {
+                display: inline-block;
+                margin: 0 .5rem 0 0;
+            }
+
+            nav a {
+                text-decoration: none;
+            }
+
+            nav a:hover {
+                text-decoration: underline;
+            }
+
+            /* footer */
+            footer {
+                border-top: 1px solid var(--nc-bg-3);
+                padding-top: 1rem;
+                margin-top: 2rem;
+            }
+
+            /* image */
+            img {
+                height: auto;
+            }
+            </style>
+
+            <script src="/bootstrap.min.259e416ef6833be43801b8b68a93b008.min.js"></script>
+        <script type="module" src="/script.65ca2904389cf65ae62c826bc0f8b465.min.js"></script>
+        <script src="https://kit.fontawesome.com/c610cfb1f1.js" crossorigin="anonymous"></script>
+    
+  <meta name="generator" content="Cecil 7.28.3" />
+</head>
+<body>
+<header>
+    <div class="title">
+        <img src="/logo.11de65a5e07ccdeff9ebb2e4acf11505.svg" alt="">
+        <h1>Documentation de l'Intranet des IUT</h1>
+    </div>
+
+    
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-theme-classic"
+/>
+
+<div id="autocomplete"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-js"></script>
+<script type="module">
+    import algoliasearch
+        from 'https://cdn.jsdelivr.net/npm/algoliasearch@4.14.2/dist/algoliasearch-lite.esm.browser.js';
+
+    const {autocomplete, getAlgoliaResults} = window['@algolia/autocomplete-js'];
+
+    const searchClient = algoliasearch(
+        'N15M8DWZID', // Application ID
+        '1fef5e20747e117945db156d00df3b9a' // Search-Only API Key
+    );
+
+    //nouvelle version avec la nouvelle version. N'affiche pas encore les réponses. A gérer dans le tableau.
+    //https://www.algolia.com/doc/ui-libraries/autocomplete/introduction/getting-started/
+    autocomplete({
+        container: '#autocomplete',
+        placeholder: 'Rechercher dans la documentation',
+        getSources({query}) {
+            return [
+                {
+                    sourceId: 'intradoc',
+                    getItems() {
+                        return getAlgoliaResults({
+                            searchClient,
+                            queries: [
+                                {
+                                    indexName: 'intradoc',
+                                    query, //saisie de l'utilisateur
+                                    params: {
+                                        hitsPerPage: 5,
+                                    },
+                                },
+                            ],
+                        });
+                    },
+                    getItemUrl({item}) {
+                        return item.url;
+                    },
+                    templates: {
+                        item({item, components, html}) {
+                            return html`
+                                <div class="aa-ItemWrapper">
+                                    <div class="aa-ItemContent">
+                                        <div class="aa-ItemContentBody">
+                                            <div class="aa-ItemContentTitle">
+                                                ${components.Snippet({
+                                                    hit: item,
+                                                    attribute: 'dossier',
+                                                })}
+                                            </div>
+                                            <div class="aa-ItemContentDescription">
+                                                ${components.Snippet({
+                                                    hit: item,
+                                                    attribute: 'page',
+                                                })}
+                                            </div>
+                                            <div class="aa-ItemContentDescription" style="overflow: hidden">
+                                                ${components.Highlight({
+                                                    hit: item,
+                                                    attribute: 'title',
+                                                })}
+                                            </div>
+                                        </div>
+                                        <div class="aa-ItemActions">
+                                            <button
+                                                    class="aa-ItemActionButton aa-DesktopOnly aa-ActiveOnly"
+                                                    type="button"
+                                                    title="Select"
+                                            >
+                                                <svg
+                                                        viewBox="0 0 24 24"
+                                                        width="20"
+                                                        height="20"
+                                                        fill="currentColor"
+                                                >
+                                                    <path
+                                                            d="M18.984 6.984h2.016v6h-15.188l3.609 3.609-1.406 1.406-6-6 6-6 1.406 1.406-3.609 3.609h13.172v-4.031z"
+                                                    />
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>`;
+                        },
+                    },
+                },
+            ];
+        },
+    });
+</script>
+
+      <nav>
+        <ul>
+          <li><a href="/">Accueil</a></li>
+          <li><a href="/administration/">Administration</a></li>
+          <li><a href="/direction/">Direction</a></li>
+          <li><a href="/enseignants/">Enseignants</a></li>
+          <li><a href="/etudiants/">Etudiants</a></li>
+        </ul>
+      </nav>
+
+</header>
+<div class="body_content">
+    <aside>
+        <h4>Enseignants</h4>
+        <ul>
+                <li><a href="/enseignants/intro">Premiers pas</a></li>
+                
+      <li class="subtitle"><a href="/enseignants/intro/#comment-se-connecter">Comment se connecter ?</a></li>
+            
+                <li><a href="/enseignants/gestion_etudiants">Gestion des étudiants</a></li>
+                
+      <li class="subtitle"><a href="/enseignants/gestion_etudiants/#gestion-des-absences">Gestion des absences </a></li>
+      <li class="subtitle"><a href="/enseignants/gestion_etudiants/#gestion-des-notes">Gestion des notes </a></li>
+      <li class="subtitle"><a href="/enseignants/gestion_etudiants/#suivi-des-periodes-de-stage-et-d-alternance">Suivi des périodes de stage et d'alternance</a></li>
+            
+                <li><a href="/enseignants/gestion_previsionnel">Gestion du prévisionnel</a></li>
+                
+      <li class="subtitle"><a href="/enseignants/gestion_previsionnel/#visualiser-son-previsionnel">Visualiser son prévisionnel </a></li>
+      <li class="subtitle"><a href="/enseignants/gestion_previsionnel/#comprendre-son-previsionnel">Comprendre son prévisionnel</a></li>
+            
+                <li><a href="/enseignants/edt">Emploi du temps</a></li>
+                
+      <li class="subtitle"><a href="/enseignants/edt/#visualisation-de-l-emploi-du-temps">Visualisation de l'emploi du temps </a></li>
+      <li class="subtitle"><a href="/enseignants/edt/#synchronisation-de-l-emploi-du-temps-avec-un-agenda-personnel">Synchronisation de l'emploi du temps avec un agenda personnel</a></li>
+                    </ul>
+        <hr>
+        <h4>Etudiants</h4>
+        <ul>
+                <li><a href="/etudiants/intro">Premiers pas</a></li>
+                
+      <li class="subtitle"><a href="/etudiants/intro/#comment-se-connecter">Comment se connecter ?</a></li>
+            
+                <li><a href="/etudiants/absences">Gestion des absences</a></li>
+                
+      <li class="subtitle"><a href="/etudiants/absences/#visualisation-des-absences">Visualisation des absences </a></li>
+      <li class="subtitle"><a href="/etudiants/absences/#justification-des-absences">Justification des absences</a></li>
+            
+                <li><a href="/etudiants/notes">Gestion des notes</a></li>
+                
+      <li class="subtitle"><a href="/etudiants/notes/#visualisation-des-notes">Visualisation des notes </a></li>
+      <li class="subtitle"><a href="/etudiants/notes/#demandes-de-rattrapages">Demandes de rattrapages</a></li>
+            
+                <li><a href="/etudiants/edt">Emploi du temps</a></li>
+                
+      <li class="subtitle"><a href="/etudiants/edt/#visualisation-de-l-emploi-du-temps">Visualisation de l'emploi du temps </a></li>
+      <li class="subtitle"><a href="/etudiants/edt/#synchronisation-de-l-emploi-du-temps-avec-un-agenda-personnel">Synchronisation de l'emploi du temps avec un agenda personnel</a></li>
+                    </ul>
+        <hr>
+        <h4>Administration</h4>
+        <ul>
+                <li><a href="/administration/intro">Premiers pas</a></li>
+                
+      <li class="subtitle"><a href="/administration/intro/#comment-se-connecter">Comment se connecter ? </a></li>
+      <li class="subtitle"><a href="/administration/intro/#connexion-via-l-urca">Connexion via l'URCA</a></li>
+            
+                <li><a href="/administration/gestion_celcat">Gestion de Celcat</a></li>
+                
+      <li class="subtitle"><a href="/administration/gestion_celcat/#importation-des-donnees-de-celcat">Importation des données de Celcat </a></li>
+      <li class="subtitle"><a href="/administration/gestion_celcat/#synchronisation-avec-celcat">Synchronisation avec Celcat</a></li>
+            
+                <li><a href="/administration/gestion_salles">Gestion des salles</a></li>
+                
+      <li class="subtitle"><a href="/administration/gestion_salles/#consultation-des-disponibilites">Consultation des disponibilités </a></li>
+      <li class="subtitle"><a href="/administration/gestion_salles/#reservation-des-salles">Réservation des salles</a></li>
+            
+                <li><a href="/administration/gestion_bac">Gestion des bac</a></li>
+                
+      <li class="subtitle"><a href="/administration/gestion_bac/#sub1">sub1 </a></li>
+      <li class="subtitle"><a href="/administration/gestion_bac/#sub2">sub2</a></li>
+            
+                <li><a href="/administration/gestion_materiels">Gestion des matériels communs</a></li>
+                
+      <li class="subtitle"><a href="/administration/gestion_materiels/#importation-des-donnees-de-celcat">Importation des données de Celcat </a></li>
+      <li class="subtitle"><a href="/administration/gestion_materiels/#synchronisation-avec-celcat">Synchronisation avec Celcat</a></li>
+            
+                <li><a href="/administration/gestion_sites">Gestion des sites</a></li>
+                
+      <li class="subtitle"><a href="/administration/gestion_sites/#sub1">sub1 </a></li>
+      <li class="subtitle"><a href="/administration/gestion_sites/#sub2">sub2</a></li>
+            
+                <li><a href="/administration/gestion_ufr">Gestion des UFR</a></li>
+                
+      <li class="subtitle"><a href="/administration/gestion_ufr/#sub1">sub1 </a></li>
+      <li class="subtitle"><a href="/administration/gestion_ufr/#sub2">sub2</a></li>
+            
+                <li><a href="/administration/gestion_typediplome">Gestion des types de diplômes</a></li>
+                
+      <li class="subtitle"><a href="/administration/gestion_typediplome/#sub1">sub1 </a></li>
+      <li class="subtitle"><a href="/administration/gestion_typediplome/#sub2">sub2</a></li>
+            
+                <li><a href="/administration/gestion_typeprime">Gestion des types de primes ou HRS</a></li>
+                
+      <li class="subtitle"><a href="/administration/gestion_typeprime/#creation-d-un-type-de-prime-ou-hrs">Création d'un type de prime ou HRS</a></li>
+            
+                <li><a href="/administration/gestion_enquetes">Gestion des enquêtes qualité</a></li>
+                
+      <li class="subtitle"><a href="/administration/gestion_enquetes/#sub1">sub1 </a></li>
+      <li class="subtitle"><a href="/administration/gestion_enquetes/#sub2">sub2</a></li>
+            
+                <li><a href="/administration/gestion_comptabilite">Gestion de la comptabilité</a></li>
+                
+      <li class="subtitle"><a href="/administration/gestion_comptabilite/#sub1">sub1 </a></li>
+      <li class="subtitle"><a href="/administration/gestion_comptabilite/#sub2">sub2</a></li>
+            
+                <li><a href="/administration/gestion_scolarite">Gestion de la scolarité</a></li>
+                
+      <li class="subtitle"><a href="/administration/gestion_scolarite/#gestion-des-inscrits-a-la-rdd">Gestion des inscrits à la RDD </a></li>
+      <li class="subtitle"><a href="/administration/gestion_scolarite/#gestion-des-enquetes-des-diplomes">Gestion des enquêtes des diplômés </a></li>
+      <li class="subtitle"><a href="/administration/gestion_scolarite/#exportation-des-donnees-d-apogee">Exportation des données d'Apogée</a></li>
+                    </ul>
+        <hr>
+        <h4>Direction de Dépt.</h4>
+        <ul>
+                <li><a href="/direction/annee">Changement d'année</a></li>
+                
+      <li class="subtitle"><a href="/direction/annee/#changement-d-annee-universitaire">Changement d'année universitaire </a></li>
+      <li class="subtitle"><a href="/direction/annee/#changement-d-annee-du-previsionnel">Changement d'année du prévisionnel </a></li>
+      <li class="subtitle"><a href="/direction/annee/#importation-des-etudiants">Importation des étudiants </a></li>
+      <li class="subtitle"><a href="/direction/annee/#mise-a-jour-de-la-structure-des-groupes">Mise à jour de la structure des groupes </a></li>
+      <li class="subtitle"><a href="/direction/annee/#affectation-des-etudiants-dans-leurs-groupes">Affectation des étudiants dans leurs groupes</a></li>
+            
+                <li><a href="/direction/semestre">Gestion des fins de semestres</a></li>
+                
+      <li class="subtitle"><a href="/direction/semestre/#simulation-des-sous-commissions">Simulation des sous-commissions </a></li>
+      <li class="subtitle"><a href="/direction/semestre/#preparation-des-sous-commissions">Préparation des sous-commissions </a></li>
+      <li class="subtitle"><a href="/direction/semestre/#changement-de-semestre">Changement de semestre </a></li>
+      <li class="subtitle"><a href="/direction/semestre/#mise-a-jour-d-une-sous-commission">Mise à jour d'une sous-commission</a></li>
+            
+                <li><a href="/direction/gestion_etudiants">Gestion des étudiants</a></li>
+                
+      <li class="subtitle"><a href="/direction/gestion_etudiants/#gestion-des-donnees">Gestion des données </a></li>
+      <li class="subtitle"><a href="/direction/gestion_etudiants/#gestion-des-groupes">Gestion des groupes </a></li>
+      <li class="subtitle"><a href="/direction/gestion_etudiants/#gestion-des-cohortes">Gestion des cohortes </a></li>
+      <li class="subtitle"><a href="/direction/gestion_etudiants/#visualisation-des-statistiques">Visualisation des statistiques</a></li>
+            
+                <li><a href="/direction/gestion_absences">Gestion des absences</a></li>
+                
+      <li class="subtitle"><a href="/direction/gestion_absences/#suivi-du-pointage-des-presents">Suivi du pointage des présents </a></li>
+      <li class="subtitle"><a href="/direction/gestion_absences/#visualisation-des-absences-par-semestre">Visualisation des absences par semestre </a></li>
+      <li class="subtitle"><a href="/direction/gestion_absences/#modification-et-suppression-d-absences">Modification et suppression d'absences </a></li>
+      <li class="subtitle"><a href="/direction/gestion_absences/#gestion-des-justificatifs-d-absences">Gestion des justificatifs d'absences</a></li>
+            
+                <li><a href="/direction/gestion_notes">Gestion des notes</a></li>
+                
+      <li class="subtitle"><a href="/direction/gestion_notes/#visualisation-des-notes">Visualisation des notes </a></li>
+      <li class="subtitle"><a href="/direction/gestion_notes/#initialisation-des-evaluations">Initialisation des évaluations </a></li>
+      <li class="subtitle"><a href="/direction/gestion_notes/#affectation-des-enseignants-pour-la-saisie">Affectation des enseignants pour la saisie </a></li>
+      <li class="subtitle"><a href="/direction/gestion_notes/#mcc-modalites-controle-continu">MCC?=modalités controle continu?</a></li>
+            
+                <li><a href="/direction/gestion_personnel">Gestion des personnels</a></li>
+                
+      <li class="subtitle"><a href="/direction/gestion_personnel/#visualisation-de-la-liste-des-personnels">Visualisation de la liste des personnels </a></li>
+      <li class="subtitle"><a href="/direction/gestion_personnel/#ajout-d-un-personnel">Ajout d'un personnel </a></li>
+      <li class="subtitle"><a href="/direction/gestion_personnel/#modification-d-un-personnel">Modification d'un personnel </a></li>
+      <li class="subtitle"><a href="/direction/gestion_personnel/#suppression-d-un-personnel">Suppression d'un personnel</a></li>
+            
+                <li><a href="/direction/gestion_structure_dept">Gestion de la structure du département</a></li>
+                
+      <li class="subtitle"><a href="/direction/gestion_structure_dept/#gestion-des-parcours">Gestion des parcours </a></li>
+      <li class="subtitle"><a href="/direction/gestion_structure_dept/#gestion-des-ue">Gestion des UE </a></li>
+      <li class="subtitle"><a href="/direction/gestion_structure_dept/#gestion-du-pn">Gestion du PN </a></li>
+      <li class="subtitle"><a href="/direction/gestion_structure_dept/#creation-d-un-semestre">Création d'un semestre </a></li>
+      <li class="subtitle"><a href="/direction/gestion_structure_dept/#creation-d-une-annee">Création d'une année </a></li>
+      <li class="subtitle"><a href="/direction/gestion_structure_dept/#visualisation-des-statistiques">Visualisation des statistiques</a></li>
+            
+                <li><a href="/direction/gestion_edt">Gestion des emplois du temps</a></li>
+                
+      <li class="subtitle"><a href="/direction/gestion_edt/#visualisation-des-evenements">Visualisation des évènements </a></li>
+      <li class="subtitle"><a href="/direction/gestion_edt/#creation-d-un-evenement">Création d'un évènement </a></li>
+      <li class="subtitle"><a href="/direction/gestion_edt/#gestion-des-heures-de-cours">Gestion des heures de cours</a></li>
+            
+                <li><a href="/direction/gestion_ptut">Gestion des projets tutorés</a></li>
+                
+      <li class="subtitle"><a href="/direction/gestion_ptut/#creation-d-un-projet">Création d'un projet </a></li>
+      <li class="subtitle"><a href="/direction/gestion_ptut/#assignation-des-etudiants">Assignation des étudiants</a></li>
+            
+                <li><a href="/direction/gestion_examens">Gestion des examens</a></li>
+                
+      <li class="subtitle"><a href="/direction/gestion_examens/#gestion-des-salles-d-examens">Gestion des salles d'examens </a></li>
+      <li class="subtitle"><a href="/direction/gestion_examens/#gestion-des-demandes-de-rattrapages">Gestion des demandes de rattrapages </a></li>
+      <li class="subtitle"><a href="/direction/gestion_examens/#gestion-des-plannings">Gestion des plannings</a></li>
+            
+                <li><a href="/direction/gestion_stages">Gestion des stages</a></li>
+                
+      <li class="subtitle"><a href="/direction/gestion_stages/#creation-des-periodes-de-stages">Création des périodes de stages </a></li>
+      <li class="subtitle"><a href="/direction/gestion_stages/#edition-et-gestion-des-conventions">Edition et gestion des conventions </a></li>
+      <li class="subtitle"><a href="/direction/gestion_stages/#gestions-des-stages-a-l-etranger">Gestions des stages à l'étranger </a></li>
+      <li class="subtitle"><a href="/direction/gestion_stages/#gestion-des-soutenances-de-stage">Gestion des soutenances de stage </a></li>
+      <li class="subtitle"><a href="/direction/gestion_stages/#gestion-des-courriers">Gestion des courriers </a></li>
+      <li class="subtitle"><a href="/direction/gestion_stages/#gestion-des-entreprises-et-offres-de-stage">Gestion des entreprises et offres de stage</a></li>
+            
+                <li><a href="/direction/gestion_alternances">Gestion des alternances</a></li>
+                
+      <li class="subtitle"><a href="/direction/gestion_alternances/#acces-a-la-gestion-des-alternances">Accès à la gestion des alternances</a></li>
+            
+                <li><a href="/direction/config_intranet">Configuration de l'intranet</a></li>
+                
+      <li class="subtitle"><a href="/direction/config_intranet/#configuration-de-l-emploi-du-temps">Configuration de l'emploi du temps </a></li>
+      <li class="subtitle"><a href="/direction/config_intranet/#configuration-des-absences">Configuration des absences </a></li>
+      <li class="subtitle"><a href="/direction/config_intranet/#configuration-des-notes">Configuration des notes </a></li>
+      <li class="subtitle"><a href="/direction/config_intranet/#configuration-des-droits">Configuration des droits</a></li>
+                    </ul>
+    </aside>
+    <div class="main_content">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/">Accueil</a></li>
+                <li class="breadcrumb-item"><a href="/enseignants">Enseignants</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Premiers pas</li>
+            </ol>
+        </nav>
+        <main>
+            <div class="toast align-items-center show" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="d-flex">
+                    <div class="toast-body">
+                        <i class="fa-solid fa-circle-info"></i> Vous êtes sur la documentation de l'intranet
+                        pour
+                        
+        les enseignants et intervenants                    </div>
+                    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast"
+                            aria-label="Close"></button>
+                </div>
+            </div>
+
+
+            <h1>Premiers pas</h1>
+
+            <h2 id="comment-se-connecter">Comment se connecter ?</h2>
+<h3 id="connexion-via-l-urca">Connexion via l'URCA</h3>
+<p>Muni de votre identifiant et de votre mot de passe (fournis par votre IUT), inscrivez votre identifiant dans le champ nommé &quot;Login&quot; et votre mot de passe dans le champ nommé &quot;Mot de passe&quot;.</p>
+<h3 id="connexion-via-l-intranet">Connexion via l'intranet</h3>
+<p>Muni de votre identifiant et de votre mot de passe (fournis par votre IUT), inscrivez votre identifiant dans le champ nommé &quot;Login&quot; et votre mot de passe dans le champ nommé &quot;Mot de passe&quot;.</p>
+                    <nav>
+                        <ul>
+                                <li><a href="/enseignants/gestion_etudiants/">Gestion des étudiants</a></li>
+                                <li><a href="/enseignants/edt/">Emploi du temps</a></li>
+                        </ul>
+                    </nav>
+        </main>
+        <footer>
+            <small>Powered by <a href="https://cecil.app/#7.28.3">Cecil</a> &amp; <a href="https://newcss.net">new.css</a></small>
+        </footer>
+    </div>
+</div>
+</body>
+</html>
+

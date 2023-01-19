@@ -1,0 +1,79 @@
+{
+  "data": [
+    {
+      "type": "direction",
+      "id": "direction/gestion_ptut",
+      "attributes": {
+        "title": "\"Gestion des projets tutorés\"",
+        "weight": 9,
+        "categories": ["la Direction des Départements"],
+        "subtitles": ["Création d'un projet","Assignation des étudiants"],
+        "body": "\"## Création d&#039;un projet\\r\\n\\r\\n## Assignation des étudiants\"",
+        "date": "\"2023-01-19T09:18:00+00:00\"",
+        "updated": "\"2023-01-19T09:18:00+00:00\""
+      }
+    },
+    {
+      "type": "direction",
+      "id": "direction/semestre",
+      "attributes": {
+        "title": "\"Gestion des fins de semestres\"",
+        "weight": 2,
+        "categories": ["la Direction des Départements"],
+        "subtitles": ["Simulation des sous-commissions","Préparation des sous-commissions","Changement de semestre","Mise à jour d'une sous-commission"],
+        "body": "\"## Simulation des sous-commissions\\r\\n\\r\\n## Préparation des sous-commissions\\r\\n\\r\\n## Mise à jour d&#039;une sous-commission\\r\\n\\r\\n## Changement de semestre\"",
+        "date": "\"2023-01-19T09:13:10+00:00\"",
+        "updated": "\"2023-01-19T09:13:10+00:00\""
+      }
+    },
+    {
+      "type": "direction",
+      "id": "direction/gestion_structure_dept",
+      "attributes": {
+        "title": "\"Gestion de la structure du département\"",
+        "weight": 7,
+        "categories": ["la Direction des Départements"],
+        "subtitles": ["Gestion des parcours","Gestion des UE","Gestion du PN","Création d'un semestre","Création d'une année","Visualisation des statistiques"],
+        "body": "\"## Gestion des parcours\\r\\n\\r\\n## Gestion des UE\\r\\n\\r\\n## Gestion du PN\\r\\n\\r\\n## Création d&#039;un semestre\\r\\n\\r\\n## Création d&#039;une année\\r\\n\\r\\n## Visualisation des statistiques\"",
+        "date": "\"2023-01-19T09:04:30+00:00\"",
+        "updated": "\"2023-01-19T09:04:30+00:00\""
+      }
+    },
+    {
+      "type": "direction",
+      "id": "direction/gestion_etudiants",
+      "attributes": {
+        "title": "\"Gestion des étudiants\"",
+        "weight": 3,
+        "categories": ["la Direction des Départements"],
+        "subtitles": ["Gestion des données","Gestion des groupes","Gestion des cohortes","Visualisation des statistiques"],
+        "body": "\"## Gestions des données\\n\\n## Gestion des groupes\\n\\n## Gestion des cohortes\"",
+        "date": "\"2023-01-19T09:02:14+00:00\"",
+        "updated": "\"2023-01-19T09:02:14+00:00\""
+      }
+    },
+    {
+      "type": "direction",
+      "id": "direction/gestion_personnel",
+      "attributes": {
+        "title": "\"Gestion des personnels\"",
+        "weight": 6,
+        "categories": ["la Direction des Départements"],
+        "subtitles": ["Visualisation de la liste des personnels","Ajout d'un personnel","Modification d'un personnel","Suppression d'un personnel"],
+        "body": "\"## Visualisation de la liste des personnels\\r\\n\\r\\n## Ajout d&#039;un personnel\\r\\n\\r\\n## Modification d&#039;un personnel\\r\\n\\r\\n## Suppression d&#039;un personnel\"",
+        "date": "\"2023-01-19T08:58:30+00:00\"",
+        "updated": "\"2023-01-19T08:58:30+00:00\""
+      }
+    }
+  ],
+  "meta": {
+    "totalPages": 43
+  },
+  "links": {
+    "self": "http://localhost:8000/page/6.json",
+    "first": "http://localhost:8000/index.json",
+    "prev": "http://localhost:8000/page/5.json",
+    "next": "http://localhost:8000/page/7.json",
+    "last": "http://localhost:8000/page/9.json"
+  }
+}

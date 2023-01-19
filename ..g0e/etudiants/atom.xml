@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/xsl/atom.xsl" media="all"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>http://localhost:8000/etudiants/</id>
+  <title>Documentation de l&#039;Intranet des IUT - Etudiants</title>
+  <subtitle><![CDATA[]]></subtitle>
+  <link href="http://localhost:8000/etudiants/atom.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:8000/etudiants/" rel="alternate" type="text/html" />
+  <updated>2023-01-19T10:57:27+00:00</updated>
+  <author>
+    <name>Arnaud Ligny</name>
+    <uri>https://arnaudligny.fr</uri>
+  </author>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/etudiants/edt/</id>
+    <title>Emploi du temps</title>
+    <content type="html">
+      <![CDATA[<h2 id="visualisation-de-l-emploi-du-temps">Visualisation de l'emploi du temps</h2>
+<h2 id="synchronisation-de-l-emploi-du-temps-avec-un-agenda-personnel">Synchronisation de l'emploi du temps avec un agenda personnel</h2>]]>
+    </content>
+    <link href="http://localhost:8000/etudiants/edt/" rel="alternate" type="text/html" />
+    <published>2023-01-19T10:57:27+00:00</published>
+    <updated>2023-01-19T10:57:27+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/etudiants/notes/</id>
+    <title>Gestion des notes</title>
+    <content type="html">
+      <![CDATA[<h2 id="visualisation-des-notes">Visualisation des notes</h2>
+<h2 id="demandes-de-rattrapages">Demandes de rattrapages</h2>]]>
+    </content>
+    <link href="http://localhost:8000/etudiants/notes/" rel="alternate" type="text/html" />
+    <published>2023-01-19T10:52:27+00:00</published>
+    <updated>2023-01-19T10:52:27+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/etudiants/intro/</id>
+    <title>Premiers pas</title>
+    <content type="html">
+      <![CDATA[<h2 id="comment-se-connecter">Comment se connecter ?</h2>
+<h3 id="connexion-via-l-urca">Connexion via l'URCA</h3>
+<p>Muni de votre identifiant et de votre mot de passe (fournis par votre IUT), inscrivez votre identifiant dans le champ nommé &quot;Login&quot; et votre mot de passe dans le champ nommé &quot;Mot de passe&quot;.</p>]]>
+    </content>
+    <link href="http://localhost:8000/etudiants/intro/" rel="alternate" type="text/html" />
+    <published>2023-01-19T10:46:51+00:00</published>
+    <updated>2023-01-19T10:46:51+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/etudiants/absences/</id>
+    <title>Gestion des absences</title>
+    <content type="html">
+      <![CDATA[<h2 id="comment-visualiser-ses-absences">Comment visualiser ses absences ?</h2>
+<h3 id="accès-depuis-le-dashboard">Accès depuis le Dashboard</h3>
+<p>Muni de votre identifiant et de votre mot de passe (fournis par votre IUT), inscrivez votre identifiant dans le champ nommé &quot;Login&quot; et votre mot de passe dans le champ nommé &quot;Mot de passe&quot;.</p>]]>
+    </content>
+    <link href="http://localhost:8000/etudiants/absences/" rel="alternate" type="text/html" />
+    <published>2023-01-17T07:22:02+00:00</published>
+    <updated>2023-01-17T07:22:02+00:00</updated>
+  </entry>
+</feed>

@@ -1,0 +1,79 @@
+{
+  "data": [
+    {
+      "type": "etudiants",
+      "id": "etudiants/edt",
+      "attributes": {
+        "title": "\"Emploi du temps\"",
+        "weight": 4,
+        "categories": ["les étudiants"],
+        "subtitles": ["Visualisation de l'emploi du temps","Synchronisation de l'emploi du temps avec un agenda personnel"],
+        "body": "\"## Visualisation de l&#039;emploi du temps\\r\\n\\r\\n## Synchronisation de l&#039;emploi du temps avec un agenda personnel\"",
+        "date": "\"2023-01-19T10:57:27+00:00\"",
+        "updated": "\"2023-01-19T10:57:27+00:00\""
+      }
+    },
+    {
+      "type": "etudiants",
+      "id": "etudiants/notes",
+      "attributes": {
+        "title": "\"Gestion des notes\"",
+        "weight": 3,
+        "categories": ["les étudiants"],
+        "subtitles": ["Visualisation des notes","Demandes de rattrapages"],
+        "body": "\"## Visualisation des notes\\r\\n\\r\\n## Demandes de rattrapages\"",
+        "date": "\"2023-01-19T10:52:27+00:00\"",
+        "updated": "\"2023-01-19T10:52:27+00:00\""
+      }
+    },
+    {
+      "type": "etudiants",
+      "id": "etudiants/intro",
+      "attributes": {
+        "title": "\"Premiers pas\"",
+        "weight": 1,
+        "categories": ["étudiants"],
+        "subtitles": ["Comment se connecter ?"],
+        "body": "\"## Comment se connecter ?\\r\\n\\r\\n### Connexion via l&#039;URCA\\r\\n\\r\\nMuni de votre identifiant et de votre mot de passe (fournis par votre IUT), inscrivez votre identifiant dans le champ nommé &quot;Login&quot; et votre mot de passe dans le champ nommé &quot;Mot de passe&quot;.\"",
+        "date": "\"2023-01-19T10:46:51+00:00\"",
+        "updated": "\"2023-01-19T10:46:51+00:00\""
+      }
+    },
+    {
+      "type": "direction",
+      "id": "direction/gestion_alternances",
+      "attributes": {
+        "title": "\"Gestion des alternances\"",
+        "weight": 12,
+        "categories": ["la Direction des Départements"],
+        "subtitles": ["Accès à la gestion des alternances"],
+        "body": "\"## Accès à la gestion des alternances\"",
+        "date": "\"2023-01-19T10:41:11+00:00\"",
+        "updated": "\"2023-01-19T10:41:11+00:00\""
+      }
+    },
+    {
+      "type": "direction",
+      "id": "direction/gestion_stages",
+      "attributes": {
+        "title": "\"Gestion des stages\"",
+        "weight": 11,
+        "categories": ["la Direction des Départements"],
+        "subtitles": ["Création des périodes de stages","Edition et gestion des conventions","Gestions des stages à l'étranger","Gestion des soutenances de stage","Gestion des courriers","Gestion des entreprises et offres de stage"],
+        "body": "\"## Création des périodes de stages\\r\\n\\r\\n## Edition et gestion des conventions\\r\\n\\r\\n## Gestions des stages à l&#039;étranger\\r\\n\\r\\n## Gestion des soutenances de stage\\r\\n\\r\\n## Gestion des courriers\\r\\n\\r\\n## Gestion des entreprises et offres de stage\"",
+        "date": "\"2023-01-19T10:38:06+00:00\"",
+        "updated": "\"2023-01-19T10:38:06+00:00\""
+      }
+    }
+  ],
+  "meta": {
+    "totalPages": 43
+  },
+  "links": {
+    "self": "http://localhost:8000/page/4.json",
+    "first": "http://localhost:8000/index.json",
+    "prev": "http://localhost:8000/page/3.json",
+    "next": "http://localhost:8000/page/5.json",
+    "last": "http://localhost:8000/page/9.json"
+  }
+}

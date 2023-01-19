@@ -1,0 +1,78 @@
+{
+  "data": [
+    {
+      "type": "administration",
+      "id": "administration/gestion_typeprime",
+      "attributes": {
+        "title": "\"Gestion des types de primes ou HRS\"",
+        "weight": 9,
+        "categories": ["les membres du personnel administratif"],
+        "subtitles": ["Création d'un type de prime ou HRS"],
+        "body": "\"## Création d&#039;un type de prime ou HRS\"",
+        "date": "\"2023-01-19T13:58:00+00:00\"",
+        "updated": "\"2023-01-19T13:58:00+00:00\""
+      }
+    },
+    {
+      "type": "enseignants",
+      "id": "enseignants/gestion_previsionnel",
+      "attributes": {
+        "title": "\"Gestion du prévisionnel\"",
+        "weight": 3,
+        "categories": ["les enseignants et intervenants"],
+        "subtitles": ["Visualiser son prévisionnel","Comprendre son prévisionnel"],
+        "body": "\"## Visualiser son prévisionnel\\r\\n\\r\\n## Comprendre son prévisionnel\"",
+        "date": "\"2023-01-19T13:50:36+00:00\"",
+        "updated": "\"2023-01-19T13:50:36+00:00\""
+      }
+    },
+    {
+      "type": "enseignants",
+      "id": "enseignants/edt",
+      "attributes": {
+        "title": "\"Emploi du temps\"",
+        "weight": 4,
+        "categories": ["les enseignants et intervenants"],
+        "subtitles": ["Visualisation de l'emploi du temps","Synchronisation de l'emploi du temps avec un agenda personnel"],
+        "body": "\"## Visualisation de l&#039;emploi du temps\\r\\n\\r\\n## Synchronisation de l&#039;emploi du temps avec un agenda personnel\"",
+        "date": "\"2023-01-19T13:46:01+00:00\"",
+        "updated": "\"2023-01-19T13:46:01+00:00\""
+      }
+    },
+    {
+      "type": "enseignants",
+      "id": "enseignants/intro",
+      "attributes": {
+        "title": "\"Premiers pas\"",
+        "weight": 1,
+        "categories": ["les enseignants et intervenants"],
+        "subtitles": ["Comment se connecter ?"],
+        "body": "\"## Comment se connecter ?\\r\\n\\r\\n### Connexion via l&#039;URCA\\r\\n\\r\\nMuni de votre identifiant et de votre mot de passe (fournis par votre IUT), inscrivez votre identifiant dans le champ nommé &quot;Login&quot; et votre mot de passe dans le champ nommé &quot;Mot de passe&quot;.\\r\\n\\r\\n### Connexion via l&#039;intranet\\r\\n\\r\\nMuni de votre identifiant et de votre mot de passe (fournis par votre IUT), inscrivez votre identifiant dans le champ nommé &quot;Login&quot; et votre mot de passe dans le champ nommé &quot;Mot de passe&quot;.\"",
+        "date": "\"2023-01-19T13:46:01+00:00\"",
+        "updated": "\"2023-01-19T13:46:01+00:00\""
+      }
+    },
+    {
+      "type": "administration",
+      "id": "administration/gestion_scolarite",
+      "attributes": {
+        "title": "\"Gestion de la scolarité\"",
+        "weight": 12,
+        "categories": ["les membres du personnel administratif"],
+        "subtitles": ["Gestion des inscrits à la RDD","Gestion des enquêtes des diplômés","Exportation des données d'Apogée"],
+        "body": "\"## Gestion des inscrits à la RDD\\r\\n\\r\\n## Gestion des enquêtes des diplômés\\r\\n\\r\\n## Exportation des données d&#039;Apogée\"",
+        "date": "\"2023-01-19T13:34:59+00:00\"",
+        "updated": "\"2023-01-19T13:34:59+00:00\""
+      }
+    }
+  ],
+  "meta": {
+    "totalPages": 43
+  },
+  "links": {
+    "self": "http://localhost:8000/index.json",
+    "first": "http://localhost:8000/index.json",
+    "next": "http://localhost:8000/page/2.json",
+    "last": "http://localhost:8000/page/9.json"
+  }
+}

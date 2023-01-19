@@ -1,12 +1,10 @@
 ---
-title: "Consulter ses notes"
+title: "Gestion des notes"
 weight: 3
 categories: [les étudiants]
-subtitles: [sub1 , sub2]
+subtitles: [Visualisation des notes , Demandes de rattrapages]
 ---
 
-## Comment se connecter ?
+## Visualisation des notes
 
-### Connexion via l'URCA
-
-Muni de votre identifiant et de votre mot de passe (fournis par votre IUT), inscrivez votre identifiant dans le champ nommé "Login" et votre mot de passe dans le champ nommé "Mot de passe".
+## Demandes de rattrapages 

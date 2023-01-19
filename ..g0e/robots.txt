@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /page/1/
+Disallow: /administration/page/1/
+Disallow: /direction/page/1/
+Disallow: /fonctionnalites/page/1/
+Disallow: /categories/les-membres-du-personnel-administratif/page/1/
+Disallow: /categories/la-direction-des-departements/page/1/
+Disallow: /404.html
+Sitemap: http://localhost:8000/sitemap.xml

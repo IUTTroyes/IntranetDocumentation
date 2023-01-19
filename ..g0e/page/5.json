@@ -1,0 +1,79 @@
+{
+  "data": [
+    {
+      "type": "direction",
+      "id": "direction/gestion_examens",
+      "attributes": {
+        "title": "\"Gestion des examens\"",
+        "weight": 10,
+        "categories": ["la Direction des Départements"],
+        "subtitles": ["Gestion des salles d'examens","Gestion des demandes de rattrapages","Gestion des plannings"],
+        "body": "\"## Gestion des salles d&#039;examens\\r\\n\\r\\n## Gestion des demandes de rattrapages\\r\\n\\r\\n## Gestion des plannings\"",
+        "date": "\"2023-01-19T10:14:45+00:00\"",
+        "updated": "\"2023-01-19T10:14:45+00:00\""
+      }
+    },
+    {
+      "type": "direction",
+      "id": "direction/gestion_notes",
+      "attributes": {
+        "title": "\"Gestion des notes\"",
+        "weight": 5,
+        "categories": ["la Direction des Départements"],
+        "subtitles": ["Visualisation des notes","Initialisation des évaluations","Affectation des enseignants pour la saisie","MCC?=modalités controle continu?"],
+        "body": "\"## Visualisation des notes\\r\\n\\r\\n## Initialisation des évaluations\\r\\n\\r\\n## Affectation des enseignants pour la saisie\\r\\n\\r\\n## MCC?=modalités controle continu?\"",
+        "date": "\"2023-01-19T10:12:31+00:00\"",
+        "updated": "\"2023-01-19T10:12:31+00:00\""
+      }
+    },
+    {
+      "type": "administration",
+      "id": "administration/intro",
+      "attributes": {
+        "title": "\"Premiers pas\"",
+        "weight": 1,
+        "categories": ["les membres du personnel administratif"],
+        "subtitles": ["Comment se connecter ?","Connexion via l'URCA"],
+        "body": "\"## Comment se connecter ?\\r\\n\\r\\n### Connexion via l&#039;URCA\\r\\n\\r\\nMuni de votre identifiant et de votre mot de passe (fournis par votre IUT), inscrivez votre identifiant dans le champ nommé &quot;Login&quot; et votre mot de passe dans le champ nommé &quot;Mot de passe&quot;.\\r\\n\\r\\n### Connexion via l&#039;intranet\\r\\n\\r\\nMuni de votre identifiant et de votre mot de passe (fournis par votre IUT), inscrivez votre identifiant dans le champ nommé &quot;Login&quot; et votre mot de passe dans le champ nommé &quot;Mot de passe&quot;.\"",
+        "date": "\"2023-01-19T09:33:14+00:00\"",
+        "updated": "\"2023-01-19T09:33:14+00:00\""
+      }
+    },
+    {
+      "type": "direction",
+      "id": "direction/annee",
+      "attributes": {
+        "title": "\"Changement d'année\"",
+        "weight": 1,
+        "categories": ["la Direction des Départements"],
+        "subtitles": ["Changement d'année universitaire","Changement d'année du prévisionnel","Importation des étudiants","Mise à jour de la structure des groupes","Affectation des étudiants dans leurs groupes"],
+        "body": "\"## Changement d&#039;année universitaire\\r\\n\\r\\n## Changement d&#039;année du prévisionnel\\r\\n\\r\\n## Importation des étudiants\\r\\n\\r\\n## Mise à jour de la structure des groupes\\r\\n\\r\\n## Affectation des étudiants dans leurs groupes\"",
+        "date": "\"2023-01-19T09:31:27+00:00\"",
+        "updated": "\"2023-01-19T09:31:27+00:00\""
+      }
+    },
+    {
+      "type": "direction",
+      "id": "direction/gestion_edt",
+      "attributes": {
+        "title": "\"Gestion des emplois du temps\"",
+        "weight": 8,
+        "categories": ["la Direction des Départements"],
+        "subtitles": ["Visualisation des évènements","Création d'un évènement","Gestion des heures de cours"],
+        "body": "\"## Visualisation des évènements\\r\\n\\r\\n## Création d&#039;un évènement\\r\\n\\r\\n## Gestion des heures de cours\"",
+        "date": "\"2023-01-19T09:26:40+00:00\"",
+        "updated": "\"2023-01-19T09:26:40+00:00\""
+      }
+    }
+  ],
+  "meta": {
+    "totalPages": 43
+  },
+  "links": {
+    "self": "http://localhost:8000/page/5.json",
+    "first": "http://localhost:8000/index.json",
+    "prev": "http://localhost:8000/page/4.json",
+    "next": "http://localhost:8000/page/6.json",
+    "last": "http://localhost:8000/page/9.json"
+  }
+}

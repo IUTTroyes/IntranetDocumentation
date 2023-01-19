@@ -241,13 +241,12 @@ blockquote *:last-child {
 }
 
 header {
-    height: 25vh;
     position: relative;
     background: var(--nc-bg-1);
     border-bottom: .5px solid var(--nc-hr);
     display: flex;
     flex-direction: column;
-    padding: 0 50px;
+    padding: 0 50px 50px 50px;
 }
 
 header h1,
@@ -403,7 +402,7 @@ dd::before {
 }
 
 ";
-        // line 372
+        // line 371
         echo "
 fieldset {
     margin-top: 1rem;
@@ -486,7 +485,8 @@ input {
 
 img {
     max-width: 100%;
-}";
+}
+";
         
         $__internal_2b03fcd95a85c4310cf548a70fb8bc2a->leave($__internal_2b03fcd95a85c4310cf548a70fb8bc2a_prof);
 
@@ -499,7 +499,7 @@ img {
 
     public function getDebugInfo()
     {
-        return array (  407 => 372,  40 => 1,);
+        return array (  406 => 371,  40 => 1,);
     }
 
     public function getSourceContext()
@@ -708,13 +708,12 @@ blockquote *:last-child {
 }
 
 header {
-    height: 25vh;
     position: relative;
     background: var(--nc-bg-1);
     border-bottom: .5px solid var(--nc-hr);
     display: flex;
     flex-direction: column;
-    padding: 0 50px;
+    padding: 0 50px 50px 50px;
 }
 
 header h1,
@@ -957,6 +956,7 @@ input {
 
 img {
     max-width: 100%;
-}", "partials/new.css.twig", "/var/www/html/IntranetDocumentation/layouts/partials/new.css.twig");
+}
+", "partials/new.css.twig", "/var/www/html/IntranetDocumentation/layouts/partials/new.css.twig");
     }
 }

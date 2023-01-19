@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/xsl/atom.xsl" media="all"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>http://localhost:8000/fonctionnalites/</id>
+  <title>Documentation de l&#039;Intranet des IUT - Fonctionnalites</title>
+  <subtitle><![CDATA[]]></subtitle>
+  <link href="http://localhost:8000/fonctionnalites/atom.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:8000/fonctionnalites/" rel="alternate" type="text/html" />
+  <updated>2023-01-06T15:46:59+00:00</updated>
+  <author>
+    <name>Arnaud Ligny</name>
+    <uri>https://arnaudligny.fr</uri>
+  </author>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/fonctionnalites/absences_responsable/</id>
+    <title>les responsables des absences</title>
+    <content type="html">
+      <![CDATA[<ul>
+<li>
+<p>Suivi des absences</p>
+</li>
+<li>
+<p>Justifications</p>
+</li>
+<li>
+<p>Suivi des justificatifs d'absences</p>
+</li>
+<li>
+<p>Rattrapages</p>
+</li>
+<li>
+<p>Commission des absences</p>
+</li>
+</ul>]]>
+    </content>
+    <link href="http://localhost:8000/fonctionnalites/absences_responsable/" rel="alternate" type="text/html" />
+    <published>2023-01-06T15:46:59+00:00</published>
+    <updated>2023-01-06T15:46:59+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/fonctionnalites/dept_direction/</id>
+    <title>la direction du département</title>
+    <content type="html">
+      <![CDATA[<ul>
+<li>
+<p>Suivi des étudiants, de leurs notes et de leurs absences Optimisation V3</p>
+</li>
+<li>
+<p>Possibilité de justifier des absences (une à une)</p>
+</li>
+<li>
+<p>Possibilité de justifier des absences par lot Nouveauté V3</p>
+</li>
+<li>
+<p>Gestion des commissions des absences (convocation des étudiants, mailings, planning) Optimisation V3</p>
+</li>
+<li>
+<p>Gestion des notes et des sous-commissions (calculs des moyennes, proposition de décision)</p>
+</li>
+<li>
+<p>Possibilité d’ajuster toutes les informations Optimisation V3</p>
+</li>
+<li>
+<p>Publication des sous-commissions aux étudiants Optimisation V3</p>
+</li>
+<li>
+<p>Exports pour les fichiers de grand jury</p>
+</li>
+<li>
+<p>Exports Apogée</p>
+</li>
+<li>
+<p>Gestion des documents, des dates importantes Optimisation V3</p>
+</li>
+<li>
+<p>Gestion des prévisionnels (exports/imports OMEGA)</p>
+</li>
+<li>
+<p>Suivi de cohorte</p>
+</li>
+<li>
+<p>Edition de documents pour les examens (placements, appels)</p>
+</li>
+<li>
+<p>Configuration de la formation, des groupes, de l’intranet (règles spécifiques : par département, par diplôme, par année) Optimisation V3</p>
+</li>
+<li>
+<p>Outils de comparaison EDT/service prévisionnel Optimisation V3</p>
+</li>
+<li>
+<p>Les scolarités sont sauvegardées à partir de 2020, et possibilité de revenir sur une année antérieure.</p>
+</li>
+<li>
+<p>Export d'un document de situation (bilan de semestre ou de formation) pour les étudiants : avis de poursuite d'études</p>
+</li>
+</ul>]]>
+    </content>
+    <link href="http://localhost:8000/fonctionnalites/dept_direction/" rel="alternate" type="text/html" />
+    <published>2023-01-06T15:46:59+00:00</published>
+    <updated>2023-01-06T15:46:59+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/fonctionnalites/enseignants/</id>
+    <title>les enseignants et intervenants</title>
+    <content type="html">
+      <![CDATA[<ul>
+<li>
+<p>Suivi des étudiants (profil, trombinoscope)</p>
+</li>
+<li>
+<p>Saisie des notes et absences</p>
+</li>
+<li>
+<p>Graphique de répartition des notes sur une évaluation.</p>
+</li>
+<li>
+<p>Visualisation du service prévisionnel</p>
+</li>
+<li>
+<p>Sollicitation des étudiants pour un quizz/sondage</p>
+</li>
+<li>
+<p>Messagerie vers les étudiants (par promo, groupe ou individuel), mail officiel, mail perso si disponible et message interne de l’intranet</p>
+</li>
+<li>
+<p>Liste des étudiants à suivre en stage</p>
+</li>
+<li>
+<p>Formulaire de suivi d’alternance</p>
+</li>
+<li>
+<p>Historique des absences et des notes des étudiants</p>
+</li>
+<li>
+<p>Outils de recherche</p>
+</li>
+</ul>]]>
+    </content>
+    <link href="http://localhost:8000/fonctionnalites/enseignants/" rel="alternate" type="text/html" />
+    <published>2023-01-06T15:46:59+00:00</published>
+    <updated>2023-01-06T15:46:59+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/fonctionnalites/etudiants/</id>
+    <title>les etudiants</title>
+    <content type="html">
+      <![CDATA[<ul>
+<li>
+<p>Consultation de leur emploi du temps (synchronisation avec Celcat)  <span> Nouveauté V3 </span></p>
+</li>
+<li>
+<p>Synchronisation ICAL avec leur agenda (format ics).</p>
+</li>
+<li>
+<p>Paramétrage de la visibilité de l’emploi du temps, par les gestionnaires (nombre de semaines) </p>
+</li>
+<li>
+<p>Visibilité de leurs notes et leurs absences (en temps réel ou non)</p>
+</li>
+<li>
+<p>Consultation de leur parcours scolaire (au sein de l’établissement)</p>
+</li>
+<li>
+<p>Consultation des Modalités de Contrôle des Connaissances (MCC)</p>
+</li>
+<li>
+<p>Consultation de documents</p>
+</li>
+<li>
+<p>Système de blog pour les relations internationales, C2I, infos pratiques</p>
+</li>
+<li>
+<p>Dates importantes</p>
+</li>
+<li>
+<p>Demandes de rattrapages</p>
+</li>
+<li>
+<p>Suivi de leur stage</p>
+</li>
+<li>
+<p>Offres de stage</p>
+</li>
+<li>
+<p>Données pour la convention</p>
+</li>
+<li>
+<p>Tuteur</p>
+</li>
+<li>
+<p>Suivi de leur projets tutorés</p>
+</li>
+<li>
+<p>Edition des conventions</p>
+</li>
+<li>
+<p>Suivi de l'alternance</p>
+</li>
+<li>
+<p>Informations sur l'alternance</p>
+</li>
+<li>
+<p>Système d’emprunt de matériel (MMI)</p>
+</li>
+<li>
+<p>Système (basique) de quizz/sondage</p>
+</li>
+<li>
+<p>Système de notification</p>
+</li>
+<li>
+<p>Possibilité de déposer un justificatif d'absence en ligne</p>
+</li>
+</ul>]]>
+    </content>
+    <link href="http://localhost:8000/fonctionnalites/etudiants/" rel="alternate" type="text/html" />
+    <published>2023-01-06T15:46:59+00:00</published>
+    <updated>2023-01-06T15:46:59+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/fonctionnalites/notes_responsable/</id>
+    <title>les responsables des notes</title>
+    <content type="html">
+      <![CDATA[<ul>
+<li>
+<p>Suivi des notes et des évaluations</p>
+</li>
+<li>
+<p>Niveau de complétion</p>
+</li>
+<li>
+<p>Rattrapages et planning de rattrapage</p>
+</li>
+<li>
+<p>Sous-commissions</p>
+</li>
+</ul>]]>
+    </content>
+    <link href="http://localhost:8000/fonctionnalites/notes_responsable/" rel="alternate" type="text/html" />
+    <published>2023-01-06T15:46:59+00:00</published>
+    <updated>2023-01-06T15:46:59+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/fonctionnalites/ptut_responsable/</id>
+    <title>les responsables des projets tutorés</title>
+    <content type="html">
+      <![CDATA[<ul>
+<li>
+<p>Suivi des étudiants par période de projet</p>
+</li>
+<li>
+<p>Edition automatisée des conventions</p>
+</li>
+</ul>]]>
+    </content>
+    <link href="http://localhost:8000/fonctionnalites/ptut_responsable/" rel="alternate" type="text/html" />
+    <published>2023-01-06T15:46:59+00:00</published>
+    <updated>2023-01-06T15:46:59+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/fonctionnalites/qualite/</id>
+    <title>les responsables de la partie Qualité / ISO 9001</title>
+    <content type="html">
+      <![CDATA[<ul>
+<li>
+<p>Mise en place d'un &quot;lime-survey&quot; interne pour la création des questions qualités</p>
+</li>
+<li>
+<p>Export des résultats des enquêtes au formation qualité</p>
+</li>
+</ul>]]>
+    </content>
+    <link href="http://localhost:8000/fonctionnalites/qualite/" rel="alternate" type="text/html" />
+    <published>2023-01-06T15:46:59+00:00</published>
+    <updated>2023-01-06T15:46:59+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/fonctionnalites/rel_internationales/</id>
+    <title>les responsables des Relations Internationales</title>
+    <content type="html">
+      <![CDATA[<ul>
+<li>
+<p>Alimentation du blog RI</p>
+</li>
+<li>
+<p>Dépôt de documents</p>
+</li>
+</ul>]]>
+    </content>
+    <link href="http://localhost:8000/fonctionnalites/rel_internationales/" rel="alternate" type="text/html" />
+    <published>2023-01-06T15:46:59+00:00</published>
+    <updated>2023-01-06T15:46:59+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/fonctionnalites/scolarite/</id>
+    <title>les responsables de la scolarité</title>
+    <content type="html">
+      <![CDATA[<ul>
+<li>
+<p>Récupération des fichiers de fin de semestre pour Apogée</p>
+</li>
+<li>
+<p>Suivi des étudiants</p>
+</li>
+<li>
+<p>Enquête diplômés DUT à 6 mois</p>
+</li>
+<li>
+<p>Inscriptions pour la RDD</p>
+</li>
+<li>
+<p>Gestion des changements de formation</p>
+</li>
+<li>
+<p>Imports des étudiants par la scolarité</p>
+</li>
+</ul>]]>
+    </content>
+    <link href="http://localhost:8000/fonctionnalites/scolarite/" rel="alternate" type="text/html" />
+    <published>2023-01-06T15:46:59+00:00</published>
+    <updated>2023-01-06T15:46:59+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/fonctionnalites/stage_responsable/</id>
+    <title>les responsables des stages</title>
+    <content type="html">
+      <![CDATA[<ul>
+<li>
+<p>Suivi des étudiants par période de stage</p>
+</li>
+<li>
+<p>Edition automatisée des conventions et des courriers</p>
+</li>
+<li>
+<p>Edition des plannings de soutenance et des courriers de convocation</p>
+</li>
+<li>
+<p>Affectation d’un tuteur universitaire</p>
+</li>
+<li>
+<p>Statistiques</p>
+</li>
+<li>
+<p>Gestion des avenants</p>
+</li>
+</ul>]]>
+    </content>
+    <link href="http://localhost:8000/fonctionnalites/stage_responsable/" rel="alternate" type="text/html" />
+    <published>2023-01-06T15:46:59+00:00</published>
+    <updated>2023-01-06T15:46:59+00:00</updated>
+  </entry>
+</feed>

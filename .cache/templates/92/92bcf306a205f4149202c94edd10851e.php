@@ -61,6 +61,9 @@ class __TwigTemplate_ec46f0f871c48b27096721bb450eac25 extends Template
         </ul>
       </nav>";
         }
+        // line 9
+        echo "
+";
         
         $__internal_2b03fcd95a85c4310cf548a70fb8bc2a->leave($__internal_2b03fcd95a85c4310cf548a70fb8bc2a_prof);
 
@@ -78,7 +81,7 @@ class __TwigTemplate_ec46f0f871c48b27096721bb450eac25 extends Template
 
     public function getDebugInfo()
     {
-        return array (  60 => 6,  51 => 5,  45 => 4,  40 => 1,);
+        return array (  65 => 9,  60 => 6,  51 => 5,  45 => 4,  40 => 1,);
     }
 
     public function getSourceContext()
@@ -91,6 +94,7 @@ class __TwigTemplate_ec46f0f871c48b27096721bb450eac25 extends Template
           {%- endfor ~%}
         </ul>
       </nav>
-      {%- endif ~%}", "partials/navigation.html.twig", "/var/www/html/IntranetDocumentation/layouts/partials/navigation.html.twig");
+      {%- endif ~%}
+", "partials/navigation.html.twig", "/var/www/html/IntranetDocumentation/layouts/partials/navigation.html.twig");
     }
 }

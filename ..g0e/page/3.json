@@ -1,0 +1,79 @@
+{
+  "data": [
+    {
+      "type": "administration",
+      "id": "administration/gestion_materiels",
+      "attributes": {
+        "title": "\"Gestion des matériels communs\"",
+        "weight": 5,
+        "categories": ["les membres du personnel administratif"],
+        "subtitles": ["Importation des données de Celcat","Synchronisation avec Celcat"],
+        "body": "\"## sub1\\r\\n\\r\\n## sub2\"",
+        "date": "\"2023-01-19T13:13:25+00:00\"",
+        "updated": "\"2023-01-19T13:13:25+00:00\""
+      }
+    },
+    {
+      "type": "administration",
+      "id": "administration/gestion_bac",
+      "attributes": {
+        "title": "\"Gestion des bac\"",
+        "weight": 4,
+        "categories": ["les membres du personnel administratif"],
+        "subtitles": ["sub1","sub2"],
+        "body": "\"## sub1\\r\\n\\r\\n## sub2\"",
+        "date": "\"2023-01-19T13:11:59+00:00\"",
+        "updated": "\"2023-01-19T13:11:59+00:00\""
+      }
+    },
+    {
+      "type": "administration",
+      "id": "administration/gestion_salles",
+      "attributes": {
+        "title": "\"Gestion des salles\"",
+        "weight": 3,
+        "categories": ["les membres du personnel administratif"],
+        "subtitles": ["Consultation des disponibilités","Réservation des salles"],
+        "body": "\"## Consultation des disponibilités\\r\\n\\r\\n## Réservation des salles\"",
+        "date": "\"2023-01-19T13:09:48+00:00\"",
+        "updated": "\"2023-01-19T13:09:48+00:00\""
+      }
+    },
+    {
+      "type": "administration",
+      "id": "administration/gestion_celcat",
+      "attributes": {
+        "title": "\"Gestion de Celcat\"",
+        "weight": 2,
+        "categories": ["les membres du personnel administratif"],
+        "subtitles": ["Importation des données de Celcat","Synchronisation avec Celcat"],
+        "body": "\"## Importation des données de Celcat\\r\\n\\r\\n## Synchronisation avec Celcat\"",
+        "date": "\"2023-01-19T11:12:23+00:00\"",
+        "updated": "\"2023-01-19T11:12:23+00:00\""
+      }
+    },
+    {
+      "type": "direction",
+      "id": "direction/config_intranet",
+      "attributes": {
+        "title": "\"Configuration de l'intranet\"",
+        "weight": 13,
+        "categories": ["la Direction des Départements"],
+        "subtitles": ["Configuration de l'emploi du temps","Configuration des absences","Configuration des notes","Configuration des droits"],
+        "body": "\"## Configuration de l&#039;emploi du temps\\r\\n\\r\\n## Configuration des absences\\r\\n\\r\\n## Configuration des notes\\r\\n\\r\\n## Configuration des droits\"",
+        "date": "\"2023-01-19T11:09:04+00:00\"",
+        "updated": "\"2023-01-19T11:09:04+00:00\""
+      }
+    }
+  ],
+  "meta": {
+    "totalPages": 43
+  },
+  "links": {
+    "self": "http://localhost:8000/page/3.json",
+    "first": "http://localhost:8000/index.json",
+    "prev": "http://localhost:8000/page/2.json",
+    "next": "http://localhost:8000/page/4.json",
+    "last": "http://localhost:8000/page/9.json"
+  }
+}

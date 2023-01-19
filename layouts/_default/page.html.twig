@@ -94,18 +94,21 @@
         <h4>Etudiants</h4>
         <ul>{%- for themes in site.pages|filter_by('section', 'etudiants')|sort_by_weight ~%}
                 <li><a href="/{{ themes.path }}">{{ themes.title }}</a></li>
+                {% include 'partials/subtitles-list.html.twig' with {'page': themes, 'vocabulary': 'subtitles'} only %}
             {% endfor %}
         </ul>
         <hr>
         <h4>Administration</h4>
         <ul>{%- for themes in site.pages|filter_by('section', 'administration')|sort_by_weight ~%}
                 <li><a href="/{{ themes.path }}">{{ themes.title }}</a></li>
+                {% include 'partials/subtitles-list.html.twig' with {'page': themes, 'vocabulary': 'subtitles'} only %}
             {% endfor %}
         </ul>
         <hr>
         <h4>Direction de Dépt.</h4>
         <ul>{%- for themes in site.pages|filter_by('section', 'direction')|sort_by_weight ~%}
                 <li><a href="/{{ themes.path }}">{{ themes.title }}</a></li>
+                {% include 'partials/subtitles-list.html.twig' with {'page': themes, 'vocabulary': 'subtitles'} only %}
             {% endfor %}
         </ul>
     </aside>

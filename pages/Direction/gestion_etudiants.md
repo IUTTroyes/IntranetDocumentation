@@ -1,8 +1,13 @@
 ---
 title: "Gestion des étudiants"
-weight: 2
-categories: [les membres du personnel administratif]
-subtitles: [sub1 , sub2]
+weight: 3
+categories: [la Direction des Départements]
+subtitles: [Gestion des données , Gestion des groupes, Gestion des cohortes, Visualisation des statistiques]
 ---
 
-## Comment se connecter ?
+## Gestions des données
+
+## Gestion des groupes
+
+## Gestion des cohortes
+

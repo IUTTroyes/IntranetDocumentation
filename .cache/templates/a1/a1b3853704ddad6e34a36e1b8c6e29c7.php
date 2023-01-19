@@ -38,7 +38,7 @@ class __TwigTemplate_84730ad8337df748a32958d1fb750d6b extends Template
         $__internal_2b03fcd95a85c4310cf548a70fb8bc2a->enter($__internal_2b03fcd95a85c4310cf548a70fb8bc2a_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "_default/list.algolia.twig"));
 
         // line 1
-        list($context["section"], $context["balise"]) =         ["pages", "h3"];
+        list($context["section"], $context["balise"]) =         ["pages", "h2"];
         // line 15
         echo "[";
         // line 16
@@ -110,8 +110,8 @@ class __TwigTemplate_84730ad8337df748a32958d1fb750d6b extends Template
 $context["p"], "id", [], "any", false, false, false, 35) . "#") . (isset($context["anchor"]) || array_key_exists("anchor", $context) ? $context["anchor"] : (function () { throw new RuntimeError('Variable "anchor" does not exist.', 35, $this->source); })())), twig_get_attribute($this->env, $this->source,                         // line 36
 $context["p"], "title", [], "any", false, false, false, 36),                         // line 37
 (isset($context["title"]) || array_key_exists("title", $context) ? $context["title"] : (function () { throw new RuntimeError('Variable "title" does not exist.', 37, $this->source); })()), twig_capitalize_string_filter($this->env, twig_get_attribute($this->env, $this->source,                         // line 38
-$context["p"], "section", [], "any", false, false, false, 38)), ((twig_get_attribute($this->env, $this->source,                         // line 39
-$context["p"], "path", [], "any", false, false, false, 39) . "/#") . (isset($context["anchor"]) || array_key_exists("anchor", $context) ? $context["anchor"] : (function () { throw new RuntimeError('Variable "anchor" does not exist.', 39, $this->source); })()))], 34, $context, $this->getSourceContext());
+$context["p"], "section", [], "any", false, false, false, 38)), (($this->extensions['Cecil\Renderer\Extension\Core']->url(                        // line 39
+$context["p"]) . "#") . (isset($context["anchor"]) || array_key_exists("anchor", $context) ? $context["anchor"] : (function () { throw new RuntimeError('Variable "anchor" does not exist.', 39, $this->source); })()))], 34, $context, $this->getSourceContext());
                         // line 41
                         if ( !twig_get_attribute($this->env, $this->source, $context["loop"], "last", [], "any", false, false, false, 41)) {
                             echo ",";
@@ -239,7 +239,7 @@ $context["p"], "path", [], "any", false, false, false, 39) . "/#") . (isset($con
 
     public function getSourceContext()
     {
-        return new Source("{%- set section, balise = 'pages', 'h3' -%}
+        return new Source("{%- set section, balise = 'pages', 'h2' -%}
 {%- macro dataset(objectID, page, title, dossier, href,description = '', content, date, experimental) ~%}
     {
     \"objectID\": \"{{ objectID }}\",
@@ -277,7 +277,7 @@ $context["p"], "path", [], "any", false, false, false, 39) . "/#") . (isset($con
                     p.title,
                     title,
                     p.section|capitalize,
-                    p.path ~ '/#' ~ anchor
+                    url(p) ~ '#' ~ anchor
                 ) -}}
                 {%- if not loop.last %},{% endif ~%}
                 {%- set count = count + 1 -%}

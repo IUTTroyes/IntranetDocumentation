@@ -41,7 +41,7 @@
                         });
                     },
                     getItemUrl({item}) {
-                        return item.url;
+                        return item.href;
                     },
                     templates: {
                         item({item, components, html}) {
@@ -61,7 +61,7 @@
                                                     attribute: 'page',
                                                 })}
                                             </div>
-                                            <div class="aa-ItemContentDescription">
+                                            <div class="aa-ItemContentDescription" style="overflow: hidden">
                                                 ${components.Highlight({
                                                     hit: item,
                                                     attribute: 'title',
@@ -92,6 +92,26 @@
                     },
                 },
             ];
-        },
+        }
     });
+    //     // Default Navigator API implementation
+    //     navigator: {
+    //         navigate({ itemUrl }) {
+    //             window.location.assign(itemUrl);
+    //         },
+    //         navigateNewTab({ itemUrl }) {
+    //             const windowReference = window.open(itemUrl, '_blank', 'noopener');
+    //
+    //             if (windowReference) {
+    //                 windowReference.focus();
+    //             }
+    //         },
+    //         navigateNewWindow({ itemUrl }) {
+    //             window.open(itemUrl, '_blank', 'noopener');
+    //         },
+    //     },
+    // })
+    // .onclick('autocomplete:selected', function(event, item, dataset) {
+    //     location.href = item.href;
+    // });
 </script>

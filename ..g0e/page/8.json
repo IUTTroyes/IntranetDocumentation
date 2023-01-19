@@ -1,0 +1,69 @@
+{
+  "data": [
+    {
+      "type": "fonctionnalites",
+      "id": "fonctionnalites/enseignants",
+      "attributes": {
+        "title": "\"les enseignants et intervenants\"",
+        "weight": 2,
+        "body": "\"- Suivi des étudiants (profil, trombinoscope)\\n\\n- Saisie des notes et absences\\n\\n- Graphique de répartition des notes sur une évaluation.\\n\\n- Visualisation du service prévisionnel\\n\\n- Sollicitation des étudiants pour un quizz/sondage\\n\\n- Messagerie vers les étudiants (par promo, groupe ou individuel), mail officiel, mail perso si disponible et message interne de l’intranet\\n\\n- Liste des étudiants à suivre en stage\\n\\n- Formulaire de suivi d’alternance\\n\\n- Historique des absences et des notes des étudiants\\n\\n- Outils de recherche\"",
+        "date": "\"2023-01-06T15:46:59+00:00\"",
+        "updated": "\"2023-01-06T15:46:59+00:00\""
+      }
+    },
+    {
+      "type": "fonctionnalites",
+      "id": "fonctionnalites/etudiants",
+      "attributes": {
+        "title": "\"les etudiants\"",
+        "weight": 1,
+        "body": "\"- Consultation de leur emploi du temps (synchronisation avec Celcat)  &lt;span&gt; Nouveauté V3 &lt;/span&gt;\\n\\n- Synchronisation ICAL avec leur agenda (format ics).\\n\\n- Paramétrage de la visibilité de l’emploi du temps, par les gestionnaires (nombre de semaines) \\n\\n- Visibilité de leurs notes et leurs absences (en temps réel ou non)\\n\\n- Consultation de leur parcours scolaire (au sein de l’établissement)\\n\\n- Consultation des Modalités de Contrôle des Connaissances (MCC)\\n\\n- Consultation de documents\\n\\n- Système de blog pour les relations internationales, C2I, infos pratiques\\n\\n- Dates importantes\\n\\n- Demandes de rattrapages\\n\\n- Suivi de leur stage\\n\\n- Offres de stage\\n\\n- Données pour la convention\\n\\n- Tuteur\\n\\n- Suivi de leur projets tutorés\\n\\n- Edition des conventions\\n\\n- Suivi de l&#039;alternance\\n\\n- Informations sur l&#039;alternance\\n\\n- Système d’emprunt de matériel (MMI)\\n\\n- Système (basique) de quizz/sondage\\n\\n- Système de notification\\n\\n- Possibilité de déposer un justificatif d&#039;absence en ligne\"",
+        "date": "\"2023-01-06T15:46:59+00:00\"",
+        "updated": "\"2023-01-06T15:46:59+00:00\""
+      }
+    },
+    {
+      "type": "fonctionnalites",
+      "id": "fonctionnalites/notes_responsable",
+      "attributes": {
+        "title": "\"les responsables des notes\"",
+        "weight": 7,
+        "body": "\"- Suivi des notes et des évaluations\\n\\n- Niveau de complétion\\n\\n- Rattrapages et planning de rattrapage\\n\\n- Sous-commissions\"",
+        "date": "\"2023-01-06T15:46:59+00:00\"",
+        "updated": "\"2023-01-06T15:46:59+00:00\""
+      }
+    },
+    {
+      "type": "fonctionnalites",
+      "id": "fonctionnalites/ptut_responsable",
+      "attributes": {
+        "title": "\"les responsables des projets tutorés\"",
+        "weight": 4,
+        "body": "\"- Suivi des étudiants par période de projet\\n\\n- Edition automatisée des conventions\"",
+        "date": "\"2023-01-06T15:46:59+00:00\"",
+        "updated": "\"2023-01-06T15:46:59+00:00\""
+      }
+    },
+    {
+      "type": "fonctionnalites",
+      "id": "fonctionnalites/qualite",
+      "attributes": {
+        "title": "\"les responsables de la partie Qualité \\/ ISO 9001\"",
+        "weight": 11,
+        "body": "\"- Mise en place d&#039;un &quot;lime-survey&quot; interne pour la création des questions qualités\\n\\n- Export des résultats des enquêtes au formation qualité\"",
+        "date": "\"2023-01-06T15:46:59+00:00\"",
+        "updated": "\"2023-01-06T15:46:59+00:00\""
+      }
+    }
+  ],
+  "meta": {
+    "totalPages": 43
+  },
+  "links": {
+    "self": "http://localhost:8000/page/8.json",
+    "first": "http://localhost:8000/index.json",
+    "prev": "http://localhost:8000/page/7.json",
+    "next": "http://localhost:8000/page/9.json",
+    "last": "http://localhost:8000/page/9.json"
+  }
+}

@@ -1,8 +1,8 @@
 ---
 title: "Premiers pas"
 weight: 1
-categories: [enseignants et intervenants]
-subtitles: [Comment se connecter ? , Connexion via l'URCA]  
+categories: [les enseignants et intervenants]
+subtitles: [Comment se connecter ?]  
 ---
 
 ## Comment se connecter ?

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/xsl/atom.xsl" media="all"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>http://localhost:8000/categories/la-direction-des-departements/</id>
+  <title>Documentation de l&#039;Intranet des IUT - la Direction des Départements</title>
+  <subtitle><![CDATA[]]></subtitle>
+  <link href="http://localhost:8000/categories/la-direction-des-departements/atom.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:8000/categories/la-direction-des-departements/" rel="alternate" type="text/html" />
+  <updated>2023-01-19T11:09:04+00:00</updated>
+  <author>
+    <name>Arnaud Ligny</name>
+    <uri>https://arnaudligny.fr</uri>
+  </author>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/direction/config_intranet/</id>
+    <title>Configuration de l&#039;intranet</title>
+    <content type="html">
+      <![CDATA[<h2 id="configuration-de-l-emploi-du-temps">Configuration de l'emploi du temps</h2>
+<h2 id="configuration-des-absences">Configuration des absences</h2>
+<h2 id="configuration-des-notes">Configuration des notes</h2>
+<h2 id="configuration-des-droits">Configuration des droits</h2>]]>
+    </content>
+    <link href="http://localhost:8000/direction/config_intranet/" rel="alternate" type="text/html" />
+    <published>2023-01-19T11:09:04+00:00</published>
+    <updated>2023-01-19T11:09:04+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/direction/gestion_alternances/</id>
+    <title>Gestion des alternances</title>
+    <content type="html">
+      <![CDATA[<h2 id="accès-à-la-gestion-des-alternances">Accès à la gestion des alternances</h2>]]>
+    </content>
+    <link href="http://localhost:8000/direction/gestion_alternances/" rel="alternate" type="text/html" />
+    <published>2023-01-19T10:41:11+00:00</published>
+    <updated>2023-01-19T10:41:11+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/direction/gestion_stages/</id>
+    <title>Gestion des stages</title>
+    <content type="html">
+      <![CDATA[<h2 id="création-des-périodes-de-stages">Création des périodes de stages</h2>
+<h2 id="edition-et-gestion-des-conventions">Edition et gestion des conventions</h2>
+<h2 id="gestions-des-stages-à-l-étranger">Gestions des stages à l'étranger</h2>
+<h2 id="gestion-des-soutenances-de-stage">Gestion des soutenances de stage</h2>
+<h2 id="gestion-des-courriers">Gestion des courriers</h2>
+<h2 id="gestion-des-entreprises-et-offres-de-stage">Gestion des entreprises et offres de stage</h2>]]>
+    </content>
+    <link href="http://localhost:8000/direction/gestion_stages/" rel="alternate" type="text/html" />
+    <published>2023-01-19T10:38:06+00:00</published>
+    <updated>2023-01-19T10:38:06+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/direction/gestion_examens/</id>
+    <title>Gestion des examens</title>
+    <content type="html">
+      <![CDATA[<h2 id="gestion-des-salles-d-examens">Gestion des salles d'examens</h2>
+<h2 id="gestion-des-demandes-de-rattrapages">Gestion des demandes de rattrapages</h2>
+<h2 id="gestion-des-plannings">Gestion des plannings</h2>]]>
+    </content>
+    <link href="http://localhost:8000/direction/gestion_examens/" rel="alternate" type="text/html" />
+    <published>2023-01-19T10:14:45+00:00</published>
+    <updated>2023-01-19T10:14:45+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/direction/gestion_notes/</id>
+    <title>Gestion des notes</title>
+    <content type="html">
+      <![CDATA[<h2 id="visualisation-des-notes">Visualisation des notes</h2>
+<h2 id="initialisation-des-évaluations">Initialisation des évaluations</h2>
+<h2 id="affectation-des-enseignants-pour-la-saisie">Affectation des enseignants pour la saisie</h2>
+<h2 id="mcc-modalités-controle-continu">MCC?=modalités controle continu?</h2>]]>
+    </content>
+    <link href="http://localhost:8000/direction/gestion_notes/" rel="alternate" type="text/html" />
+    <published>2023-01-19T10:12:31+00:00</published>
+    <updated>2023-01-19T10:12:31+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/direction/annee/</id>
+    <title>Changement d&#039;année</title>
+    <content type="html">
+      <![CDATA[<h2 id="changement-d-année-universitaire">Changement d'année universitaire</h2>
+<h2 id="changement-d-année-du-prévisionnel">Changement d'année du prévisionnel</h2>
+<h2 id="importation-des-étudiants">Importation des étudiants</h2>
+<h2 id="mise-à-jour-de-la-structure-des-groupes">Mise à jour de la structure des groupes</h2>
+<h2 id="affectation-des-étudiants-dans-leurs-groupes">Affectation des étudiants dans leurs groupes</h2>]]>
+    </content>
+    <link href="http://localhost:8000/direction/annee/" rel="alternate" type="text/html" />
+    <published>2023-01-19T09:31:27+00:00</published>
+    <updated>2023-01-19T09:31:27+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/direction/gestion_edt/</id>
+    <title>Gestion des emplois du temps</title>
+    <content type="html">
+      <![CDATA[<h2 id="visualisation-des-évènements">Visualisation des évènements</h2>
+<h2 id="création-d-un-évènement">Création d'un évènement</h2>
+<h2 id="gestion-des-heures-de-cours">Gestion des heures de cours</h2>]]>
+    </content>
+    <link href="http://localhost:8000/direction/gestion_edt/" rel="alternate" type="text/html" />
+    <published>2023-01-19T09:26:40+00:00</published>
+    <updated>2023-01-19T09:26:40+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/direction/gestion_ptut/</id>
+    <title>Gestion des projets tutorés</title>
+    <content type="html">
+      <![CDATA[<h2 id="création-d-un-projet">Création d'un projet</h2>
+<h2 id="assignation-des-étudiants">Assignation des étudiants</h2>]]>
+    </content>
+    <link href="http://localhost:8000/direction/gestion_ptut/" rel="alternate" type="text/html" />
+    <published>2023-01-19T09:18:00+00:00</published>
+    <updated>2023-01-19T09:18:00+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/direction/semestre/</id>
+    <title>Gestion des fins de semestres</title>
+    <content type="html">
+      <![CDATA[<h2 id="simulation-des-sous-commissions">Simulation des sous-commissions</h2>
+<h2 id="préparation-des-sous-commissions">Préparation des sous-commissions</h2>
+<h2 id="mise-à-jour-d-une-sous-commission">Mise à jour d'une sous-commission</h2>
+<h2 id="changement-de-semestre">Changement de semestre</h2>]]>
+    </content>
+    <link href="http://localhost:8000/direction/semestre/" rel="alternate" type="text/html" />
+    <published>2023-01-19T09:13:10+00:00</published>
+    <updated>2023-01-19T09:13:10+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/direction/gestion_structure_dept/</id>
+    <title>Gestion de la structure du département</title>
+    <content type="html">
+      <![CDATA[<h2 id="gestion-des-parcours">Gestion des parcours</h2>
+<h2 id="gestion-des-ue">Gestion des UE</h2>
+<h2 id="gestion-du-pn">Gestion du PN</h2>
+<h2 id="création-d-un-semestre">Création d'un semestre</h2>
+<h2 id="création-d-une-année">Création d'une année</h2>
+<h2 id="visualisation-des-statistiques">Visualisation des statistiques</h2>]]>
+    </content>
+    <link href="http://localhost:8000/direction/gestion_structure_dept/" rel="alternate" type="text/html" />
+    <published>2023-01-19T09:04:30+00:00</published>
+    <updated>2023-01-19T09:04:30+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/direction/gestion_etudiants/</id>
+    <title>Gestion des étudiants</title>
+    <content type="html">
+      <![CDATA[<h2 id="gestions-des-données">Gestions des données</h2>
+<h2 id="gestion-des-groupes">Gestion des groupes</h2>
+<h2 id="gestion-des-cohortes">Gestion des cohortes</h2>]]>
+    </content>
+    <link href="http://localhost:8000/direction/gestion_etudiants/" rel="alternate" type="text/html" />
+    <published>2023-01-19T09:02:14+00:00</published>
+    <updated>2023-01-19T09:02:14+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/direction/gestion_personnel/</id>
+    <title>Gestion des personnels</title>
+    <content type="html">
+      <![CDATA[<h2 id="visualisation-de-la-liste-des-personnels">Visualisation de la liste des personnels</h2>
+<h2 id="ajout-d-un-personnel">Ajout d'un personnel</h2>
+<h2 id="modification-d-un-personnel">Modification d'un personnel</h2>
+<h2 id="suppression-d-un-personnel">Suppression d'un personnel</h2>]]>
+    </content>
+    <link href="http://localhost:8000/direction/gestion_personnel/" rel="alternate" type="text/html" />
+    <published>2023-01-19T08:58:30+00:00</published>
+    <updated>2023-01-19T08:58:30+00:00</updated>
+  </entry>
+  <entry xml:lang="en">
+    <id>http://localhost:8000/direction/gestion_absences/</id>
+    <title>Gestion des absences</title>
+    <content type="html">
+      <![CDATA[<h2 id="suivi-du-pointage-des-présents">Suivi du pointage des présents</h2>
+<h2 id="suivi-des-absences-par-semestre">Suivi des absences par semestre</h2>
+<h2 id="modification-et-suppression-d-absences">Modification et suppression d'absences</h2>
+<h2 id="gestion-des-justificatifs-d-absences">Gestion des justificatifs d'absences</h2>]]>
+    </content>
+    <link href="http://localhost:8000/direction/gestion_absences/" rel="alternate" type="text/html" />
+    <published>2023-01-19T08:52:45+00:00</published>
+    <updated>2023-01-19T08:52:45+00:00</updated>
+  </entry>
+</feed>

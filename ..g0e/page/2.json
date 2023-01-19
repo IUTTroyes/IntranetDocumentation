@@ -1,0 +1,79 @@
+{
+  "data": [
+    {
+      "type": "administration",
+      "id": "administration/gestion_enquetes",
+      "attributes": {
+        "title": "\"Gestion des enquêtes qualité\"",
+        "weight": 10,
+        "categories": ["les membres du personnel administratif"],
+        "subtitles": ["sub1","sub2"],
+        "body": "\"## sub1\\r\\n\\r\\n## sub2\"",
+        "date": "\"2023-01-19T13:32:13+00:00\"",
+        "updated": "\"2023-01-19T13:32:13+00:00\""
+      }
+    },
+    {
+      "type": "administration",
+      "id": "administration/gestion_comptabilite",
+      "attributes": {
+        "title": "\"Gestion de la comptabilité\"",
+        "weight": 11,
+        "categories": ["les membres du personnel administratif"],
+        "subtitles": ["sub1","sub2"],
+        "body": "\"## sub1\\r\\n\\r\\n## sub2\"",
+        "date": "\"2023-01-19T13:31:36+00:00\"",
+        "updated": "\"2023-01-19T13:31:36+00:00\""
+      }
+    },
+    {
+      "type": "administration",
+      "id": "administration/gestion_typediplome",
+      "attributes": {
+        "title": "\"Gestion des types de diplômes\"",
+        "weight": 8,
+        "categories": ["les membres du personnel administratif"],
+        "subtitles": ["sub1","sub2"],
+        "body": "\"## sub1\\r\\n\\r\\n## sub2\"",
+        "date": "\"2023-01-19T13:20:00+00:00\"",
+        "updated": "\"2023-01-19T13:20:00+00:00\""
+      }
+    },
+    {
+      "type": "administration",
+      "id": "administration/gestion_ufr",
+      "attributes": {
+        "title": "\"Gestion des UFR\"",
+        "weight": 7,
+        "categories": ["les membres du personnel administratif"],
+        "subtitles": ["sub1","sub2"],
+        "body": "\"## sub1\\r\\n\\r\\n## sub2\"",
+        "date": "\"2023-01-19T13:18:24+00:00\"",
+        "updated": "\"2023-01-19T13:18:24+00:00\""
+      }
+    },
+    {
+      "type": "administration",
+      "id": "administration/gestion_sites",
+      "attributes": {
+        "title": "\"Gestion des sites\"",
+        "weight": 6,
+        "categories": ["les membres du personnel administratif"],
+        "subtitles": ["sub1","sub2"],
+        "body": "\"## sub1\\r\\n\\r\\n## sub2\"",
+        "date": "\"2023-01-19T13:14:47+00:00\"",
+        "updated": "\"2023-01-19T13:14:47+00:00\""
+      }
+    }
+  ],
+  "meta": {
+    "totalPages": 43
+  },
+  "links": {
+    "self": "http://localhost:8000/page/2.json",
+    "first": "http://localhost:8000/index.json",
+    "prev": "http://localhost:8000/index.json",
+    "next": "http://localhost:8000/page/3.json",
+    "last": "http://localhost:8000/page/9.json"
+  }
+}
