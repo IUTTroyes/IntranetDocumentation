@@ -1,10 +1,10 @@
 title: "Documentation de l'Intranet des IUT"
 baseline: ''
-baseurl: 'http://localhost:8000/'
+baseurl: 'https://documentation.iutranet.fr'
 description: ''
 author:
-    name: 'Arnaud Ligny'
-    url: 'https://arnaudligny.fr'
+    name: 'Cyndel Herolt'
+    url: 'https://cyndelherolt.fr'
 image: 'logo.svg'
 debug: true
 output:
